@@ -1,4 +1,4 @@
-*** InfoBubble Privacy Policy
+# InfoBubble Privacy Policy
 
 
 ### 1. Your Data is Stored Locally
