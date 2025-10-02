@@ -1,4 +1,10 @@
-# InfoBubble App for MacOS
+# InfoBubble app for MacOS | https://apps.apple.com/app/id6752404003
+
+![Edit default model settings](Howto/Main/main-screen.png)
+
+That is partially free app for MacOS what allows you to filter news from feed news by AI. 
+In demo version it has limitations - 10 sources, 3 criterias, 2 workspaces.
+Full version is one time pay in-app, with allowed family sharing.
 
 The app's workflow is built on three simple elements:
 
@@ -18,6 +24,9 @@ Newsmaker requires a connection to a Large Language Model (AI) to analyze and su
 
 *   **External Service (OpenAI-Compatible, Recomended):** You can connect to any service that uses the OpenAI API format, including your own local AI server (like LM Studio, what is fully free). To do this, provide the server URL and model name in the settings. You need to increase context size for input, at least for 60k tokens.
 
+    [How to use this app with local LLM, using LM Studio as example](Howto/LMStudio/LocalAI.md)
+
+
 ### Step 2: Add Sources
 *   On the left sidebar, find the "Add Source" section.
 *   Enter the URL of a website or RSS feed.
@@ -27,7 +36,6 @@ Newsmaker requires a connection to a Large Language Model (AI) to analyze and su
 ### Step 3: Create Criteria
 *   On the left sidebar, below the sources list, add at least one criterion.
 *   Describe the topic you're interested in as specifically as possible. For example:
-    *   _`Significant updates regarding the Swift programming framework`_
     *   _`Economic forecasts for the European real estate market`_
 
 ### Step 4: Save Your Project
