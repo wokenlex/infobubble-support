@@ -1,0 +1,411 @@
+Australia:
+  'Business & Economy':
+    - 'https://dynamicbusiness.com/feed.xml'
+Azerbaijan:
+  'Local News':
+    - 'http://today.az/rss.php'
+Brazil:
+  'Business & Economy':
+    - 'https://feeds.feedburner.com/oilpricecom'
+Canada:
+  'Business & Economy':
+    - 'https://www.fool.ca/feed/'
+    - 'https://www.manufacturingjobsite.ca/feed.php'
+    - 'https://www.plant.ca/feed/'
+  'Local News':
+    - 'https://globalnews.ca/feed/'
+    - 'https://nowtoronto.com/feed/'
+    - 'https://www.intelligencer.ca/feed/atom'
+    - 'https://www.lakeshoreadvance.com/feed/atom'
+    - 'https://www.mymuskokanow.com/feed/'
+    - 'https://www.parisstaronline.com/feed/atom'
+    - 'https://www.saultthisweek.com/feed/atom'
+    - 'https://www.timminspress.com/feed/atom'
+    - 'https://www.wiartonecho.com/feed/atom'
+  Opinion:
+    - 'https://ottawasun.com/feed/atom'
+  Other:
+    - 'https://thebeaverton.com/feed/'
+  'Politics & Society':
+    - 'https://calgaryherald.com/feed/atom'
+    - 'https://feeds.simplecast.com/TGclX98p'
+    - 'https://montrealgazette.com/feed/atom'
+  'Science & Technology':
+    - 'https://feeds.simplecast.com/FJSi7gLl'
+Colombia:
+  'Politics & Society':
+    - 'http://justiceinfo.net/fr/feed'
+England:
+  Sports:
+    - 'https://thepeoplesperson.com/feed/'
+France:
+  'Lifestyle & Culture':
+    - 'http://harpersbazaar.com/rss/all.xml'
+    - 'http://harpersbazaar.com/rss/default.xml'
+  'Politics & Society':
+    - 'https://www.lemonde.fr/rss/une.xml'
+Germany:
+  'Business & Economy':
+    - 'https://www.finanznachrichten.de/rss-aktien-adhoc/'
+    - 'https://www.finanznachrichten.de/rss-aktien-nachrichten/'
+    - 'https://www.finanznachrichten.de/rss-empfehlungen-meistgelesen'
+    - 'https://www.finanznachrichten.de/rss-marktberichte'
+  'Politics & Society':
+    - 'https://www.finanznachrichten.de/rss-nachrichten-meistgelesen'
+Ghana:
+  'Politics & Society':
+    - 'https://www.myjoyonline.com/feed/'
+Global:
+  'Lifestyle & Culture':
+    - 'https://feeds.feedburner.com/PK/Horoscope'
+    - 'https://feeds.feedburner.com/TodaysAquariusHoroscope'
+    - 'https://feeds.feedburner.com/TodaysAriesHoroscope'
+    - 'https://feeds.feedburner.com/TodaysCancerHoroscope'
+    - 'https://feeds.feedburner.com/TodaysCapricornHoroscope'
+    - 'https://feeds.feedburner.com/TodaysGeminiHoroscope'
+    - 'https://feeds.feedburner.com/TodaysLeoHoroscope'
+    - 'https://feeds.feedburner.com/TodaysLibraHoroscope'
+    - 'https://feeds.feedburner.com/TodaysPiscesHoroscope'
+    - 'https://feeds.feedburner.com/TodaysSagittariusHoroscope'
+    - 'https://feeds.feedburner.com/TodaysScorpioHoroscope'
+    - 'https://feeds.feedburner.com/TodaysTaurusHoroscope'
+    - 'https://feeds.feedburner.com/TodaysVirgoHoroscope'
+    - 'https://www.boredpanda.com/feed/'
+    - 'https://www.gq.com/feed/rss'
+  Other:
+    - 'https://www.gamesradar.com/feeds.xml'
+  'Politics & Society':
+    - 'https://religionnews.com/feed/'
+    - 'https://www.pakistantoday.com.pk/feed/'
+  'Science & Technology':
+    - 'https://cysticfibrosisnewstoday.com/feed/'
+    - 'https://medicalxpress.com/rss-feed/'
+Grenada:
+  'Local News':
+    - 'https://nowgrenada.com/feed/'
+India:
+  'Lifestyle & Culture':
+    - 'https://www.news18.com/commonfeeds/v1/eng/rss/photogallery.xml'
+    - 'https://www.news18.com/commonfeeds/v1/eng/rss/video.xml'
+    - 'https://www.news18.com/commonfeeds/v1/eng/rss/web-stories.xml'
+  'Local News':
+    - 'https://www.news18.com/commonfeeds/v1/eng/rss/latest.xml'
+    - 'https://www.news18.com/commonfeeds/v1/eng/rss/text.xml'
+  'Politics & Society':
+    - 'https://ibcworldnews.com/feed'
+  Sports:
+    - 'https://feeds.trinidadtimes.com/rss/f7da47955ef03229'
+Ireland:
+  'Local News':
+    - 'https://kclr96fm.com/feed/'
+    - 'https://www.irishexaminer.com/feed/35-top_news.xml'
+Israel:
+  'Politics & Society':
+    - 'https://feeds.feedburner.com/ummid'
+  'World / International':
+    - 'https://www.ummid.com/syndications/ummid.xml'
+Japan:
+  'Lifestyle & Culture':
+    - 'https://comicbook.com/feed/'
+    - 'https://www.nintendo-insider.com/feed/'
+    - 'https://www.siliconera.com/feed/'
+Kazakhstan:
+  'Local News':
+    - 'https://astanatimes.com/feed/'
+Malawi:
+  'Politics & Society':
+    - 'https://malawi24.com/feed/'
+Namibia:
+  'Politics & Society':
+    - 'https://www.namibian.com.na/feed/'
+Nigeria:
+  'Local News':
+    - 'https://theeagleonline.com.ng/feed/'
+  'Politics & Society':
+    - 'https://dailypost.ng/feed/'
+    - 'https://www.nationalaccordnewspaper.com/feed/'
+    - 'https://www.premiumtimesng.com/feed'
+Pakistan:
+  'Politics & Society':
+    - 'https://www.pakistantoday.com.pk/feed'
+Philippines:
+  'Business & Economy':
+    - 'https://www.bworldonline.com/feed/'
+  'Local News':
+    - 'https://journal.com.ph/feed/'
+    - 'https://mindanews.com/feed/'
+    - 'https://www.sunstar.com.ph/api/v1/collections/home.rss'
+Poland:
+  'Business & Economy':
+    - 'https://businessinsider.com.pl/.feed'
+'Saudi Arabia':
+  Sports:
+    - 'https://www.boxingnews24.com/feed/'
+'South Africa':
+  'Politics & Society':
+    - 'https://mg.co.za/feed/'
+'South Korea':
+  'Lifestyle & Culture':
+    - 'http://www.kcomicsbeat.com/feed'
+Spain:
+  Sports:
+    - 'http://barcablaugranes.com/rss/index.xml'
+Turkmenistan:
+  'Politics & Society':
+    - 'http://feeds.feedburner.com/NewsCentralAsia'
+'United Kingdom':
+  'Business & Economy':
+    - 'https://www.t3.com/feeds.xml'
+  'Lifestyle & Culture':
+    - 'http://metro.co.uk/entertainment/feed/'
+    - 'http://metro.co.uk/lifestyle/feed/'
+    - 'http://metro.co.uk/tv-soaps/feed/'
+    - 'https://newcriterion.com/feed/'
+    - 'https://www.1065thearch.com/feed/'
+    - 'https://www.dailymail.co.uk/home/index.rss'
+  'Local News':
+    - 'http://belfastlive.co.uk/rss.xml'
+    - 'http://coventrytelegraph.net/rss.xml'
+    - 'http://dailyrecord.co.uk/rss.xml'
+    - 'http://liverpoolecho.co.uk/rss.xml'
+    - 'http://metro.co.uk/news/feed/'
+    - 'https://feeds.ibtimes.co.uk/feeds/veruc.rss'
+    - 'https://ulstertatler.com/feed/'
+    - 'https://www.dailymail.co.uk/articles.rss'
+  Sports:
+    - 'http://manchestereveningnews.co.uk/rss.xml'
+    - 'http://metro.co.uk/feed/'
+    - 'http://mirror.co.uk/rss.xml'
+    - 'https://www.standard.co.uk/rss'
+'United States':
+  'Business & Economy':
+    - 'http://inddist.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22home%22%7D'
+    - 'http://theverge.com/rss/index.xml'
+    - 'https://1428elm.com/feed'
+    - 'https://amerisurv.com/feed/'
+    - 'https://bitcoinmagazine.com/feed'
+    - 'https://cruiseindustrynews.com/feed/'
+    - 'https://dailycoffeenews.com/feed/'
+    - 'https://fortune.com/feed/fortune-feeds/?id=3230629'
+    - 'https://oilprice.com/rss/main'
+    - 'https://www.bondbuyer.com/feed?rss=true'
+    - 'https://www.dailypolitical.com/feed'
+    - 'https://www.executivegov.com/feed/'
+    - 'https://www.finanznachrichten.de/rss-aktien-analysen/'
+    - 'https://www.fool.com/a/feeds/partner/googlechromefollow?apikey=5e092c1f-c5f9-4428-9219-908a47d2e2de'
+    - 'https://www.fox13seattle.com/rss/tags/business'
+    - 'https://www.fox13seattle.com/rss/tags/business,personal-finance'
+    - 'https://www.fox13seattle.com/rss/tags/lifestyle,food-drink'
+    - 'https://www.govconwire.com/feed/'
+    - 'https://www.hospitalitynet.org/news/global.xml'
+    - 'https://www.kxlf.com/index.rss'
+    - 'https://www.pcworld.com/feed'
+    - 'https://www.themarketsdaily.com/feed'
+  'Lifestyle & Culture':
+    - 'http://prevention.com/rss/all.xml'
+    - 'http://prevention.com/rss/default.xml'
+    - 'https://deadline.com/feed/rss/'
+    - 'https://feeds-api.dotdashmeredith.com/v1/rss/google/b77a1149-4f35-464b-a2f4-ae31f9a990c0'
+    - 'https://feeds.blubrry.com/feeds/riseupcountry.xml'
+    - 'https://gearjunkie.com/feed'
+    - 'https://hankfm.com/feed'
+    - 'https://kicks99.com/feed/'
+    - 'https://kixs.com/feed/'
+    - 'https://maximumfun.org/feed/'
+    - 'https://www.comicsbeat.com/feed/'
+    - 'https://www.fox13seattle.com/rss/tags/series,studio-13-live,emerald-eats'
+    - 'https://www.fox13seattle.com/rss/tags/sports,northwest-fishing'
+    - 'https://www.glamour.com/feed/rss'
+    - 'https://www.theaquarian.com/feed/'
+  'Local News':
+    - 'http://abc13.com/feed/'
+    - 'http://abc7.com/feed/'
+    - 'http://abc7chicago.com/feed/'
+    - 'http://feeds.feedburner.com/chicagoreporter'
+    - 'http://statesboroherald.com/rss/'
+    - 'http://whkp.com/?format=feed&type=rss'
+    - 'https://95rockfm.com/feed/'
+    - 'https://973thedawg.com/feed/'
+    - 'https://991thewhale.com/feed/'
+    - 'https://arktimes.com/feed'
+    - 'https://b1027.com/feed/'
+    - 'https://b93.net/feed/'
+    - 'https://cool987fm.com/feed/'
+    - 'https://feeds.feedburner.com/GeorgiaBulletin'
+    - 'https://fun107.com/feed/'
+    - 'https://georgiabulletin.org/feed/'
+    - 'https://ilovebobfm.com/feed/'
+    - 'https://indianapolisrecorder.com/feed/'
+    - 'https://journalrecord.com/feed/'
+    - 'https://kffm.com/feed/'
+    - 'https://kmch.com/feed/'
+    - 'https://kool965.com/feed/'
+    - 'https://moxie.foxweather.com/google-publisher/latest.xml'
+    - 'https://power959.com/feed/'
+    - 'https://power98fm.com/feed/'
+    - 'https://q985online.com/feed/'
+    - 'https://rbj.net/feed/'
+    - 'https://sfist.com/rss/'
+    - 'https://us1033.com/feed/'
+    - 'https://wcrz.com/feed/'
+    - 'https://westseattleblog.com/feed/'
+    - 'https://wislawjournal.com/feed/'
+    - 'https://www.41nbc.com/feed/'
+    - 'https://www.bostonherald.com/feed/'
+    - 'https://www.chicagoreporter.com/feed/'
+    - 'https://www.citizensvoice.com/feed/'
+    - 'https://www.cltampa.com/feed/'
+    - 'https://www.dailycamera.com/feed/'
+    - 'https://www.denverpost.com/feed/'
+    - 'https://www.eastbaytimes.com/feed/'
+    - 'https://www.echopress.com/index.rss'
+    - 'https://www.fox13now.com/index.rss'
+    - 'https://www.fox13seattle.com/rss.xml'
+    - 'https://www.fox13seattle.com/rss/category/advertise-with-us'
+    - 'https://www.fox13seattle.com/rss/category/apps'
+    - 'https://www.fox13seattle.com/rss/category/closed-captioning-info'
+    - 'https://www.fox13seattle.com/rss/category/contests'
+    - 'https://www.fox13seattle.com/rss/category/fox-13-seattle-internships'
+    - 'https://www.fox13seattle.com/rss/category/fox-13-seattle-weather-app'
+    - 'https://www.fox13seattle.com/rss/category/interactive-map-fire-danger-and-burn-bans-in-washington-state'
+    - 'https://www.fox13seattle.com/rss/category/jobs'
+    - 'https://www.fox13seattle.com/rss/category/links-you-saw-fox-13-seattle'
+    - 'https://www.fox13seattle.com/rss/category/live-weather-web-cams-in-washington-state-pacific-northwest'
+    - 'https://www.fox13seattle.com/rss/category/news'
+    - 'https://www.fox13seattle.com/rss/category/pet-tricks'
+    - 'https://www.fox13seattle.com/rss/category/podcasts'
+    - 'https://www.fox13seattle.com/rss/category/public-file-inquiries'
+    - 'https://www.fox13seattle.com/rss/category/school-closures-and-delays'
+    - 'https://www.fox13seattle.com/rss/category/shows,good-day-seattle'
+    - 'https://www.fox13seattle.com/rss/category/shows,studio-13-live'
+    - 'https://www.fox13seattle.com/rss/category/speaking-engagment-request'
+    - 'https://www.fox13seattle.com/rss/category/sports-trivia-blitz'
+    - 'https://www.fox13seattle.com/rss/category/weather'
+    - 'https://www.fox13seattle.com/rss/category/weather-photos'
+    - 'https://www.fox13seattle.com/rss/category/whats-on-fox'
+    - 'https://www.fox13seattle.com/rss/category/winning-question'
+    - 'https://www.fox13seattle.com/rss/tags/crime-publicsafety'
+    - 'https://www.fox13seattle.com/rss/tags/crime-publicsafety,missing-persons'
+    - 'https://www.fox13seattle.com/rss/tags/entertainment'
+    - 'https://www.fox13seattle.com/rss/tags/environment'
+    - 'https://www.fox13seattle.com/rss/tags/lifestyle,things-to-do'
+    - 'https://www.fox13seattle.com/rss/tags/news,good-news-only'
+    - 'https://www.fox13seattle.com/rss/tags/series,studio-13-live'
+    - 'https://www.fox13seattle.com/rss/tags/series,studio-13-live,celebrity-interviews'
+    - 'https://www.fox13seattle.com/rss/tags/series,studio-13-live,seattle-sips'
+    - 'https://www.fox13seattle.com/rss/tags/series,the-spotlight'
+    - 'https://www.fox13seattle.com/rss/tags/series,true-northwest'
+    - 'https://www.fox13seattle.com/rss/tags/us,wa,king-county'
+    - 'https://www.fox13seattle.com/rss/tags/us,wa,pierce-county'
+    - 'https://www.fox13seattle.com/rss/tags/us,wa,snohomish-county'
+    - 'https://www.fox13seattle.com/rss/tags/us,wa,thurston-county'
+    - 'https://www.fox13seattle.com/rss/tags/us,wa,whatcom-county'
+    - 'https://www.hometownstation.com/feed'
+    - 'https://www.ksby.com/index.rss'
+    - 'https://www.ktvh.com/index.rss'
+    - 'https://www.lehighvalleylive.com/arc/outboundfeeds/rss/?outputType=xml'
+    - 'https://www.readingeagle.com/feed/'
+    - 'https://www.supertalk.fm/feed/'
+    - 'https://www.thevindicator.com/rss.xml'
+    - 'https://www.timescall.com/feed/'
+    - 'https://www.trumba.com/calendars/tulsa.rss'
+    - 'https://www.wkbw.com/index.rss'
+    - 'https://www.wtvq.com/feed/'
+    - 'https://www.wwaytv3.com/feed/'
+  Other:
+    - 'http://collider.com/feed/'
+  'Politics & Society':
+    - 'http://alternet.org/feeds/feed.rss'
+    - 'http://crooksandliars.com/feeds/latest'
+    - 'http://feeds.crooksandliars.com/crooksandliars/YaCP'
+    - 'http://freerepublic.com/tag/*/feed.rss'
+    - 'http://govinfosecurity.com/rss-feeds'
+    - 'http://natlawreview.com/feed'
+    - 'https://bridgemi.com/feed/'
+    - 'https://feeds.dailykos.com/'
+    - 'https://feeds.mainemirror.com/rss/f8c1fc641c28ce0a'
+    - 'https://freebeacon.com/feed/'
+    - 'https://gcaptain.com/feed/'
+    - 'https://moxie.foxnews.com/google-publisher/latest.xml'
+    - 'https://newswire.net/feed'
+    - 'https://nypost.com/feed/'
+    - 'https://politicalwire.com/feed/'
+    - 'https://theweek.com/feeds.xml'
+    - 'https://truthout.org/feed/?withoutcomments=1'
+    - 'https://truthout.org/latest/feed/'
+    - 'https://usa.streetsblog.org/feed'
+    - 'https://uscatholic.org/feed/'
+    - 'https://warontherocks.com/feed/'
+    - 'https://www.fox13seattle.com/rss/category/fox-13-seattle-megapoll'
+    - 'https://www.fox13seattle.com/rss/category/money'
+    - 'https://www.fox13seattle.com/rss/category/national-news'
+    - 'https://www.fox13seattle.com/rss/category/washington-air-quality-map'
+    - 'https://www.fox13seattle.com/rss/tags/health'
+    - 'https://www.fox13seattle.com/rss/tags/money,us-economy'
+    - 'https://www.journal-advocate.com/feed/'
+    - 'https://www.latimes.com/index.rss'
+    - 'https://www.natlawreview.com/recent-contributions/feed'
+    - 'https://www.politico.eu/feed/'
+    - 'https://www.seattletimes.com/feed/'
+    - 'https://www.theguardian.com/europe/rss'
+    - 'https://www.thetimes-tribune.com/feed/'
+  'Science & Technology':
+    - 'http://hcplive.com/rss'
+    - 'http://nanotech-now.com/rss/recentnews'
+    - 'https://medicalxpress.com/rss-feed/breaking/'
+    - 'https://techxplore.com/rss-feed/'
+    - 'https://techxplore.com/rss-feed/breaking/'
+    - 'https://www.bgr.com/category/news/feed/'
+    - 'https://www.bgr.com/feed/'
+    - 'https://www.foxweather.com/rss.xml'
+    - 'https://www.industrytap.com/feed'
+    - 'https://www.infoworld.com/feed/'
+    - 'https://www.techradar.com/feeds.xml'
+    - 'https://www.tomsguide.com/feeds.xml'
+  Sports:
+    - 'http://bigblueview.com/rss/index.xml'
+    - 'http://landgrantholyland.com/rss/index.xml'
+    - 'http://royalsreview.com/rss/index.xml'
+    - 'https://arkansasrazorbacks.com/feed/'
+    - 'https://chicago.suntimes.com/rss/index.xml'
+    - 'https://dailyemerald.com/feed/'
+    - 'https://dawindycity.com/feed'
+    - 'https://fansided.com/feed'
+    - 'https://feeds.baltimorestar.com/rss/57bb66ae98bf0999'
+    - 'https://predominantlyorange.com/feed'
+    - 'https://runningmagazine.ca/feed/'
+    - 'https://thatballsouttahere.com/feed'
+    - 'https://vikingsterritory.com/feed'
+    - 'https://www.bjpenn.com/feed/'
+    - 'https://www.fox13seattle.com/rss/tags/mlb,mariners'
+    - 'https://www.fox13seattle.com/rss/tags/mls,sounders'
+    - 'https://www.fox13seattle.com/rss/tags/ncaa,cougars'
+    - 'https://www.fox13seattle.com/rss/tags/ncaa,huskies'
+    - 'https://www.fox13seattle.com/rss/tags/nfl,seahawks'
+    - 'https://www.fox13seattle.com/rss/tags/nhl,kraken'
+    - 'https://www.fox13seattle.com/rss/tags/nwsl,reign'
+    - 'https://www.fox13seattle.com/rss/tags/sports,wa-sports-wrap'
+    - 'https://www.fox13seattle.com/rss/tags/sports-commentary'
+    - 'https://www.fox13seattle.com/rss/tags/wnba,storm'
+    - 'https://www.masslive.com/arc/outboundfeeds/rss/?outputType=xml'
+    - 'https://www.newsday.com/api/rss/recent'
+    - 'https://www.newsweek.com/rss'
+    - 'https://www.rollingstone.com/feed/rss/'
+    - 'https://www.sailingscuttlebutt.com/feed/'
+    - 'https://www.si.com/feed'
+    - 'https://www.standardspeaker.com/feed/'
+    - 'https://www.syracuse.com/arc/outboundfeeds/rss/?outputType=xml'
+'United States of America':
+  'Business & Economy':
+    - 'https://www.finanznachrichten.de/rss-news/'
+  'Lifestyle & Culture':
+    - 'https://www.kerrang.com/feed.rss'
+  'Local News':
+    - 'https://mix941kmxj.com/feed/'
+    - 'https://www.fox13seattle.com/rss/tags/us,wa,grays-harbor-county'
+  'Politics & Society':
+    - 'https://www.fox13seattle.com/rss/tags/consumer'
+    - 'https://www.fox13seattle.com/rss/tags/politics'
+'Vatican City':
+  'Politics & Society':
+    - 'https://www.ncregister.com/feeds/general-news.xml'

@@ -9,7 +9,16 @@ Full version is one time pay in-app, with allowed family sharing.
 The app's workflow is built on three simple elements:
 
 1.  **Sources:** These are the news sites, blogs, or RSS feeds you want to monitor.
-2.  **Criteria:** These are your instructions for the AI, written in natural language. Instead of just keywords, you describe the *essence* of what you're looking for (e.g., _"News about major scientific breakthroughs in AI"_).
+
+We are collecting an RSS channel list that is hidden under File → Import Sources. It’s not a global database, and it’s only loosely categorized by AI, but it’s a good starting point to test the app and later use your own sources.
+
+If you are here to only get the sources list for your own purposes - its here:
+[Download InfoBubble World RSS Database](Sources/all.sources.rss.yaml)
+
+it will be periodically updated.
+
+2.  **Criteria:** These are your instructions for the AI, written in natural language. Instead of just keywords, you describe the *idea* of what you're looking for (e.g., _"News about major scientific breakthroughs in AI"_).
+
 3.  **Results:** These are the filtered news articles that match your criteria. From these, you can generate concise AI summaries.
 
 ## First Steps: Setting Up Your Workspace
