@@ -37,11 +37,10 @@ Next, you need a model that is optimized for text analysis and running on Apple 
 
 ## Step 3: Configure the Model
 Proper configuration is key for handling large documents from InfoBubble.
-
-	![Configure downloaded model](6%20-%20Configure%20downloaded%20model.png)
-
-4.  Increase the **Context Length**. Set this value as high as your Mac can handle, such as `32768` or `65536`. This allows the model to process long articles without truncation.
-	![Increase context size as much as your Mac can](7%20-%20Increase%20context%20size%20as%20much%20as%20your%20Mac%20can.png)
+![Configure downloaded model](6%20-%20Configure%20downloaded%20model.png)
+	
+Increase the **Context Length**. Set this value as high as your Mac can handle, such as `32768` or `65536`. This allows the model to process long articles without truncation.
+![Increase context size as much as your Mac can](7%20-%20Increase%20context%20size%20as%20much%20as%20your%20Mac%20can.png)
 
 ---
 
