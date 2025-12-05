@@ -33,6 +33,7 @@ Afghanistan:
     - 'https://arg.gov.af/feed'
     - 'https://www.alemarah.af/feed/rss/'
     - 'https://osaa.af/feed/'
+    - 'https://bpa.af/feed/'
   'Science & Technology':
     - 'https://handinhand.org.af/feed/'
   Sports:
@@ -60,6 +61,7 @@ Albania:
     - 'https://altax.al/feed/'
     - 'https://www.albsig.al/feed/'
     - 'https://www.shpi.al/rss-feed/'
+    - 'https://desrealestate.al/sq/feed/'
   'Lifestyle & Culture':
     - 'https://memorie.al/feed/'
     - 'https://fax.al/rss/automobilizem'
@@ -82,6 +84,7 @@ Albania:
     - 'https://www.iett.al/feed/'
     - 'https://orakujtetomorrit.al/feed/'
     - 'https://orakujtetomorrit.al/rsslatest.xml'
+    - 'https://www.idmc.al/feed.xml'
   'Local News':
     - 'https://abcnews.al/feed/'
     - 'https://intervista.al/web/feed/'
@@ -165,6 +168,9 @@ Albania:
     - 'https://arkiva.fjala.al/feed/'
     - 'https://neutrale.al/index.php/feed/'
     - 'https://www.argumentum.al/feed/'
+    - 'https://medialook.al/feed/'
+    - 'https://newsin.al/feed/'
+    - 'https://opozita.al/feed/'
   'Science & Technology':
     - 'https://fax.al/rss/shendeti'
     - 'https://fax.al/rss/teknologji'
@@ -197,6 +203,7 @@ Algeria:
   'Business & Economy':
     - 'https://ebourse.dz/feed/'
     - 'https://cosob.dz/feed/'
+    - 'https://dzmotion.dz/feed/'
   'Lifestyle & Culture':
     - 'http://opvm.dz/130_Rss/i'
     - 'https://ogebc.dz/feed/'
@@ -294,6 +301,9 @@ Andorra:
     - 'https://www.ara.cat/rss/'
     - 'https://www.diariandorra.ad/rss/home.xml'
     - 'https://elperiodic.ad/feed/'
+    - 'https://democrates.ad/feed/'
+    - 'https://apda.ad/feed'
+    - 'https://forum.ad/feed/'
 Angola:
   'Business & Economy':
     - 'http://www.uneca.org/rss.xml'
@@ -303,11 +313,13 @@ Angola:
     - 'https://arccla.gov.ao/feed/'
     - 'https://jornal.ao/feed/'
     - 'https://www.luele.co.ao/feed/'
+    - 'https://anrm.gov.ao/feed/'
   'Lifestyle & Culture':
     - 'https://hiper.ao/feed/'
   'Local News':
     - 'https://rna.ao/rna.ao/feed/'
     - 'https://tpaonline.ao/feed/'
+    - 'https://www.elisal.ao/feed/'
   'Politics & Society':
     - 'https://tribunalsupremo.ao/feed/'
     - 'https://radarinformativo.ao/feed/'
@@ -317,6 +329,7 @@ Angola:
     - 'https://estamosjuntos.co.ao/feed/'
     - 'https://mpla.ao/feed/'
     - 'https://figurasenegocios.co.ao/feed/'
+    - 'https://pdac.ao/feed/'
   'Science & Technology':
     - 'https://pti.ao/feed/'
   Sports:
@@ -363,6 +376,7 @@ Anguilla:
   'Business & Economy':
     - 'https://sarkariresult.com.ag/feed/'
     - 'https://continuum.ag/feed/'
+    - 'https://ever.ag/feed'
   'Local News':
     - 'https://abstvradio.com/feed/'
     - 'https://pointville.ag/feed/'
@@ -419,6 +433,11 @@ Argentina:
     - 'https://elsalario.com.ar/RSS'
     - 'https://www.ruralprimicias.com.ar/sitio/feed/'
     - 'https://turismomisiones.com.ar/feed/'
+    - 'https://fracran.com.ar/feed.xml'
+    - 'https://datos.posadas.gob.ar/feed/'
+    - 'https://perspectives.com.ar/feed/'
+    - 'https://marcu.com.ar/feed/'
+    - 'https://anroca.com.ar/rss/economia'
   'Lifestyle & Culture':
     - 'https://esefarad.com/feed/'
     - 'https://www.fabio.com.ar/rss-comentarios.php'
@@ -480,6 +499,10 @@ Argentina:
     - 'https://www.ecoitaliano.com.ar/?feed=rss2'
     - 'https://santaluciaviajes.tur.ar/feed/'
     - 'https://destinonorte.com.ar/feed/'
+    - 'https://danews.com.ar/feed/'
+    - 'https://www.masoneria-argentina.org.ar/feed/'
+    - 'https://anroca.com.ar/rss/cultura'
+    - 'https://anroca.com.ar/rss/farandula'
   'Local News':
     - 'https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml'
     - 'https://www.cba24n.com.ar/rss.xml'
@@ -779,6 +802,19 @@ Argentina:
     - 'https://capibaranoticias.com.ar/feed/'
     - 'https://cafeprensa.com.ar/index.php/feed/'
     - 'https://urbana1045.com.ar/feed/'
+    - 'https://eraverde.com.ar/feed/'
+    - 'https://cronicasregionales.com.ar/feed/'
+    - 'https://radiosiete.com.ar/feed/'
+    - 'https://infovtv.ar/feed/'
+    - 'https://www.rosarioalerta.com.ar/site/feed'
+    - 'https://elibera.com.ar/feed/'
+    - 'https://elnacionaldematanza.com.ar/feed/'
+    - 'https://equissanpedro.com.ar/feed/'
+    - 'https://www.fundacioncolsecor.org.ar/feed/'
+    - 'https://anroca.com.ar/rss/actualidad'
+    - 'https://anroca.com.ar/rss/policiales-y-judiciales'
+    - 'https://anroca.com.ar/rss/sociedad'
+    - 'https://lalupa24.com.ar/index.php/feed/'
   Opinion:
     - 'https://revistazoom.com.ar/feed/'
   Other:
@@ -909,6 +945,14 @@ Argentina:
     - 'https://diariovictoria.com.ar/categoria/provinciales/feed/'
     - 'https://portalmovil.com.ar/index.php/feed/'
     - 'https://patagoniarebeldedigital.com.ar/feed/'
+    - 'https://info135.com.ar/feed/'
+    - 'https://latinacorrientes.com.ar/feed/'
+    - 'https://anroca.com.ar/rss/mundo'
+    - 'https://anroca.com.ar/rss/noticias'
+    - 'https://anroca.com.ar/rss/pais'
+    - 'https://anroca.com.ar/rss/politica'
+    - 'https://anroca.com.ar/rss/provincia'
+    - 'https://opsur.org.ar/feed/'
   'Science & Technology':
     - 'https://www.meteored.com.ar/feed/'
     - 'https://waste-management-world.com/rss.xml'
@@ -926,6 +970,11 @@ Argentina:
     - 'https://agencia.unq.edu.ar/?feed=rss2'
     - 'https://rid.unam.edu.ar/feed/atom_1.0/site'
     - 'https://www.agendaescolar.com.ar/feed/'
+    - 'https://patagoniambiental.com.ar/info/feed/'
+    - 'https://agenciamdk.com.ar/feed/'
+    - 'https://redforestal.conicet.gov.ar/feed/'
+    - 'https://sedici.unlp.edu.ar/feed/atom_1.0/site'
+    - 'https://anroca.com.ar/rss/ciencia'
   Sports:
     - 'https://feeds.feedburner.com/LaGacetaUltimoMomento?format=xml'
     - 'https://diarioelnorte.com.ar/feed/'
@@ -962,6 +1011,8 @@ Argentina:
     - 'https://diariovictoria.com.ar/categoria/deportes/feed/'
     - 'https://diarioimpulso.com.ar/rss/category/nuestra-portada'
     - 'https://diarioimpulso.com.ar/rss/posts'
+    - 'https://lobosnews.com.ar/feed/'
+    - 'https://anroca.com.ar/rss/deportes'
   'World / International':
     - 'https://www.pagina12.com.ar/rss/secciones/el-mundo/notas'
     - 'https://www.miperiodico.com.ar/feed/'
@@ -992,6 +1043,7 @@ Armenia:
   'Local News':
     - 'https://armlife.am/feed/'
     - 'https://sda.am/feed/'
+    - 'https://wfd.am/feed'
   'Politics & Society':
     - 'http://azatutyun.am/api/'
     - 'https://en.armradio.am/feed/'
@@ -1040,6 +1092,7 @@ Armenia:
     - 'https://ampop.am/feed/'
     - 'https://mdi.am/feed'
     - 'https://www.usanogh.am/feed/'
+    - 'https://www.shantnews.am/feed'
   Sports:
     - 'https://www.armgeo.am/feed/'
   'World / International':
@@ -1202,6 +1255,7 @@ Australia:
     - 'https://www.elvis.com.au/presley/rss.xml'
     - 'https://stpetri.org.au/feed/'
     - 'https://openresearch-repository.anu.edu.au/server/opensearch/search?format=atom&query=*'
+    - 'https://www.newidea.com.au/feed/'
   'Local News':
     - 'http://smh.com.au/rss/national.xml'
     - 'https://theguardian.com.au/feed/'
@@ -1269,6 +1323,7 @@ Australia:
     - 'https://www.healthandsafetyhandbook.com.au/rss/'
     - 'https://sapolicenews.com.au/feed/'
     - 'https://www.fremantle.wa.gov.au/feed/'
+    - 'https://fleurieusun.com.au/feed/'
   Opinion:
     - 'http://feeds.nationalforum.com.au/onlineopinion/media/'
     - 'http://feeds.nationalforum.com.au/onlineopinion/spirituality/'
@@ -1452,6 +1507,7 @@ Austria:
     - 'https://textilzeitung.at/news/feed/business/'
     - 'https://textilzeitung.at/news/feed/events'
     - 'https://textilzeitung.at/news/feed/karriere/'
+    - 'https://vigoimmobilien.at/feed/'
   'Lifestyle & Culture':
     - 'http://textilzeitung.at/news/feed/events/'
     - 'http://textilzeitung.at/news/feed/fashion/'
@@ -1491,6 +1547,7 @@ Austria:
     - 'https://www.regionalsuche.at/feed/'
     - 'https://textilzeitung.at/news/feed/fashion/'
     - 'https://bvoe.at/rss.xml'
+    - 'https://on.orf.at/feed/rss'
   'Local News':
     - 'https://kurier.at/layout/xml/rss'
     - 'http://api.krone.at/v1/rss/rssfeed-google.xml?id=2311992'
@@ -1621,6 +1678,7 @@ Austria:
     - 'https://kroativ.at/feed/'
     - 'https://www.tvbec.at/feed/'
     - 'https://www.oegfe.at/feed/'
+    - 'https://vwi.ac.at/index.php?format=feed&type=rss'
   'Science & Technology':
     - 'https://www.gesund.at/rss/artikel'
     - 'https://www.myscience.at/news&mode=rss'
@@ -1660,6 +1718,7 @@ Azerbaijan:
     - 'https://cbar.az/rss/releases/az'
     - 'https://ayna.az/rss/category/iqtisadiyyat'
     - 'https://ayna.az/rss/category/reklam'
+    - 'https://iqtisadiyyat.az/rss.xml'
   'Lifestyle & Culture':
     - 'https://azertag.az/rss-culture.xml'
     - 'https://qebulol.az/feed/'
@@ -1709,6 +1768,7 @@ Azerbaijan:
     - 'https://muallim.edu.az/rss/category/sirvan-salyan'
     - 'https://conflict.az/rss.xml'
     - 'https://ayna.az/rss/category/hadise'
+    - 'https://etikxeber.az/feed/'
   Other:
     - 'https://muallim.edu.az/rss/category/qezetin-pdf-arxivi'
   'Politics & Society':
@@ -1801,6 +1861,11 @@ Azerbaijan:
     - 'https://ayna.az/rss/category/tarix'
     - 'https://ayna.az/rss/category/xeberler'
     - 'https://ayna.az/rss/latest-posts'
+    - 'https://soztv.az/?feed=rss2'
+    - 'https://vetendas.az/feed/'
+    - 'https://m.zerkalo.az/feed/'
+    - 'https://bashlibel.az/feed/'
+    - 'https://sahibkartv.az/rss.xml'
   'Science & Technology':
     - 'https://journal.ama.com.az/index.php/pub/gateway/plugin/WebFeedGatewayPlugin/atom'
     - 'https://ailehekimiklinikasi.az/rss.xml'
@@ -1858,6 +1923,8 @@ Bahamas:
     - 'https://rbdf.gov.bs/feed/'
     - 'https://btvi.edu.bs/feed/'
     - 'https://www.ub.edu.bs/feed/'
+    - 'https://www.nlis.bs/feed/'
+    - 'https://themallatmarathon.bs/feed/'
   'Politics & Society':
     - 'https://www.immigration.gov.bs/feed/'
     - 'https://opm.gov.bs/feed/'
@@ -1888,6 +1955,7 @@ Bangladesh:
     - 'https://www.bangladeshmonitor.com.bd/cargo_and_shipping/feed.rss'
     - 'https://www.bangladeshmonitor.com.bd/corporate/feed.rss'
     - 'https://eproperty.com.bd/feed'
+    - 'https://crab.com.bd/feed/'
   'Lifestyle & Culture':
     - 'https://asiaticsociety.org.bd/feed/'
     - 'https://www.bangladeshmonitor.com.bd/hotel_and_restaurant/feed.rss'
@@ -1913,6 +1981,9 @@ Bangladesh:
     - 'https://checkpost.com.bd/feed/'
     - 'https://taxeszonegazipur.gov.bd/feed/'
     - 'https://iab.org.bd/feed/'
+    - 'https://cpscm.edu.bd/feed/'
+  Other:
+    - 'https://marinebiodiversity.org.bd/feed/'
   'Politics & Society':
     - 'http://fintel.com.bd/feed/news'
     - 'https://thebangladeshtoday.com/?feed=rss2'
@@ -1948,6 +2019,7 @@ Barbados:
   'Local News':
     - 'https://barbadostoday.bb/feed/'
     - 'https://www.bajanreporter.com/feed/'
+    - 'https://www.bamp.org.bb/feed/'
   'Politics & Society':
     - 'https://barbadosunderground.net/feed/'
     - 'https://governmentprintery.gov.bb/feed/'
@@ -2006,6 +2078,7 @@ Belarus:
     - 'https://library.by/portalus/modules/samizdat_poetry/rss.php'
     - 'https://library.by/portalus/modules/samizdat_prose/rss.php'
     - 'https://www.sobor.by/rssnews.xml'
+    - 'https://nagore.by/feed/'
   'Local News':
     - 'https://people.onliner.by/feed'
     - 'http://blr.belta.by/rss'
@@ -2135,6 +2208,7 @@ Belarus:
     - 'https://news.by/feed/rss-google.xml'
     - 'https://news.by/feed/rss-yandex.xml'
     - 'https://www.jezuity.by/feed/'
+    - 'https://mediabrest.by/rss/news_google.xml'
 Belgium:
   'Business & Economy':
     - 'https://trends.levif.be/feed/'
@@ -2187,6 +2261,34 @@ Belgium:
     - 'https://www.fbf-bff.be/feed/'
     - 'https://genknieuws.be/feed/'
     - 'https://www.eventplanner.be/rss/rss-feed.php'
+    - 'https://www.lecho.be/rss/actualite.xml'
+    - 'https://www.lecho.be/rss/entreprises.xml'
+    - 'https://www.lecho.be/rss/entreprises_alimentation_et_boisson.xml'
+    - 'https://www.lecho.be/rss/entreprises_automobile.xml'
+    - 'https://www.lecho.be/rss/entreprises_aviation.xml'
+    - 'https://www.lecho.be/rss/entreprises_banques.xml'
+    - 'https://www.lecho.be/rss/entreprises_chimie.xml'
+    - 'https://www.lecho.be/rss/entreprises_construction.xml'
+    - 'https://www.lecho.be/rss/entreprises_energie.xml'
+    - 'https://www.lecho.be/rss/entreprises_grande_distribution.xml'
+    - 'https://www.lecho.be/rss/entreprises_horeca.xml'
+    - 'https://www.lecho.be/rss/entreprises_immobilier.xml'
+    - 'https://www.lecho.be/rss/entreprises_industries_de_base.xml'
+    - 'https://www.lecho.be/rss/entreprises_logistique.xml'
+    - 'https://www.lecho.be/rss/entreprises_matieres_premieres.xml'
+    - 'https://www.lecho.be/rss/entreprises_pharma_et_biotechnologie.xml'
+    - 'https://www.lecho.be/rss/entreprises_private_equity.xml'
+    - 'https://www.lecho.be/rss/entreprises_produits_de_consommation.xml'
+    - 'https://www.lecho.be/rss/entreprises_semiconducteurs.xml'
+    - 'https://www.lecho.be/rss/entreprises_services.xml'
+    - 'https://www.lecho.be/rss/entreprises_services_financiers_et_assurances.xml'
+    - 'https://www.lecho.be/rss/entreprises_telecom.xml'
+    - 'https://www.lecho.be/rss/entreprises_textile.xml'
+    - 'https://www.lecho.be/rss/entreprises_tourisme.xml'
+    - 'https://www.lecho.be/rss/entreprises_transport.xml'
+    - 'https://www.lecho.be/rss/fonds.xml'
+    - 'https://www.lecho.be/rss/les_marches.xml'
+    - 'https://location.deforest.be/home/feed/'
   'Lifestyle & Culture':
     - 'https://www.lejde.be/feed/'
     - 'http://rss.rtbf.be/article/rss/highlight_mediaz_a-la-une-sur-tarmac.xml?source=internal'
@@ -2259,6 +2361,16 @@ Belgium:
     - 'https://recepten.be/feed/'
     - 'https://werviknieuws.be/feed/'
     - 'https://cultuurregioleieschelde.be/feed/'
+    - 'https://www.lecho.be/rss/epingle.xml'
+    - 'https://www.lecho.be/rss/sabato.xml'
+    - 'https://www.lecho.be/rss/sabato_art.xml'
+    - 'https://www.lecho.be/rss/sabato_auto.xml'
+    - 'https://www.lecho.be/rss/sabato_design.xml'
+    - 'https://www.lecho.be/rss/sabato_gastronomie.xml'
+    - 'https://www.lecho.be/rss/sabato_general.xml'
+    - 'https://www.lecho.be/rss/sabato_mode.xml'
+    - 'https://www.lecho.be/rss/sabato_voyages.xml'
+    - 'https://www.dekroniekenvandewesthoek.be/feed/'
   'Local News':
     - 'https://www.standaard.be/rss'
     - 'https://www.bruzz.be/rss.xml'
@@ -2351,6 +2463,7 @@ Belgium:
     - 'https://ediksmuide.be/home/feed/'
     - 'https://www.editietemse.be/?feed=rss2'
     - 'https://gentnieuws.be/feed/'
+    - 'https://pers.vlaamsbrabant.be/feed'
   'Politics & Society':
     - 'https://www.knack.be/feed/'
     - 'https://www.politico.eu/feed/'
@@ -2404,6 +2517,11 @@ Belgium:
     - 'https://stadszteam.be/index.php/feed/'
     - 'https://www.crsambre.be/feed/'
     - 'https://21bis.be/feed/'
+    - 'https://www.lecho.be/rss/debats.xml'
+    - 'https://www.lecho.be/rss/mon_argent.xml'
+    - 'https://www.lecho.be/rss/politique.xml'
+    - 'https://www.lecho.be/rss/politique_belgique.xml'
+    - 'https://www.lecho.be/rss/politique_economie.xml'
   'Science & Technology':
     - 'http://rss.rtbf.be/article/rss/highlight_rtbf_app-mobiles.xml?source=internal'
     - 'http://rss.rtbf.be/article/rss/highlight_rtbf_biodiversite.xml?source=internal'
@@ -2429,6 +2547,7 @@ Belgium:
     - 'https://expertplatform.waterbouwkundiglaboratorium.be/expert/imis.php?module=ref&show=rss&srchid=8947973'
     - 'https://ardenne-et-gaume.be/feed/'
     - 'https://www.entre-sambre-et-meuse.be/?DerniersChangementsRSS/xml'
+    - 'https://poollicht.be/rss_news.xml'
   Sports:
     - 'https://www.gva.be/rss'
     - 'https://www.nieuwsblad.be/rss'
@@ -2475,6 +2594,8 @@ Belgium:
     - 'https://farout.be/feed/'
     - 'https://www.europeanfuncup.be/feed/'
     - 'https://www.bruzz.be/topic/sport/rss.xml'
+    - 'https://www.lecho.be/rss/entreprises_sport.xml'
+    - 'https://voetbalprimeur.be/feed/news.xml'
   'World / International':
     - 'http://rss.rtbf.be/article/rss/highlight_rtbf_catastrophes-naturelles.xml?source=internal'
     - 'http://rss.rtbf.be/article/rss/highlight_rtbfinfo_info-monde.xml?source=internal'
@@ -2484,6 +2605,9 @@ Belgium:
     - 'https://www.tijd.be/rss/politiek_internationaal.xml'
     - 'http://www.ostbelgien-direkt.be/feed'
     - 'https://www.aviation24.be/feed/'
+    - 'https://www.lecho.be/rss/entreprises_defense_et_aeronautique.xml'
+    - 'https://www.lecho.be/rss/politique_europe.xml'
+    - 'https://www.lecho.be/rss/politique_internationale.xml'
 Belize:
   'Business & Economy':
     - 'https://www.mybelize.net/feed/'
@@ -2608,8 +2732,11 @@ Bermuda:
     - 'https://dockyard.bm/feed/'
     - 'https://newsupdates.bm/feed/'
 Bhutan:
+  'Business & Economy':
+    - 'https://www.sarpang.gov.bt/feed/'
   'Lifestyle & Culture':
     - 'https://toweroftrongsa.gov.bt/index.php/feed/'
+    - 'https://www.btcl.bt/feed/'
   'Local News':
     - 'https://www.bbs.bt/feed/'
     - 'https://trongsa.gov.bt/feed/'
@@ -2647,6 +2774,7 @@ Bolivia:
     - 'https://economy.com.bo/rss/opinion/'
     - 'https://economy.com.bo/rss/politica/'
     - 'https://www.economy.com.bo/rss/'
+    - 'https://actualizandotarija.com.bo/rss/category/economia-bolivia-tarija'
   'Lifestyle & Culture':
     - 'https://opinion.com.bo/rss/cultura/'
     - 'https://opinion.com.bo/rss/ramona/'
@@ -2667,6 +2795,12 @@ Bolivia:
     - 'https://www.wwf.org.bo/_template/_capetown/article/rss-feed.cfm?rss_xnav_id=47500&rss_obj_id=1706653&rss_lang_id=4&rss_xsite_id=5&rss_language=es&rss_adminMode=false&rss_ArchiveMode=false'
     - 'https://sorata.bo/feed/'
     - 'https://boliviana.com.bo/feed/'
+    - 'https://noticias.lapaz.gob.bo/feed'
+    - 'https://elandaluz.com.bo/feed/'
+    - 'https://noticias.tarija.bo/index.php/feed/'
+    - 'https://actualizandotarija.com.bo/rss/category/seguridad'
+    - 'https://actualizandotarija.com.bo/rss/category/sociedad'
+    - 'https://todonoticiastarija.com.bo/feed/'
   'Politics & Society':
     - 'https://fmbolivia.com.bo/feed/'
     - 'https://opinion.com.bo/rss/cochabamba/'
@@ -2710,6 +2844,12 @@ Bolivia:
     - 'https://boliviaverificaelecciones.bo/feed/'
     - 'https://www.aclo.org.bo/feed/'
     - 'https://www.aygun.com.bo/feed/'
+    - 'https://playbolivia.tv.bo/feed/'
+    - 'https://actualizandotarija.com.bo/rss/category/judicial'
+    - 'https://actualizandotarija.com.bo/rss/category/politica'
+    - 'https://actualizandotarija.com.bo/rss/latest-posts'
+    - 'https://tarijaaldia.com.bo/feed/'
+    - 'https://f10.tv.bo/feed/'
   'Science & Technology':
     - 'https://opinion.com.bo/rss/tendencias/'
     - 'https://economy.com.bo/rss/itecno/'
@@ -2723,6 +2863,7 @@ Bolivia:
     - 'https://vision360.bo/rss/sports360-internacional'
     - 'https://panamericana.bo/rss/deportes/'
     - 'https://podio.bo/feed/'
+    - 'https://actualizandotarija.com.bo/rss/category/deportes'
   'World / International':
     - 'https://panamericana.bo/rss/internacional/'
     - 'https://hemeroteca.larazon.bo/feed/'
@@ -2897,6 +3038,8 @@ Bolivia:
     - 'https://foca-ustikolina.ba/feed/'
     - 'https://opcinabuzim.ba/feed/'
     - 'https://kalesija.ba/feed/'
+    - 'https://jphorizontala.ba/feed/'
+    - 'https://visoko-rtv.ba/feed/'
   'Politics & Society':
     - 'https://vijesti.ba/rss/svevijesti'
     - 'https://www.haber.ba/feed'
@@ -3506,6 +3649,20 @@ Brazil:
     - 'https://esnewselizeusilva.com.br/feed/'
     - 'https://urbnews.com.br/feed/'
     - 'https://www.viatimon.com.br/blog-feed.xml'
+    - 'https://www.sistemampa.com.br/feed/'
+    - 'https://pnnoticia.com.br/feed/'
+    - 'https://trt16.jus.br/noticias/rss'
+    - 'https://portalnoticiasdolitoral.com.br/feed/'
+    - 'https://jornaltrindade.com.br/feed/'
+    - 'https://www.revistameucondominio.com.br/feed/'
+    - 'https://clintonmedeiros.com.br/feed/'
+    - 'https://agoranovale.com.br/feed/'
+    - 'https://www.jornaluniao.com.br/rss'
+    - 'https://www.blogdoedney.com.br/feeds/posts/default'
+    - 'https://cbnsantos.com.br/feed/'
+    - 'https://n1n.com.br/feed/'
+    - 'https://www.matheusreporter.com.br/feeds/posts/default'
+    - 'https://www.manhanordestina.com.br/feeds/posts/default'
   Opinion:
     - 'https://feeds.folha.uol.com.br/blogs/assim-como-voce/rss091.xml'
     - 'https://feeds.folha.uol.com.br/colunas/joaopereiracoutinho/rss091.xml'
@@ -3739,6 +3896,14 @@ Brazil:
     - 'https://xinguvivo.org.br/feed/'
     - 'https://vanguardadonorte.com.br/feed/'
     - 'https://expressodosertao.com.br/feed/'
+    - 'https://www.blogdobrunolira.com.br/feed/'
+    - 'https://penoticias.com.br/blog/feed/'
+    - 'https://poderpb.com.br/feed/'
+    - 'https://jucelioalmeida.com.br/feed/'
+    - 'https://www.portalalerta.com.br/index.php/feed/'
+    - 'https://www.alsonews.com.br/feed/'
+    - 'https://www.agazetanews.com.br/feed/'
+    - 'https://www.radiotoritama.com.br/feed/'
   'Science & Technology':
     - 'https://feeds2.feedburner.com/canaltechbr'
     - 'http://jornal.unesp.br/feed'
@@ -3778,6 +3943,7 @@ Brazil:
     - 'https://www.ancp.org.br/feed/'
     - 'https://www.nucleodoconhecimento.com.br/feed'
     - 'https://editorabagai.com.br/feed/'
+    - 'https://suaimprensa.com.br/feed/'
   Sports:
     - 'https://folhadoleste.com.br/feed/'
     - 'https://www.gazetavg.com.br/feed/'
@@ -3818,6 +3984,7 @@ Brazil:
     - 'https://tamandarenoticias.com.br/feed'
     - 'https://www.notibrasil.com.br/rss/rss.aspx?ch=1420'
     - 'https://mundoviajar.com.br/feed/'
+    - 'https://embratur.com.br/feed/'
 'British Indian Ocean Territory':
   'Business & Economy':
     - 'https://coinlaw.io/feed/'
@@ -3885,6 +4052,8 @@ Bulgaria:
     - 'https://cryptodnes.bg/feed/'
     - 'https://eventplus.bg/feed/'
     - 'https://www.unicreditbulbank.bg/bg/za-nas/novini/rss/'
+    - 'https://www.logistika.bg/rss'
+    - 'https://solarpro.bg/feed/'
   'Lifestyle & Culture':
     - 'http://trafficnews.bg/rss/category/kultura/'
     - 'https://militarymuseum.bg/feed/'
@@ -3937,6 +4106,7 @@ Bulgaria:
     - 'https://travelnews.bg/feed'
     - 'https://yambol.bulpress.bg/feed/'
     - 'https://besttickets.bg/feed/'
+    - 'https://bwoman.bg/feed/'
   'Local News':
     - 'http://dnevnik.bg/rss/'
     - 'http://24chasa.bg/rss'
@@ -4025,6 +4195,7 @@ Bulgaria:
     - 'https://viamedia.bg/feed/'
     - 'https://novinar.bg/feed'
     - 'https://rodopi.bg/feed/'
+    - 'https://m.velingrad.bg/?feed=rss2'
   Other:
     - 'https://feed.offnews.bg/rss/Лица_18761'
   'Politics & Society':
@@ -4124,6 +4295,7 @@ Bulgaria:
     - 'https://feed.offnews.bg/rss/Футбол_18793'
     - 'https://boec.bg/feed/'
     - 'https://trafficnews.bg/rss/category/sport/'
+    - 'https://corner.dir.bg/feeds/rss'
   'World / International':
     - 'http://trafficnews.bg/rss/category/sviat/'
     - 'http://vesti.bg/rss'
@@ -4195,6 +4367,8 @@ Bulgaria:
     - 'https://www.camco.bf/feed/'
     - 'https://pcrss.bf/feed/'
     - 'https://fasovolontariat.bf/feed/'
+    - 'https://urcb-sd.bf/feed/'
+    - 'https://www.cercofi.bf/feed/'
   'Science & Technology':
     - 'https://aneree.bf/feed/'
     - 'https://lemiroirdelinfo.bf/feed/'
@@ -4251,6 +4425,7 @@ Cambodia:
     - 'https://www.aupp.edu.kh/feed/'
     - 'https://www.crdt.org.kh/blog-feed.xml'
     - 'https://business.khmernote.com.kh/feed'
+    - 'https://www.puthisastra.edu.kh/feed/'
   'Politics & Society':
     - 'https://www.cambodiadaily.com/feed/'
     - 'https://www.kampucheathmey.com/feed'
@@ -4593,6 +4768,7 @@ Canada:
     - 'https://environmentjournal.ca/feed/'
     - 'https://thebhive.ca/feed/'
     - 'https://nsdiesel.ca/feed/'
+    - 'https://tonconsultant.ca/feed/'
   'Lifestyle & Culture':
     - 'https://driving.ca/feed/atom'
     - 'https://nuvomagazine.com/feed'
@@ -4964,6 +5140,7 @@ Canada:
     - 'https://tvagatineau.ca/feed/'
     - 'https://belmont.web.sd62.bc.ca/feed/'
     - 'https://stouffville.bulletpointnews.ca/feed/'
+    - 'https://cegepbc.ca/feed/'
   Opinion:
     - 'https://ottawasun.com/feed/atom'
     - 'https://rupertslandnews.ca/feed/'
@@ -5142,6 +5319,7 @@ Canada:
     - 'https://liguedesdroits.ca/feed/'
     - 'https://lmic-cimt.ca/feed/'
     - 'https://thecjn.ca/feed/'
+    - 'https://thecompositeeye.ca/feed/'
   'Science & Technology':
     - 'https://www.iphoneincanada.ca/feed/'
     - 'https://news.ubc.ca/feed/'
@@ -5250,6 +5428,7 @@ Canada:
     - 'https://www.ifh.cv/?feed=rss2'
     - 'https://inps.cv/feed/'
     - 'https://tiver.cv/feed/'
+    - 'https://presidencia.cv/feed/'
   'Science & Technology':
     - 'https://terranova.cv/pt_PT/feed/'
 'Cayman Islands':
@@ -5298,6 +5477,7 @@ Chad:
     - 'https://senat.td/index.php/feed/'
     - 'https://www.ena.td/feed'
     - 'https://www.ailc.td/feed/'
+    - 'https://primature.gouv.td/feed/'
   'Science & Technology':
     - 'https://its.promp.td/rss/'
     - 'https://adetic.td/feed/'
@@ -5522,6 +5702,14 @@ Chile:
     - 'https://comunaldevillaalemana.cl/feed/'
     - 'https://alertanoticias.cl/feed/'
     - 'https://www.valparaisonoticias.cl/feed'
+    - 'https://www.somospuentealto.cl/feed/'
+    - 'https://www.elserenense.cl/feed/'
+    - 'https://laserenaonline.cl/feed/'
+    - 'https://laserenaradio.cl/web/feed/'
+    - 'https://laregionhoy.cl/feed/'
+    - 'https://periodicodelacosta.cl/feed/'
+    - 'https://www.elmontepatrino.cl/feed/'
+    - 'https://www.elnorte.cl/feed/'
   Opinion:
     - 'https://ipaulofreire.cl/feed/'
   Other:
@@ -5582,6 +5770,8 @@ Chile:
     - 'https://buenamemoria.cl/feed/'
     - 'https://iquiqueonline.cl/feed/'
     - 'https://elminuto.cl/feed'
+    - 'https://museodeprensa.udp.cl/feed/'
+    - 'https://regiondecoquimbo.cl/feed/'
   'Science & Technology':
     - 'http://repositorio.uchile.cl/feed/atom_1.0/site'
     - 'https://www.transmedia.cl/feed/'
@@ -5654,6 +5844,7 @@ China:
     - 'https://bbs.iobroker.cn/posts.rss'
     - 'https://web.developers.google.cn/static/blog/feed.xml'
     - 'https://ww2.mathworks.cn/matlabcentral/fileexchange/feed.atom?date=submitted'
+    - 'https://www.neb.com/nebinspired-blog/feed'
   'World / International':
     - 'https://sputniknews.cn/export/rss2/archive/index.xml'
     - 'https://feeds.chinanationalnews.com/rss/9366300fc9319e9b'
@@ -5683,6 +5874,7 @@ Colombia:
     - 'https://360radio.com.co/feed/'
     - 'https://www.inalde.edu.co/feed/'
     - 'https://ikono.co/feed/'
+    - 'https://www.hv.com.co/feed/'
   'Lifestyle & Culture':
     - 'https://www.elespectador.com/arc/outboundfeeds/discover/category/cromos/?outputType=xml'
     - 'https://www.elespectador.com/arc/outboundfeeds/discover/category/revista-vea/?outputType=xml'
@@ -5813,6 +6005,7 @@ Colombia:
     - 'https://aredmag.co/feed/'
     - 'https://sinfronterasnoticias.co/feed/'
     - 'https://www.riogrande.com.co/feed/'
+    - 'https://www.corrillos.com.co/feed/'
   'Science & Technology':
     - 'http://minciencias.gov.co/rss.xml'
     - 'https://electrek.co/feed/'
@@ -5834,6 +6027,7 @@ Colombia:
   'World / International':
     - 'https://www.lafm.com.co/rss/internacional.xml'
     - 'https://www.hsbradio.com.co/feed/'
+    - 'https://vinculos.co/feed/'
 Comoros:
   'Science & Technology':
     - 'https://mojrojs.midocean.edu.km/index.php/mojr/gateway/plugin/WebFeedGatewayPlugin/atom'
@@ -5905,6 +6099,7 @@ Comoros:
     - 'https://www.kerwa.ucr.ac.cr/server/opensearch/search?format=atom&query=*'
     - 'https://repositorio.utn.ac.cr/server/opensearch/search?format=atom&query=*'
     - 'http://rsn.ucr.ac.cr/actividad-sismica/ultimos-sismos?format=feed&type=rss'
+    - 'https://repositorio.binasss.sa.cr/server/opensearch/search?format=atom&query=*'
 Croatia:
   'Business & Economy':
     - 'https://www.jadrolinija.hr/feeds/vijesti'
@@ -6117,6 +6312,8 @@ Croatia:
     - 'https://www.vrsi.hr/feed/'
     - 'https://ipress.hr/?format=feed&type=rss'
     - 'https://ipress.hr/index.php?format=feed&type=rss'
+    - 'https://zupanja.hr/feed/'
+    - 'https://radiozupanja.hr/feed/'
   Other:
     - 'https://www.glas-koncila.hr/feed/'
     - 'https://laudato.hr/rss-full.xml'
@@ -6266,6 +6463,7 @@ Cuba:
     - 'https://bohemia.cu/feed/'
     - 'https://ahora.cu/es/opinion/?format=feed&type=rss'
     - 'https://lospalacios.gob.cu/es/actualidad/noticias?format=feed&type=rss'
+    - 'https://firmas.prensa-latina.cu/feed/'
   'Science & Technology':
     - 'https://islas.uclv.edu.cu/index.php/islas/gateway/plugin/AnnouncementFeedGatewayPlugin/atom'
     - 'http://www.prensacubana.sld.cu/feed'
@@ -6312,6 +6510,7 @@ Cyprus:
     - 'https://chc.com.cy/feed/'
     - 'https://studiobagno.com.cy/feed'
     - 'https://cbg.com.cy/feed/'
+    - 'https://www.frontlineplc.cy/feed/'
   'Lifestyle & Culture':
     - 'https://visitnicosia.com.cy/feed/'
     - 'https://cyprusscene.com/feed/'
@@ -6372,6 +6571,7 @@ Cyprus:
     - 'https://cyprusvoice.cy/feed'
     - 'https://aradippou.org.cy/feed/'
     - 'https://www.mesoyios.ac.cy/feed/'
+    - 'https://ndlgo.org.cy/feed/'
   'Politics & Society':
     - 'http://www.sigmalive.com/rss'
     - 'https://www.financialmirror.com/feed/'
@@ -6655,6 +6855,11 @@ Cyprus:
     - 'https://www.oiktv.cz/feed/'
     - 'https://www.zszasova.cz/feed/'
     - 'https://www.zsvrane.cz/feed/'
+    - 'https://zakrasnejsivimperk.cz/?feed=rss2'
+    - 'https://www.trivisvodnany.cz/feed/'
+    - 'https://ceskolipsky.denik.cz/rss/server-original.html'
+    - 'https://www.zastavka.cz/feed/'
+    - 'https://teplicky.denik.cz/rss/server-original.html'
   Opinion:
     - 'https://www.krajskelisty.cz/rss-ustecky-kraj.xml'
   Other:
@@ -6988,6 +7193,7 @@ Cyprus:
     - 'https://infos7.cd/rss/category/sport'
     - 'https://www.voxpopuli.cd/feed/'
     - 'https://www.unicosport.cd/feed/'
+    - 'https://equilibre.cd/feed/'
   'World / International':
     - 'https://www.une.cd/rss/category/monde'
     - 'https://www.une.cd/rss/category/securite'
@@ -7035,6 +7241,8 @@ Denmark:
     - 'https://borsen.dk/rss/investor'
     - 'https://borsen.dk/rss/markedsberetninger'
     - 'https://borsen.dk/rss/opinion'
+    - 'https://obimedia.dk/feed/'
+    - 'https://www.building-supply.dk/xml/rss2/articles'
   'Lifestyle & Culture':
     - 'https://aalborg24.dk/rss'
     - 'https://elsparefonden.dk/feed/'
@@ -7084,6 +7292,7 @@ Denmark:
     - 'https://pensionist.dk/feeds/rss/articles/latest-news/'
     - 'https://www.ekkofilm.dk/feeds/artikler/'
     - 'https://wiki.dis-danmark.dk/index.php?title=Speciel:Seneste_%C3%A6ndringer&feed=atom'
+    - 'https://struerhojskole.dk/feed/'
   'Local News':
     - 'https://nordjyske.dk/rss/nyheder'
     - 'https://www.nyheder.dk/?lab_viewport=rss'
@@ -7224,6 +7433,9 @@ Denmark:
     - 'https://aarhuswiki.dk/index.php?title=Speciel:Seneste_%C3%A6ndringer&feed=atom'
     - 'https://pingvinnyt.dk/feed/'
     - 'https://lokalnytsilkeborg.dk/feed/'
+    - 'https://svanekesvenner.dk/index.php/feed/'
+    - 'https://esbjergliv.dk/feed/'
+    - 'https://hvidovrenyt.dk/feed/'
   Other:
     - 'https://feeds.jp.dk/jp/mest-laeste'
     - 'https://dream.dk/feed/'
@@ -7282,6 +7494,7 @@ Denmark:
     - 'https://borsen.dk/rss/politik'
     - 'https://www.softennyt.dk/feed/'
     - 'https://sochaderslev.dk/?format=feed&type=rss'
+    - 'https://lwid.dk/feed/'
   'Science & Technology':
     - 'https://feeds.fireside.fm/transformator/rss'
     - 'https://ing.dk/term/rss/1498'
@@ -7386,6 +7599,8 @@ Dominica:
     - 'https://academia.org.do/feed/'
     - 'https://radiorepublica.do/rss/arteyespectaculos/'
     - 'https://radiorepublica.do/rss/cultura/'
+    - 'https://caminoalsol.do/feed/'
+    - 'https://megadiario.com.do/feed/'
   'Local News':
     - 'https://elnacional.com.do/feed'
     - 'https://eltiempo.com.do/feed/'
@@ -7451,6 +7666,7 @@ Dominica:
     - 'https://radiorepublica.do/rss/poll/'
     - 'https://radiorepublica.do/rss/poll/actualidad/'
     - 'https://www.radiorepublica.do/rss/'
+    - 'https://publidigital.com.do/feed/'
   'Science & Technology':
     - 'https://www.actualidadmedica.com.do/feed/'
     - 'https://noticiasmedicas.do/feed'
@@ -7570,6 +7786,7 @@ Ecuador:
     - 'https://www.registrocivil.gob.ec/feed/'
     - 'https://www.asambleanacional.gob.ec/es/rss.xml'
     - 'https://repositorio.uasb.edu.ec/feed/atom_1.0/site'
+    - 'https://www.gobernacionsantaelena.gob.ec/feed/'
   'Science & Technology':
     - 'https://dspace.unl.edu.ec/server/opensearch/search?format=atom&query=*'
     - 'https://repositorio.utc.edu.ec/server/opensearch/search?format=atom&query=*'
@@ -7645,6 +7862,11 @@ Egypt:
     - 'https://kgef.journals.ekb.eg/././ju.rss'
     - 'https://kgef.journals.ekb.eg/./ju.rss'
     - 'https://kgef.journals.ekb.eg/ju.rss'
+    - 'https://buijhs.journals.ekb.eg/./ju.rss'
+    - 'https://buijhs.journals.ekb.eg/ju.rss'
+    - 'https://jsos.journals.ekb.eg/././ju.rss'
+    - 'https://jsos.journals.ekb.eg/./ju.rss'
+    - 'https://jsos.journals.ekb.eg/ju.rss'
   'Local News':
     - 'http://elfagr.org/rss.aspx'
     - 'https://kfs.gov.eg/feed/'
@@ -7821,6 +8043,16 @@ Egypt:
     - 'https://kamj.journals.ekb.eg/././ju.rss'
     - 'https://kamj.journals.ekb.eg/./ju.rss'
     - 'https://kamj.journals.ekb.eg/ju.rss'
+    - 'https://ejnsr.journals.ekb.eg/././ju.rss'
+    - 'https://ejnsr.journals.ekb.eg/./ju.rss'
+    - 'https://ejnsr.journals.ekb.eg/ju.rss'
+    - 'https://buijhs.journals.ekb.eg/././ju.rss'
+    - 'https://svusrc.journals.ekb.eg/././ju.rss'
+    - 'https://svusrc.journals.ekb.eg/./ju.rss'
+    - 'https://svusrc.journals.ekb.eg/ju.rss'
+    - 'https://jpfs.journals.ekb.eg/././ju.rss'
+    - 'https://jpfs.journals.ekb.eg/./ju.rss'
+    - 'https://jpfs.journals.ekb.eg/ju.rss'
   Sports:
     - 'https://www.kingfut.com/feed/'
     - 'https://alahalygate.com/feed'
@@ -7975,6 +8207,8 @@ Estonia:
     - 'https://imelineajalugu.ee/rss'
     - 'https://lihulalilltikand.ee/feed/'
     - 'https://visitsoomaa.ee/feed/'
+    - 'https://lhvraamatukogud.ee/feed/'
+    - 'https://alutaguse.ee/feed/'
   'Local News':
     - 'https://www.postimees.ee/rss'
     - 'https://uudised.postimees.ee/rss'
@@ -8065,6 +8299,9 @@ Estonia:
     - 'https://loovesi.ee/feed/'
     - 'https://lookool.ee/feed/'
     - 'https://keilakool.ee/feed/'
+    - 'https://paideleht.ee/feed/'
+    - 'https://viljandi.ee/feed/'
+    - 'https://nommeleht.ee/feed/'
   Other:
     - 'http://wikipedia.ee/w/index.php?title=Eri:Viimased_muudatused&feed=atom'
     - 'https://www.kehrajaam.ee/feed/'
@@ -8263,6 +8500,7 @@ Finland:
     - 'https://tiiakonttinen.fi/feed/'
     - 'https://gasgrid.fi/feed/'
     - 'https://meks.fi/feed/'
+    - 'https://www.tuomi.fi/feed/'
   'Lifestyle & Culture':
     - 'https://etsijalehti.fi/feed/'
     - 'https://svenska.yle.fi/rss/kultur'
@@ -8314,6 +8552,12 @@ Finland:
     - 'https://www.arkkitehtuurinfinlandia.fi/feed'
     - 'https://www.pukstaavi.fi/feed/'
     - 'https://www.protu.fi/feed/'
+    - 'https://rokuageopark.fi/feed/'
+    - 'https://ateneum.fi/feed/'
+    - 'https://www.virtasalmenviljatuote.fi/feed/'
+    - 'https://en.docomomo.fi/feed/'
+    - 'https://antiikintutkimus.fi/feed/'
+    - 'https://www.salud.fi/feed/'
   'Local News':
     - 'http://iltalehti.fi/rss.xml'
     - 'https://www.ksml.fi/feed/rss'
@@ -8486,6 +8730,16 @@ Finland:
     - 'https://niinivedenseurakunta.fi/o/news-portlet/feed/parishtags/?parishTags=&plid=54561043&instanceId=o4eQ2yWdnBWZ'
     - 'https://kaupunginosat.fi/artova/feed/'
     - 'https://turunseutusanomat.fi/feed/'
+    - 'https://linkkari.fi/.rss'
+    - 'https://vehmaanseurakunta.fi/o/news-portlet/feed/parishtags/?parishTags=&plid=21237863&instanceId=o4eQ2yWdnBWZ'
+    - 'https://turkuseura.fi/feed/'
+    - 'https://www.keski-hame.fi/feed/rss'
+    - 'https://sotiemmeperinne.fi/feed/'
+    - 'https://lakeudenmaanpuolustaja.fi/feed/'
+    - 'https://www.kattivankkuri.fi/feed/'
+    - 'https://www.pyhtaanlehti.fi/feed/rss'
+    - 'https://akaanseurakunta.fi/o/news-portlet/feed/parishtags/?parishTags=&plid=18921828&instanceId=o4eQ2yWdnBWZ'
+    - 'https://oulunseurakunnat.fi/o/news-portlet/feed/parishtags/?parishTags=etusivu&plid=332843&instanceId=o4eQ2yWdnBWZ'
   Opinion:
     - 'https://yle.fi/rss/t/18-215844/fi'
     - 'https://migranttales.net/feed/'
@@ -8528,6 +8782,9 @@ Finland:
     - 'https://www.sak.fi/feed/'
     - 'https://www.sak.fi/sv/feed/'
     - 'https://www.ulosottolaitos.fi/feed/rss-feed?post_type=page'
+    - 'https://www.sfpivanda.fi/feed/'
+    - 'https://www.suomenpen.fi/feed/'
+    - 'https://www.yss.fi/feed/'
   'Science & Technology':
     - 'https://yle.fi/rss/t/18-35354/fi'
     - 'https://yle.fi/rss/t/18-819/fi'
@@ -8546,6 +8803,7 @@ Finland:
     - 'https://www.hbl.fi/feeds/feed.xml'
     - 'https://suomusjarvensisu.fi/rss/rss.xml'
     - 'https://vammalannaisvoimistelijat.fi/feed/'
+    - 'https://ski.fi/feed/'
   'World / International':
     - 'https://svenska.yle.fi/rss/utrikes'
     - 'https://yle.fi/rss/t/18-34953/fi'
@@ -8633,6 +8891,8 @@ France:
     - 'https://environnement.bfc.cci.fr/feed/'
     - 'https://monsieurcredit.fr/feed/'
     - 'https://feed.prismamediadigital.com/v1/hbr/rss?limit=20'
+    - 'https://www.paruvendu.fr/pa/rss/default/rssAuto'
+    - 'https://www.paruvendu.fr/pa/rss/default/rssImmo'
   'Lifestyle & Culture':
     - 'https://www.telerama.fr/rss/une.xml'
     - 'https://www.closermag.fr/feed'
@@ -8933,6 +9193,12 @@ France:
     - 'https://xiaowaz.fr/index.php/feed/'
     - 'https://mediatheque.wittenheim.fr/opac/catalog/search?type%5B%5D=title&type%5B%5D=topic&lookfor%5B%5D=&lookfor%5B%5D=&bool%5B%5D=AND&multifilter%5Bnewitem%5D%5B%5D=T&multifilter%5Bformat%5D%5B%5D=Texte&multifilter%5BsectionStr%5D%5B%5D=Adulte&extra_filter%5BexcludeArticle%5D=T&publishDateType=equal&publishDate2019=2019&adv=t&sort=sort_publishDate+desc&rows=12&nb_rows=0&rss=1&rows=15'
     - 'https://mshdecodecap.fr/feed/'
+    - 'https://foodandgood.fr/feed/'
+    - 'https://www.paruvendu.fr/pa/rss/default/rssAnimaux'
+    - 'https://www.paruvendu.fr/pa/rss/default/rssBonsplans'
+    - 'https://www.paruvendu.fr/pa/rss/default/rssEdito'
+    - 'https://www.le-cambresis.fr/feed/'
+    - 'https://una-editions.fr/feed/'
   'Local News':
     - 'https://feeds.leparisien.fr/leparisien/rss'
     - 'https://www.sudouest.fr/rss.xml'
@@ -9561,6 +9827,10 @@ France:
     - 'https://www.territoires62.fr/feed/'
     - 'https://www.patinoire-lillemetropole.fr/feed/'
     - 'https://www.rivesdelalaurence.fr/feed/'
+    - 'https://www.agglo-fecampcauxlittoral.fr/feed/'
+    - 'https://www.ahetze.fr/feed/'
+    - 'https://helette.fr/feed/'
+    - 'https://www.hendaye.fr/fr/feed/'
   Opinion:
     - 'https://www.voltairenet.org/spip.php?page=backend&id_secteur=1110&lang=ar'
   Other:
@@ -10122,6 +10392,7 @@ France:
     - 'https://fm27.pf/feed/'
     - 'https://www.arue.pf/feed/'
     - 'https://contratdeville.pf/feed/'
+    - 'https://collegedepaopao.pf/feed/'
   'Science & Technology':
     - 'https://smashballoon.com/feed/'
 'French Southern Territories':
@@ -10229,6 +10500,7 @@ Georgia:
     - 'https://eeu.edu.ge/feed/'
     - 'https://tabatea.ge/feed/'
     - 'https://visitgeorgia.ge/feed/'
+    - 'https://termin.ge/feed/'
   'Local News':
     - 'https://europeanforum.net/feed/'
     - 'https://nor.ge/?feed=rss2'
@@ -10291,6 +10563,7 @@ Georgia:
   'Science & Technology':
     - 'https://sc.tsu.ge/rss/'
     - 'https://synevo.ge/feed/'
+    - 'https://terminology.ice.tsu.ge/terminology/gateway/plugin/WebFeedGatewayPlugin/atom'
   Sports:
     - 'https://fortuna.ge/feed/'
     - 'https://fckolkheti.ge/feed/'
@@ -10611,6 +10884,7 @@ Germany:
     - 'https://www.ln-online.de/arc/outboundfeeds/rss/category/wirtschaft/'
     - 'https://t3n.de/tag/arbeitswelt/rss.xml'
     - 'https://t3n.de/tag/e-commerce/rss.xml'
+    - 'https://rp-online.de/leben/auto/feed.rss'
   'Lifestyle & Culture':
     - 'https://www.gala.de/feed/standard-rss/'
     - 'https://www.glamour.de/feed/rss'
@@ -10743,6 +11017,8 @@ Germany:
     - 'https://berliner-lokalnachrichten.de/feed/'
     - 'https://hessen.museum-digital.de/rss.php'
     - 'https://brandenburg.museum-digital.de/rss.php'
+    - 'https://rp-online.de/kultur/feed.rss'
+    - 'https://rp-online.de/leben/reisen/feed.rss'
   'Local News':
     - 'http://www.bild.de/rss-feeds/rss-16725492,feed=home.bild.html'
     - 'https://newsfeed.zeit.de/index'
@@ -11263,6 +11539,48 @@ Germany:
     - 'https://dormago.de/rss_alle.php'
     - 'https://lokalo.de/feed/'
     - 'https://kloster-zinna-news.de/feed/'
+    - 'https://www.rbb24.de/index.xml/feed=rss.xml'
+    - 'https://www.wochenblatt-reporter.de/rss'
+    - 'https://sekundarschule-zoeschen.de/index.php?format=feed&type=rss'
+    - 'https://rp-online.de/nrw/staedte/dinslaken/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/dormagen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/duesseldorf/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/duisburg/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/emmerich/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/erkelenz/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/geldern/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/goch/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/grevenbroich/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/hilden/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/hueckeswagen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/juechen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/kaarst/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/kempen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/kevelaer/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/kleve/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/korschenbroich/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/krefeld/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/langenfeld/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/leichlingen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/leverkusen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/meerbusch/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/mettmann/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/moenchengladbach/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/moers/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/nettetal/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/neuss/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/radevormwald/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/ratingen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/remscheid/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/rheinberg/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/rommerskirchen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/solingen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/viersen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/wermelskirchen/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/wesel/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/willich/feed.rss'
+    - 'https://rp-online.de/nrw/staedte/xanten/feed.rss'
+    - 'https://medienportal-grimma.de/feed/'
   Other:
     - 'https://www.baunetz.de/meldungen/rss.xml'
     - 'http://dwds.de/api/feed/adt'
@@ -11429,6 +11747,12 @@ Germany:
     - 'https://www.rhein-kreis-neuss.de/de/service/rss/rss-feed-bekanntmachungen.xml'
     - 'https://www.rhein-kreis-neuss.de/de/service/rss/rssfeedeuaktuell.xml'
     - 'https://volksfreund.de/feed.rss'
+    - 'https://www.rbb24.de/index.xml/feed=tsrss.xml'
+    - 'https://rp-online.de/feed.rss'
+    - 'https://rp-online.de/leben/beruf/feed.rss'
+    - 'https://rp-online.de/panorama/feed.rss'
+    - 'https://rp-online.de/politik/feed.rss'
+    - 'https://rp-online.de/wirtschaft/feed.rss'
   'Science & Technology':
     - 'https://www.fraunhofer.de/de/rss/presse.rss'
     - 'http://kit.edu/pi.rss'
@@ -11533,6 +11857,9 @@ Germany:
     - 'https://t3n.de/tag/software-entwicklung/rss.xml'
     - 'https://t3n.de/tag/startups-economy/rss.xml'
     - 'https://t3n.de/tag/ux-and-design/rss.xml'
+    - 'https://rp-online.de/digitales/feed.rss'
+    - 'https://rp-online.de/leben/gesundheit/feed.rss'
+    - 'https://rp-online.de/panorama/wissen/feed.rss'
   Sports:
     - 'https://www.sportschau.de/index~rss2.xml'
     - 'https://newsfeed.kicker.de/news/aktuell'
@@ -11596,6 +11923,24 @@ Germany:
     - 'https://www.ln-online.de/arc/outboundfeeds/rss/category/sport/'
     - 'https://www.ln-online.de/arc/outboundfeeds/rss/tags_slug/vfb-luebeck/'
     - 'https://op-online.de/rssfeed.rdf'
+    - 'https://rp-online.de/nrw/staedte/rhein-kreis/feed.rss'
+    - 'https://rp-online.de/sport/basketball/feed.rss'
+    - 'https://rp-online.de/sport/eishockey/deg/feed.rss'
+    - 'https://rp-online.de/sport/eishockey/feed.rss'
+    - 'https://rp-online.de/sport/eishockey/kev/feed.rss'
+    - 'https://rp-online.de/sport/feed.rss'
+    - 'https://rp-online.de/sport/formel1/feed.rss'
+    - 'https://rp-online.de/sport/fussball/bayer-04/feed.rss'
+    - 'https://rp-online.de/sport/fussball/borussia/feed.rss'
+    - 'https://rp-online.de/sport/fussball/bundesliga/feed.rss'
+    - 'https://rp-online.de/sport/fussball/feed.rss'
+    - 'https://rp-online.de/sport/fussball/fortuna/feed.rss'
+    - 'https://rp-online.de/sport/fussball/msv/feed.rss'
+    - 'https://rp-online.de/sport/handball/feed.rss'
+    - 'https://rp-online.de/sport/motorsport/feed.rss'
+    - 'https://rp-online.de/sport/radsport/feed.rss'
+    - 'https://rp-online.de/sport/tennis/feed.rss'
+    - 'https://rp-online.de/sport/us-sport/feed.rss'
   'World / International':
     - 'https://www.t-online.de/nachrichten/ukraine/feed.rss'
     - 'https://www.spiegel.de/index.rss'
@@ -11628,6 +11973,7 @@ Ghana:
     - 'https://ghanapublishing.gov.gh/feed/'
     - 'https://shippers.org.gh/index.php/feed/'
     - 'https://agrictoday.com.gh/feed/'
+    - 'https://www.ssnit.org.gh/feed/'
   'Lifestyle & Culture':
     - 'https://yen.com.gh/rss/all.rss'
     - 'https://angelonline.com.gh/feed/'
@@ -11637,6 +11983,7 @@ Ghana:
     - 'https://www.motcca.gov.gh/feed/'
     - 'https://ghbase.com.gh/feed/'
     - 'https://ghsplash.com.gh/feed/'
+    - 'https://klintapscohas.edu.gh/feed/'
   'Local News':
     - 'https://www.jbklutse.com/feed/'
     - 'https://lanmma.gov.gh/feed/'
@@ -11677,6 +12024,10 @@ Ghana:
     - 'https://wamunicipal.gov.gh/feed/'
     - 'https://asutifisouth.gov.gh/feed/'
     - 'https://shamadistrict.gov.gh/feed/'
+    - 'https://htu.edu.gh/feed/'
+    - 'https://imah.gov.gh/feed/'
+    - 'https://tatu.edu.gh/feed/'
+    - 'https://mtce.edu.gh/feed/'
   'Politics & Society':
     - 'https://www.myjoyonline.com/feed/'
     - 'https://newsandvibes.com/feed/'
@@ -12235,6 +12586,9 @@ Greece:
     - 'https://natechbanking.com/feed/'
     - 'https://markets.economico.gr/feed/'
     - 'https://reporter.gr/newsfeed?format=feed'
+    - 'https://soudaport.gr/feed/'
+    - 'https://tourismpress.gr/feed/'
+    - 'https://infomarine.gr/component/mtree/rss/new.html'
   'Lifestyle & Culture':
     - 'https://www.ert.gr/feed/'
     - 'https://www.tlife.gr/feed/'
@@ -12308,6 +12662,14 @@ Greece:
     - 'https://www.variety.gr/feed/'
     - 'https://mcf.gr/el/feed/'
     - 'https://neon.org.gr/en/feed/'
+    - 'https://m.902.gr/feed/40'
+    - 'https://m.902.gr/feed/42234'
+    - 'https://m.902.gr/feed/42235'
+    - 'https://m.902.gr/feed/42236'
+    - 'https://m.902.gr/feed/42237'
+    - 'https://m.902.gr/feed/45'
+    - 'https://kritiki.gr/feed/'
+    - 'https://fisika.gr/feed/'
   'Local News':
     - 'https://www.protothema.gr/rss'
     - 'https://www.cnn.gr/eidhseis?format=feed&type=rss'
@@ -12436,6 +12798,14 @@ Greece:
     - 'https://www.stereanews.gr/feed/'
     - 'https://www.dhmoi.gr/feed/'
     - 'https://www.agrinionews.gr/feed/'
+    - 'https://m.902.gr/feed/41'
+    - 'https://salamina-press.gr/feed/'
+    - 'https://www.koutipandoras.gr/feed/'
+    - 'https://nealesvou.gr/feed/'
+    - 'https://www.trikalaidees.gr/feed/'
+    - 'https://trikkipress.gr/feed/'
+    - 'https://www.ereportaz.gr/category/xclusive/feed/gn'
+    - 'https://www.haniotika-nea.gr/feed/'
   Other:
     - 'http://m.wikipedia.gr/w/api.php?action=featuredfeed&feed=featured&feedformat=atom'
   'Politics & Society':
@@ -12532,6 +12902,35 @@ Greece:
     - 'https://www.briefingnews.gr/feed/rss'
     - 'https://rednotebook.gr/feed/'
     - 'https://voria.gr/rss-feed'
+    - 'https://m.902.gr/feed/1142'
+    - 'https://m.902.gr/feed/1143'
+    - 'https://m.902.gr/feed/128515'
+    - 'https://m.902.gr/feed/31'
+    - 'https://m.902.gr/feed/32'
+    - 'https://m.902.gr/feed/34'
+    - 'https://m.902.gr/feed/35'
+    - 'https://m.902.gr/feed/37'
+    - 'https://m.902.gr/feed/38'
+    - 'https://m.902.gr/feed/42'
+    - 'https://m.902.gr/feed/42226'
+    - 'https://m.902.gr/feed/42228'
+    - 'https://m.902.gr/feed/42230'
+    - 'https://m.902.gr/feed/42232'
+    - 'https://m.902.gr/feed/43'
+    - 'https://m.902.gr/feed/44'
+    - 'https://m.902.gr/feed/49'
+    - 'https://m.902.gr/feed/73480'
+    - 'https://m.902.gr/feed/featured'
+    - 'https://m.902.gr/feed/recent'
+    - 'https://todaypress.gr/feed/'
+    - 'https://homodigitalis.gr/feed/'
+    - 'https://mediatvnews.gr/feed/'
+    - 'https://www.ereportaz.gr/category/justice/feed/gn'
+    - 'https://www.ereportaz.gr/category/society/feed/gn'
+    - 'https://www.ereportaz.gr/feed/'
+    - 'https://www.ereportaz.gr/feed/gn'
+    - 'https://www.twinkl.gr/rss/blog'
+    - 'https://globalview.gr/feed/'
   'Science & Technology':
     - 'https://carsnews.gr/feed/'
     - 'https://fibernews.gr/feed/'
@@ -12550,6 +12949,7 @@ Greece:
     - 'https://lib.duth.gr/feed/'
     - 'https://verde-tec.gr/feed/'
     - 'https://eltnews.gr/feed/'
+    - 'https://techmaniacs.gr/feed/'
   Sports:
     - 'https://www.eurohoops.net/en/feed/'
     - 'https://www.eurohoops.net/feed/'
@@ -12583,6 +12983,7 @@ Greece:
     - 'https://www.sportal.gr/feed/sports'
     - 'https://www.sportal.gr/feed/synenteykseis'
     - 'https://www.neolaia.gr/feed/'
+    - 'https://m.902.gr/feed/39'
   'World / International':
     - 'https://iefimerida.gr/rss.xml'
     - 'https://www.protothema.gr/rss'
@@ -12606,6 +13007,8 @@ Greece:
     - 'https://directus.gr/feed/'
     - 'https://veteranos.gr/feed/'
     - 'https://katohika.gr/feed/'
+    - 'https://m.902.gr/feed/33'
+    - 'https://m.902.gr/feed/timeline'
 Greenland:
   'Business & Economy':
     - 'https://www.ral.gl/feed/'
@@ -12631,6 +13034,8 @@ Grenada:
   'Politics & Society':
     - 'https://gbn.gd/feed/'
 Guadeloupe:
+  'Business & Economy':
+    - 'https://www.carglass.gp/feed/'
   'Local News':
     - 'https://titiri.promotion-sante.gp/feed/'
     - 'https://smt.gp/feed/'
@@ -12641,6 +13046,8 @@ Guadeloupe:
 Guatemala:
   'Business & Economy':
     - 'https://gruposgestores.org.gt/feed/'
+    - 'https://agexporthoy.export.com.gt/feed/'
+    - 'https://interbanco.com.gt/feed/'
   'Lifestyle & Culture':
     - 'https://noticias.mcd.gob.gt/feed/'
     - 'https://noticiasvr.gt/feed/'
@@ -12660,6 +13067,9 @@ Guatemala:
     - 'https://localtimes.com.gt/feed/'
     - 'https://municarcha.gob.gt/feed/'
     - 'https://gobernacionaltaverapaz.gob.gt/?feed=rss2'
+    - 'https://www.villanueva.gob.gt/feed/'
+    - 'https://munisandiego.gob.gt/feed/'
+    - 'https://infom.gob.gt/feed/'
   'Politics & Society':
     - 'https://elmetropolitano.com.gt/es/feed/'
     - 'https://dca.gob.gt/feed/'
@@ -12866,6 +13276,7 @@ Honduras:
     - 'https://www.radiohrn.hn/rss/negocios-y-finanzas.xml'
     - 'https://www.prensa.sag.gob.hn/feed/'
     - 'https://ine.gob.hn/feed/'
+    - 'https://dinero.hn/feed/'
   'Lifestyle & Culture':
     - 'https://suyapamedios.hn/feed/'
     - 'https://revistahibueras.hn/feed/'
@@ -13056,6 +13467,7 @@ Hungary:
     - 'https://termalfurdo.hu/rss'
     - 'https://szentistvantv.hu/rss'
     - 'https://erdekesmagazin.hu/feed/'
+    - 'https://www.apertura.hu/feed/'
   'Local News':
     - 'https://24.hu/feed/'
     - 'https://www.blikk.hu/rss-articles.xml'
@@ -13184,6 +13596,9 @@ Hungary:
     - 'https://szendro.hu/feed/'
     - 'https://tiszacsege.hu/?feed=rss2'
     - 'https://csodalatosmagyarorszag.hu/feed/'
+    - 'http://tiszafoldvar.hu/feed/rss/'
+    - 'https://www.szarvasihet.hu/feed/'
+    - 'https://www.newjsag.hu/feed/'
   Opinion:
     - 'https://pestihirek.hu/feed/'
   Other:
@@ -13593,6 +14008,7 @@ India:
     - 'https://emperium.in/feed/'
     - 'https://ntmedia.in/feed/'
     - 'https://papermart.in/feed/'
+    - 'https://print-news.in/feed/'
   'Lifestyle & Culture':
     - 'https://www.news18.com/commonfeeds/v1/eng/rss/photogallery.xml'
     - 'https://www.news18.com/commonfeeds/v1/eng/rss/video.xml'
@@ -13817,6 +14233,8 @@ India:
     - 'https://chitralekha.co.in/feed/'
     - 'https://www.delotus.in/feed/'
     - 'https://tharjani.in/feed/'
+    - 'https://mediascan.in/feed/'
+    - 'https://shodhpatrika.in/index.php/hindi/gateway/plugin/WebFeedGatewayPlugin/atom'
   'Local News':
     - 'https://www.aajtak.in/rssfeeds/?id=home'
     - 'https://www.news18.com/commonfeeds/v1/eng/rss/latest.xml'
@@ -14080,6 +14498,12 @@ India:
     - 'https://srinagarjang.in/feed/'
     - 'https://teluguvartha.in/?feed=rss2'
     - 'https://newsstardom.in/feed/'
+    - 'https://www.amhnews.in/feed/'
+    - 'https://hulchalbikana.in/feed/'
+    - 'https://khabarbat.in/feed/'
+    - 'https://ballialive.in/feed/'
+    - 'https://news24tassmarathi.in/feed/'
+    - 'https://omergatimes.in/feed/'
   Opinion:
     - 'https://www.indiatv.in/rssnews/topstory-fact-check.xml'
     - 'https://www.news18.com/commonfeeds/v1/eng/rss/opinion.xml'
@@ -14501,6 +14925,15 @@ India:
     - 'https://www.tazatimenews.in/feed/'
     - 'https://akalidalamritsar.in/?feed=rss2'
     - 'https://news90karnataka.in/feed/'
+    - 'https://www.forwardpress.in/feed/'
+    - 'https://hwnews.in/feed/'
+    - 'https://rnsindia.co.in/?feed=rss2'
+    - 'https://vadgaonnews.in/feed/'
+    - 'https://www.purogamiekta.in/feed/'
+    - 'https://thenewspark.in/feed/'
+    - 'https://sahyadrisamachar.in/?feed=rss2'
+    - 'https://chintha.in/?feed=rss2'
+    - 'https://www.zunjarzep.in/feeds/posts/default'
   'Science & Technology':
     - 'http://docs.projectbluefin.io/blog/rss.xml'
     - 'https://mobileidworld.com/feed/'
@@ -14588,6 +15021,9 @@ India:
     - 'https://thefollowup.in/rss-v1-category-9.xml'
     - 'https://cybermithra.in/feed/'
     - 'https://www.edtechreview.in/feed/'
+    - 'https://www.infralog.in/feed/'
+    - 'https://technobong.in/feed/'
+    - 'https://referrallabs.in/feed/'
   Sports:
     - 'https://khelnow.com/feed'
     - 'https://cananewsonline.com/main/feed/'
@@ -14631,6 +15067,7 @@ India:
     - 'https://d24news.in/rss/category/खेळजगत'
     - 'https://onlinenewspaper.co.in/feed/rss'
     - 'https://thefollowup.in/rss-v1-category-5.xml'
+    - 'https://myfinal11.in/feed/'
   'World / International':
     - 'https://www.c3sindia.org/blog-feed.xml'
     - 'https://www.cvtelugunews.in/feeds/posts/default'
@@ -14728,6 +15165,9 @@ Indonesia:
     - 'https://radarpena.co.id/rss/jabodetabek'
     - 'https://radarpena.co.id/rss/otomotif'
     - 'https://maritimindonesia.id/feed/'
+    - 'https://www.inilahkoran.id/rss/category/ekonomi'
+    - 'https://www.inilahkoran.id/rss/category/serba-serbi'
+    - 'https://jambiekspres.disway.id/rss/hiburan'
   'Lifestyle & Culture':
     - 'https://feed.liputan6.com/rss/showbiz'
     - 'https://feed.liputan6.com/rss/hot'
@@ -14786,6 +15226,12 @@ Indonesia:
     - 'https://edukasystem.id/feed/'
     - 'https://tafsiralquran.id/feed/'
     - 'https://repository.uinbukittinggi.ac.id/cgi/latest_tool?output=Atom'
+    - 'https://www.inilahkoran.id/rss/category/gaya-hidup'
+    - 'https://www.inilahkoran.id/rss/category/korea'
+    - 'https://www.inilahkoran.id/rss/category/risalah'
+    - 'https://www.inilahkoran.id/rss/category/seleb'
+    - 'https://quipper.co.id/feed/'
+    - 'http://digilib.isi.ac.id/cgi/latest_tool?output=RSS2'
   'Local News':
     - 'https://batampos.co.id/feed/'
     - 'https://mediaindonesia.com/feed'
@@ -15311,6 +15757,107 @@ Indonesia:
     - 'https://islam.nu.or.id/rss.xml'
     - 'https://mediakontras.id/feed/'
     - 'https://www.atjehterkini.id/feed/'
+    - 'https://web.simalungunkab.go.id/feed/'
+    - 'https://ayanadutamandiri.co.id/feed/'
+    - 'https://sergap.co.id/feed/'
+    - 'https://bacaria.id/feed/'
+    - 'https://www.24hours.id/feed/'
+    - 'https://www.blogger.com/feeds/4627770081568842884/posts/default'
+    - 'https://www.jelajahindonesia.id/feeds/posts/default'
+    - 'https://kabarinvestigasi.co.id/feed/'
+    - 'https://benang.id/feed/'
+    - 'https://www.badar.co.id/feeds/posts/default'
+    - 'https://www.inilahkoran.id/rss/category/bandung-juara'
+    - 'https://www.inilahkoran.id/rss/category/bandung-raya'
+    - 'https://www.inilahkoran.id/rss/category/bogor'
+    - 'https://www.inilahkoran.id/rss/category/cirebon'
+    - 'https://www.inilahkoran.id/rss/category/purwakarta'
+    - 'https://www.inilahkoran.id/rss/category/regional'
+    - 'https://www.inilahkoran.id/rss/category/tasikmalaya'
+    - 'https://www.inilahkoran.id/rss/category/warganet'
+    - 'https://www.inilahkoran.id/rss/latest-posts'
+    - 'https://www.noa.co.id/feed/'
+    - 'https://koransakti.co.id/feed/'
+    - 'https://jambiekspres.disway.id/rss/ekonomi'
+    - 'https://jambiekspres.disway.id/rss/hukum'
+    - 'https://jambiekspres.disway.id/rss/internasional'
+    - 'https://jambiekspres.disway.id/rss/kelapa-sawit'
+    - 'https://jambiekspres.disway.id/rss/khazanah'
+    - 'https://jambiekspres.disway.id/rss/olahraga'
+    - 'https://jambiekspres.disway.id/rss/opini'
+    - 'https://jambiekspres.disway.id/rss/otomotif'
+    - 'https://jambiekspres.disway.id/rss/pemkab-merangin'
+    - 'https://jambiekspres.disway.id/rss/pemprov-jambi'
+    - 'https://jambiekspres.disway.id/rss/pendidikan'
+    - 'https://www.tabengan.co.id/feed/'
+    - 'https://umsu.ac.id/feed/'
+    - 'https://www.identitasnews.id/feed/'
+    - 'https://peloporwiratama.co.id/feed/'
+    - 'https://memorandum.disway.id/rss/banyuwangi'
+    - 'https://memorandum.disway.id/rss/batu'
+    - 'https://memorandum.disway.id/rss/bojonegoro'
+    - 'https://memorandum.disway.id/rss/bondowoso'
+    - 'https://memorandum.disway.id/rss/catatan-redaksi'
+    - 'https://memorandum.disway.id/rss/ekonomi'
+    - 'https://memorandum.disway.id/rss/entertainment'
+    - 'https://memorandum.disway.id/rss/gaya-hidup'
+    - 'https://memorandum.disway.id/rss/gresik'
+    - 'https://memorandum.disway.id/rss/hukum-kriminal'
+    - 'https://memorandum.disway.id/rss/jaksa-menyapa'
+    - 'https://memorandum.disway.id/rss/jatim'
+    - 'https://memorandum.disway.id/rss/jember'
+    - 'https://memorandum.disway.id/rss/jombang'
+    - 'https://memorandum.disway.id/rss/kediri'
+    - 'https://memorandum.disway.id/rss/kediri-raya'
+    - 'https://memorandum.disway.id/rss/kesehatan'
+    - 'https://memorandum.disway.id/rss/lamongan'
+    - 'https://memorandum.disway.id/rss/lumajang'
+    - 'https://memorandum.disway.id/rss/madiun'
+    - 'https://memorandum.disway.id/rss/madura'
+    - 'https://memorandum.disway.id/rss/malang-kabupaten'
+    - 'https://memorandum.disway.id/rss/malang-kota'
+    - 'https://memorandum.disway.id/rss/malang-raya'
+    - 'https://memorandum.disway.id/rss/mataraman'
+    - 'https://memorandum.disway.id/rss/metropolitan'
+    - 'https://memorandum.disway.id/rss/mojokerto'
+    - 'https://memorandum.disway.id/rss/nasional'
+    - 'https://memorandum.disway.id/rss/ngawi'
+    - 'https://memorandum.disway.id/rss/olahraga'
+    - 'https://memorandum.disway.id/rss/pantura'
+    - 'https://memorandum.disway.id/rss/pasuruan'
+    - 'https://memorandum.disway.id/rss/pendidikan'
+    - 'https://memorandum.disway.id/rss/pojok-ketintang'
+    - 'https://memorandum.disway.id/rss/polda-jatim'
+    - 'https://memorandum.disway.id/rss/politik'
+    - 'https://memorandum.disway.id/rss/polres-batu'
+    - 'https://memorandum.disway.id/rss/polres-bojonegoro'
+    - 'https://memorandum.disway.id/rss/polres-gresik'
+    - 'https://memorandum.disway.id/rss/polres-lamongan'
+    - 'https://memorandum.disway.id/rss/polres-malang'
+    - 'https://memorandum.disway.id/rss/polres-tanjung-perak'
+    - 'https://memorandum.disway.id/rss/polres-tuban'
+    - 'https://memorandum.disway.id/rss/polresta-malang-kota'
+    - 'https://memorandum.disway.id/rss/polresta-sidoarjo'
+    - 'https://memorandum.disway.id/rss/polrestabes-surabaya'
+    - 'https://memorandum.disway.id/rss/probolinggo'
+    - 'https://memorandum.disway.id/rss/sejuta-kisah-rumah-tangga'
+    - 'https://memorandum.disway.id/rss/sidoarjo'
+    - 'https://memorandum.disway.id/rss/sijoker'
+    - 'https://memorandum.disway.id/rss/situbondo'
+    - 'https://memorandum.disway.id/rss/surabaya'
+    - 'https://memorandum.disway.id/rss/tapal-kuda'
+    - 'https://memorandum.disway.id/rss/trenggalek'
+    - 'https://memorandum.disway.id/rss/tuban'
+    - 'https://memorandum.disway.id/rss/tulungagung'
+    - 'https://memorandum.disway.id/rss/umum'
+    - 'https://memorandum.disway.id/rss/urban-legend'
+    - 'https://surabayapost.id/feed/'
+    - 'https://polrespangandaran.id/feed/'
+    - 'https://betanews.id/feed'
+    - 'https://www.newsinkalteng.co.id/feeds/posts/default'
+    - 'https://1news.id/feed/'
+  Opinion:
+    - 'https://www.inilahkoran.id/rss/category/opini'
   Other:
     - 'https://perdamsi.or.id/feed/'
     - 'https://www.hpi.or.id/feed'
@@ -15656,6 +16203,35 @@ Indonesia:
     - 'https://kabarbahri.co.id/feed/'
     - 'https://www.ainamulyana.id/feeds/posts/default'
     - 'https://www.komunitasbelajar.id/feeds/posts/default'
+    - 'https://www.internationalmedia.id/feeds/posts/default'
+    - 'https://www.inilahkoran.id/rss/category/dprd-jawa-barat'
+    - 'https://www.inilahkoran.id/rss/category/hukum-nasional'
+    - 'https://www.inilahkoran.id/rss/category/jabar-istimewa'
+    - 'https://www.inilahkoran.id/rss/category/nasional'
+    - 'https://www.inilahkoran.id/rss/category/politik-nasional'
+    - 'https://www.inilahkoran.id/rss/category/sikap-kami'
+    - 'https://mediaedukasi.id/feed/'
+    - 'https://jambiekspres.disway.id/rss/advetorial'
+    - 'https://jambiekspres.disway.id/rss/berita-daerah'
+    - 'https://jambiekspres.disway.id/rss/dprd-batanghari-bersinergi'
+    - 'https://jambiekspres.disway.id/rss/metropolis'
+    - 'https://jambiekspres.disway.id/rss/nasional'
+    - 'https://jambiekspres.disway.id/rss/politik'
+    - 'https://jambiekspres.disway.id/rss/ptpn-iv'
+    - 'https://jambiekspres.disway.id/rss/viral'
+    - 'https://indowork.id/feed/'
+    - 'https://suarautama.id/feed/'
+    - 'https://globalnews21.id/feed/'
+    - 'https://memorandum.disway.id/rss/advertorial'
+    - 'https://memorandum.disway.id/rss/blitar'
+    - 'https://memorandum.disway.id/rss/magetan'
+    - 'https://memorandum.disway.id/rss/mameng'
+    - 'https://memorandum.disway.id/rss/nganjuk'
+    - 'https://memorandum.disway.id/rss/ponorogo'
+    - 'https://memorandum.disway.id/rss/top-legal-corner'
+    - 'https://ridwaninstitute.co.id/feed/'
+    - 'https://kabar.id/feed/'
+    - 'https://moneytalk.id/feed/'
   'Science & Technology':
     - 'https://feed.liputan6.com/rss/tekno'
     - 'https://www.its.ac.id/feed/'
@@ -15715,6 +16291,9 @@ Indonesia:
     - 'https://www.tambang.id/blog-feed.xml'
     - 'https://www.blogger.com/feeds/3248628209779035587/posts/default'
     - 'https://www.gurugeografi.id/feeds/posts/default'
+    - 'https://www.piffle.me/feed/'
+    - 'http://repository.unhas.ac.id/cgi/latest_tool?output=RSS2'
+    - 'http://ugm.ac.id/id/news/feed.xml'
   Sports:
     - 'https://feed.liputan6.com/rss/bola'
     - 'https://tni-au.mil.id/rss/jumat-ceria-sehat-bahagia-ketua-pia-ag-cab-4-d-iii-lanud-yku-timika-ajak-anggota-olahraga-bersama'
@@ -15770,6 +16349,11 @@ Indonesia:
     - 'https://50kota.pers.co.id/rss/category-id/8'
     - 'https://startingeleven.id/feed/'
     - 'https://beritaharian.co.id/rss/category/olahraga'
+    - 'https://www.inilahkoran.id/rss/category/all-sport'
+    - 'https://www.inilahkoran.id/rss/category/bola-dunia'
+    - 'https://www.inilahkoran.id/rss/category/persib'
+    - 'https://www.inilahkoran.id/rss/category/sport'
+    - 'https://www.inilahkoran.id/rss/category/tim-nasional'
   'World / International':
     - 'https://www.rockefellerfoundation.org/feed/'
     - 'https://feed.liputan6.com/rss/global'
@@ -15781,6 +16365,8 @@ Indonesia:
     - 'https://50kota.pers.co.id/rss/category-id/82'
     - 'https://redigest.web.id/feed/'
     - 'https://asiatoday.id/feed'
+    - 'https://www.inilahkoran.id/rss/category/dunia'
+    - 'https://dataloka.id/feed/'
 Iran:
   'Business & Economy':
     - 'http://iranjib.ir/newsrss.php'
@@ -15951,6 +16537,8 @@ Iran:
     - 'https://rahnemaland.ir/feed/'
     - 'https://badbannews.ir/feed/'
     - 'https://aramah.ir/feed/'
+    - 'https://rudakijournal.ir/././ju.rss'
+    - 'https://rudakijournal.ir/./ju.rss'
   'Local News':
     - 'http://pana.ir/feeds/'
     - 'http://esfahanemrooz.ir/feeds'
@@ -16131,6 +16719,7 @@ Iran:
     - 'https://lijaar.ir/feed/'
     - 'https://rooznamaonline.ir/feed/'
     - 'https://www.tolokhuzestan.ir/feed/rss/'
+    - 'https://qeshmcity.ir/feed/'
   Opinion:
     - 'https://khabaronline.ir/rss/tp/1054'
     - 'https://khabaronline.ir/rss/tp/657'
@@ -16346,6 +16935,17 @@ Iran:
     - 'https://ircud.ir//fa/rss/latest/آخرین-اخبار'
     - 'https://ircud.ir//fa/rss/service/238/سیاست-گذاری-فرهنگی'
     - 'https://mizanonline.ir/fa/rss/allnews'
+    - 'https://shenasname.ir/feed'
+    - 'https://french.khamenei.ir/feed/service/11653'
+    - 'https://french.khamenei.ir/feed/service/11654'
+    - 'https://french.khamenei.ir/feed/service/11656'
+    - 'https://french.khamenei.ir/feed/service/11661'
+    - 'https://french.khamenei.ir/feed/service/11664'
+    - 'https://french.khamenei.ir/feed/service/13319'
+    - 'https://french.khamenei.ir/feed/service/13377'
+    - 'https://french.khamenei.ir/feed/service/13527'
+    - 'https://french.khamenei.ir/feed/service/13564'
+    - 'https://french.khamenei.ir/feed/service/all'
   'Science & Technology':
     - 'http://jlts.um.ac.ir/./ju.rss'
     - 'https://mehrnews.com/rss/tp/173'
@@ -16530,6 +17130,12 @@ Iran:
     - 'https://en.imna.ir/rss/tp/77'
     - 'https://shouba.ir/feed/'
     - 'https://english.khamenei.ir/rss?tp=26'
+    - 'https://french.khamenei.ir/feed/service/11665'
+    - 'https://french.khamenei.ir/feed/service/11666'
+    - 'https://french.khamenei.ir/feed/service/13526'
+    - 'https://french.khamenei.ir/feed/service/13565'
+    - 'https://french.khamenei.ir/feed/service/13830'
+    - 'https://french.khamenei.ir/feed/service/13869'
 Iraq:
   'Business & Economy':
     - 'https://feeds.iraqsun.com/rss/c31d0aaa23b24a75'
@@ -16639,6 +17245,7 @@ Iraq:
     - 'https://alameed.alameedcenter.iq/amd/index.php/ameed/gateway/plugin/WebFeedGatewayPlugin/rss2'
     - 'https://alsadiqon.iq/feed'
     - 'https://aldaeraanews.iq/feed/'
+    - 'https://ncmdit.gov.iq/feed/'
   'Science & Technology':
     - 'https://science.uokerbala.edu.iq/feed/'
     - 'https://ijarmoa.gov.iq/index.php/ijar/en/gateway/plugin/WebFeedGatewayPlugin/atom'
@@ -16674,6 +17281,7 @@ Iraq:
     - 'https://repository.qu.edu.iq/?feed=rss2'
     - 'https://ijl.uobaghdad.edu.iq/index.php/IJL/gateway/plugin/WebFeedGatewayPlugin/atom'
     - 'https://iqjmc.uobaghdad.edu.iq/index.php/19JFacMedBaghdad36/gateway/plugin/WebFeedGatewayPlugin/atom'
+    - 'https://nsc.univsul.edu.iq/en/feed/'
   Sports:
     - 'https://honairaqnew.iq/feed/'
     - 'https://api.alrabiaa.tv/api/v1/feed/categories/رياضي/3'
@@ -16738,6 +17346,8 @@ Ireland:
     - 'https://tidesandtales.ie/feed/'
     - 'https://www.thestandingstone.ie/feeds/posts/default'
     - 'https://swanriverpress.ie/feed/'
+    - 'https://kilkennyarchaeologicalsociety.ie/feed/'
+    - 'https://thegloss.ie/feed/'
   'Local News':
     - 'https://www.irishexaminer.com/feed/35-top_news.xml'
     - 'http://thejournal.ie/feed/'
@@ -16908,6 +17518,7 @@ Israel:
     - 'https://shuky.co.il/feed/'
     - 'https://hold.co.il/feed/'
     - 'https://rcs.mako.co.il/rss/news-money.xml'
+    - 'https://zmanavir.co.il/feed'
   'Lifestyle & Culture':
     - 'https://www.midnighteast.com/mag/?feed=rss2'
     - 'https://fashionforward.mako.co.il/feed/'
@@ -17053,6 +17664,8 @@ Israel:
     - 'https://rss.walla.co.il/feed/13441'
     - 'https://www.roshpina.org.il/feed/'
     - 'https://sefertov.co.il/feed/'
+    - 'https://www.il4u.org.il/feed'
+    - 'https://lehi.org.il/he/feed/'
   'Local News':
     - 'https://jerusalemnews.co.il/feed/'
     - 'https://beersheva.mynet.co.il/Integration/StoryRss29.xml'
@@ -17128,6 +17741,7 @@ Israel:
     - 'https://yerushalmim.co.il/feed/'
     - 'https://ramat-hasharon.muni.il/feed/'
     - 'https://sdedov.co.il/feed/'
+    - 'https://mikolmakom.co.il/feed/'
   Opinion:
     - 'https://talmidi.co.il/feed/'
   Other:
@@ -17592,6 +18206,8 @@ Italy:
     - 'https://www.montecarlonews.it/links/rss/argomenti/nizza/rss.xml'
     - 'https://www.montecarlonews.it/links/rss/argomenti/oroscopo/rss.xml'
     - 'https://www.ajonoas.it/category/cultura/feed/'
+    - 'https://www.visittortoliarbatax.it/feed/'
+    - 'https://www.bblegemelle.it/feed/'
   'Local News':
     - 'https://www.corriereadriatico.it/rss/home.xml'
     - 'https://www.ilgazzettino.it/rss/home.xml'
@@ -18010,6 +18626,8 @@ Italy:
     - 'https://www.ajonoas.it/category/dalle-province/feed/'
     - 'https://www.ajonoas.it/category/primo-piano/feed/'
     - 'https://www.agrigentooggi.it/feed/'
+    - 'https://www.icvillabate2.edu.it/feed/'
+    - 'https://primadituttoverona.it/feed/'
   Opinion:
     - 'https://www.ilfoglio.it/lettere/rss.xml'
   Other:
@@ -18166,6 +18784,8 @@ Italy:
     - 'https://www.ajonoas.it/category/politica/feed/'
     - 'https://www.ajonoas.it/category/rubriche/feed/'
     - 'https://www.avvocatitermini.it/feed/'
+    - 'https://www.angeloporcheddu.it/feed/'
+    - 'https://www.giornalistitalia.it/feed/'
   'Science & Technology':
     - 'https://www.wired.it/feed/rss'
     - 'https://feeds.feedburner.com/tiscali-nedd'
@@ -18224,6 +18844,7 @@ Italy:
     - 'http://www.isprambiente.gov.it/it/news/notizie/RSS'
     - 'http://www.canapaindustriale.it/feed'
     - 'https://www.cannabisterapeutica.info/feed'
+    - 'https://dpc-web-api.protezionecivile.gov.it/rss/dpcPortalGenerateRss?categoria=notizia'
   Sports:
     - 'http://www.today.it/rss'
     - 'https://www.pianetabasket.com/rss'
@@ -18457,6 +19078,7 @@ Italy:
     - 'https://lepatriote.ci/rss/category/economie'
     - 'https://fdfp.ci/feed/'
     - 'https://dge.gouv.ci/rss.xml'
+    - 'https://cotedivoirexport.ci/feed/'
   'Lifestyle & Culture':
     - 'https://lepatriote.ci/rss/category/art-culture'
     - 'https://www.pulse.ci/rss-articles.xml'
@@ -18490,6 +19112,9 @@ Italy:
     - 'https://mediazine.ci/feed/'
     - 'https://www.iri.org/feed/'
     - 'https://cndh.ci/feed/'
+    - 'https://unite.ci/feed/'
+  'Science & Technology':
+    - 'https://digitalmag.ci/feed/'
   Sports:
     - 'https://sport-ivoire.ci/rss.xml'
     - 'https://lepatriote.ci/rss/category/SPORT'
@@ -18591,6 +19216,7 @@ Japan:
     - 'https://www.automation-news.jp/feed/'
     - 'https://yuza-disty.jp/feed/'
     - 'https://deepwind.jp/feed/'
+    - 'https://wake-mob.jp/feed/'
   'Lifestyle & Culture':
     - 'https://news.gamme.com.tw/feed'
     - 'http://current.ndl.go.jp/rss.xml'
@@ -18650,6 +19276,9 @@ Japan:
     - 'https://ndl.go.jp/jp/rss/update.xml'
     - 'https://www.kodomo.go.jp/rss/info.xml'
     - 'https://www.kodomo.go.jp/rss/kodomo.xml'
+    - 'https://fujieda-yaizu.goguynet.jp/feed/'
+    - 'https://gero-official.jp/feed'
+    - 'https://plugplus.rittor-music.co.jp/feed/'
   'Local News':
     - 'https://www.kyodo.co.jp/feed/'
     - 'https://www.fnn.jp/list/feed/rss'
@@ -18696,9 +19325,12 @@ Japan:
     - 'https://www.osakametro.co.jp/news.xml'
     - 'https://www.osakametro.co.jp/topics.xml'
     - 'https://yonago.goguynet.jp/feed/'
+    - 'https://www.uoyomi.jp/topics/feed/'
+    - 'https://yaidara.jp/feed/'
   Other:
     - 'http://current.ndl.go.jp/cae-rss'
     - 'https://jijimon.jp/atom.xml'
+    - 'https://b.hatena.ne.jp/entry/rss/https://blog.google/intl/ja-jp/feed/gemini/'
   'Politics & Society':
     - 'https://txbiz.tv-tokyo.co.jp/news_media/sitemap/rss.xml'
     - 'http://digital.go.jp/rss/news.xml'
@@ -18794,6 +19426,8 @@ Japan:
     - 'https://ndl.go.jp/jp/publisher/rss/rss.xml'
     - 'https://ndlsearch.ndl.go.jp/rss/mina/mnews.xml'
     - 'https://ndlsearch.ndl.go.jp/rss/ndls/rss.xml'
+    - 'https://b.hatena.ne.jp/hotentry.rss'
+    - 'https://blog.google/intl/ja-jp/rss/'
   Sports:
     - 'https://shiga-sports2025.jp/feed'
     - 'https://fmbh.jp/index.rdf'
@@ -18831,8 +19465,10 @@ Jersey:
     - 'https://rss.buzzsprout.com/2532359.rss'
     - 'https://societe.je/feed/'
     - 'https://stjohn.je/feed/'
+    - 'https://stsaviour.je/feed/'
   'Politics & Society':
     - 'https://blog.gov.je/feed/'
+    - 'https://safeguarding.je/feed/'
 Jordan:
   'Business & Economy':
     - 'https://ase.com.jo/ar/rss_circulars/rss.xml'
@@ -18855,9 +19491,11 @@ Jordan:
     - 'https://meico.com.jo/feed/'
     - 'https://abj.org.jo/feed'
     - 'https://sdc.com.jo/rss.xml'
+    - 'https://amcham.jo/feed/'
   'Lifestyle & Culture':
     - 'https://massira.jo/rss.xml'
     - 'https://jjmll.yu.edu.jo/index.php/jjmll/gateway/plugin/WebFeedGatewayPlugin/atom'
+    - 'https://mlc.edu.jo/feed/'
   'Local News':
     - 'https://ase.com.jo/ar/rss_disclosures_assembly/rss.xml'
     - 'https://irbid.gov.jo/?feed=rss2'
@@ -18918,6 +19556,7 @@ Kazakhstan:
     - 'https://itube.kaztrk.kz/rss/'
     - 'https://iref.kz/feed/'
     - 'https://elibrary.kaznu.kz/ru/feed'
+    - 'https://kerekinfo.kz/rss/index/'
   'Local News':
     - 'https://informburo.kz/rss/pubsubhubbub-feed.xml'
     - 'https://sputnik.kz/export/rss2/archive/index.xml'
@@ -18980,6 +19619,7 @@ Kazakhstan:
     - 'https://aktobetimes.kz/rss.xml'
     - 'https://aktobetimes.kz/rssdzen.xml'
     - 'https://verbum.kz/feed/'
+    - 'https://zhaiyqmedia.kz/feed/'
   'Politics & Society':
     - 'https://vlast.kz/feed/'
     - 'http://time.kz/rss'
@@ -19030,6 +19670,8 @@ Kazakhstan:
     - 'https://todayinfo.kz/ru/feed/'
     - 'https://taraz24news.kz/?feed=rss2'
     - 'https://shyndyk.kz/feed/'
+    - 'https://redmedia.kz/feed/'
+    - 'https://vecher.kz/ru/xml/rss.xml'
   'Science & Technology':
     - 'https://naked-science.ru/feed/gn'
     - 'https://www.ixbt.com/export/news.rss'
@@ -19084,6 +19726,8 @@ Kenya:
     - 'https://vectorafriqproperties.co.ke/feed/'
     - 'https://constructioninkenya.co.ke/feed/'
     - 'https://www.mhasibuhousing.co.ke/feed/'
+    - 'https://techtrendske.co.ke/feed/'
+    - 'https://fintechnews.co.ke/feed/'
   'Lifestyle & Culture':
     - 'https://www.kenyan-post.com/feeds/posts/default'
     - 'https://ebulletin.firstbaptistathi.co.ke/feed/'
@@ -19094,6 +19738,8 @@ Kenya:
     - 'https://jaqanazresort.co.ke/feed/'
     - 'https://joekphotography.co.ke/feed/'
     - 'https://kenyannews.co.ke/feed/'
+    - 'https://youthvillage.co.ke/feed/'
+    - 'https://buzzcentral.co.ke/feed/'
   'Local News':
     - 'https://www.kenya-today.com/feed/'
     - 'https://hapakenya.com/feed/'
@@ -19120,6 +19766,10 @@ Kenya:
     - 'https://jumuika.co.ke/feed/projects'
     - 'https://themountainjournal.co.ke/feed/'
     - 'https://kalyafm.co.ke/feed/'
+    - 'https://bnn.ke/feed/'
+    - 'https://wtv.co.ke/feed/'
+    - 'https://kisii.co.ke/feed/'
+    - 'https://ngongmunicipality.kajiado.go.ke/feed/'
   Other:
     - 'https://street.co.ke/feed/'
   'Politics & Society':
@@ -19192,6 +19842,8 @@ Kenya:
     - 'https://kenyanslivingit.co.ke/feed/'
     - 'https://safinews.co.ke/feed/'
     - 'https://www.pulse.co.ke/rss-articles.xml'
+    - 'https://kiambudailynews.co.ke/feed/'
+    - 'https://www.plugmedia.co.ke/feed/'
   'Science & Technology':
     - 'https://www.kachwanya.com/feed/'
     - 'https://tech-ish.com/feed/'
@@ -19331,6 +19983,7 @@ Kyrgyzstan:
     - 'https://invest.gov.kg/feed/'
     - 'https://invest.na.kg/feed/'
     - 'https://jumush.kg/rss-feed/'
+    - 'https://sdb.kg/feed/'
   'Lifestyle & Culture':
     - 'https://ilim.naskr.kg/index.php/main/gateway/plugin/WebFeedGatewayPlugin/atom'
     - 'https://openosh.kg/feed/'
@@ -19371,6 +20024,7 @@ Kyrgyzstan:
     - 'https://day.kg/rss.xml'
     - 'https://enactus.kg/feed/'
     - 'https://oshcity.gov.kg/ky/feed/'
+    - 'https://aravan-r.turmush.kg/rss'
   'Politics & Society':
     - 'https://akipress.com/rss/en.rss'
     - 'https://24.kg/ekonomika/rss/'
@@ -19481,6 +20135,8 @@ Latvia:
     - 'https://incukalnapsk.lv/index.php?format=feed&type=rss'
     - 'https://balvurcb.lv/cb/index.php?format=feed&type=rss'
     - 'https://www.tautasnams.lv/feed/'
+    - 'https://www.fold.lv/feed/'
+    - 'https://kultura.jelgava.lv/feed/'
   'Local News':
     - 'https://www.apollo.lv/rss'
     - 'https://www.tvnet.lv/rss'
@@ -19535,6 +20191,9 @@ Latvia:
     - 'https://matisubaznica.lv/index.php?format=feed&type=rss'
     - 'https://www.rcb.lv/feed/'
     - 'https://ludzasbaznica.lv/feed/'
+    - 'https://rezekne.lv/feed/'
+    - 'https://vidzemesslimnica.lv/feed/'
+    - 'https://www.pavilostniekiem.lv/jaunumi/rss/'
   'Politics & Society':
     - 'https://nra.lv/rss/jaunakas-zinas/'
     - 'https://lvportals.lv/rss/raksti'
@@ -19555,6 +20214,7 @@ Latvia:
     - 'https://vestnesis.lv/feed/JL'
     - 'https://saeima.lv/lv/feeds/news.rss'
     - 'https://www.mammamuntetiem.lv/rss'
+    - 'https://bnn.lv/feed'
   'Science & Technology':
     - 'https://www.pvg.edu.lv/?feed=rss2'
   Sports:
@@ -19584,6 +20244,7 @@ Lebanon:
     - 'https://www.lbcgroup.tv/Rss/Shows/ar/52/أفلام'
     - 'https://cresh.ul.edu.lb/?feed=rss2'
     - 'https://www.lbcgroup.tv/Rss/News/ar/29/منوعات'
+    - 'https://online-exhibit.aub.edu.lb/items/browse?output=rss2'
   'Local News':
     - 'https://www.the961.com/feed/'
     - 'https://new.ut.edu.lb/feed/'
@@ -19718,6 +20379,7 @@ Liberia:
     - 'https://revenue.lra.gov.lr/feed/'
     - 'https://gac.gov.lr/feed/'
     - 'https://arept.gov.lr/?feed=rss2'
+    - 'https://www.liberiasp.gov.lr/?feed=rss2'
   'Science & Technology':
     - 'https://mopt.gov.lr/feed/'
 Libya:
@@ -19736,6 +20398,8 @@ Libya:
     - 'https://arc.com.ly/?feed=rss2'
     - 'https://customs.gov.ly/feed/'
     - 'https://ptqi.edu.ly/feed/'
+  'Lifestyle & Culture':
+    - 'https://repository.sebhau.edu.ly/sebha_server/opensearch/search?format=atom&query=*'
   'Local News':
     - 'https://ar.limu.edu.ly/feed/'
     - 'https://fasanea.ly/feed/'
@@ -19763,11 +20427,13 @@ Libya:
     - 'https://libyanstand.ly/feed/'
     - 'https://brnieq.ly/?feed=rss2'
     - 'https://bsc.ly/feed/'
+    - 'https://nesdb.ly/ar/feed'
   'Science & Technology':
     - 'https://feeds.captivate.fm/the-good-news-about/'
     - 'https://printerfriend.ly/feed/'
     - 'https://aljameai.org.ly/index.php/aljameai/gateway/plugin/WebFeedGatewayPlugin/rss2'
     - 'https://tmc.gov.ly/?feed=rss2'
+    - 'https://mhesr.gov.ly/?feed=rss2'
   Sports:
     - 'https://febp.ly/feed/'
     - 'https://lcss.gov.ly/feed/'
@@ -19799,6 +20465,7 @@ Lithuania:
     - 'https://bznstart.lt/feed/'
     - 'https://www.neteisk.lt/feed/'
     - 'https://imoniugidas.lt/rss.php'
+    - 'https://www.kurortuasociacija.lt/feed/'
   'Lifestyle & Culture':
     - 'https://madeinvilnius.lt/naujienos/miestas/pristatoma-eduardo-balsio-skvero-atnaujinimo-vizija/feed/'
     - 'https://www.muziejusrokiskyje.lt/feed'
@@ -19838,6 +20505,9 @@ Lithuania:
     - 'https://katalikutradicija.lt/visi?format=feed&type=rss'
     - 'https://www.varenoskultura.lt/blog-feed.xml'
     - 'https://kybartukc.lt/feed/'
+    - 'https://www.infotravel.lt/feed/'
+    - 'https://jieznokc.lt/feed/'
+    - 'https://priekulekc.lt/feed/'
   'Local News':
     - 'http://diena.lt/rss.xml'
     - 'http://kauno.diena.lt/rss.xml'
@@ -19960,6 +20630,8 @@ Lithuania:
     - 'https://www.mazeikiuligonine.lt/feed/'
     - 'https://vilniauskalvarijos.lt/feed/'
     - 'https://www.silutevb.lt/feed/'
+    - 'https://dzukijosveidas.lt/feed/'
+    - 'https://mazeikiutvic.lt/feed/'
   Other:
     - 'https://www.alioraseiniai.lt/wp-content/plugins/nextgen-gallery/xml/media-rss.php'
     - 'https://sc.bns.lt/rss'
@@ -19988,6 +20660,8 @@ Lithuania:
     - 'https://m.nedelia.lt/rss.xml'
     - 'https://ltlife.lt/feed/'
     - 'https://www.medijufondas.lt/feed'
+    - 'https://sirvintuspc.lt/feed/'
+    - 'https://tsajungakaunas.lt/feed/'
   'Science & Technology':
     - 'https://www.15min.lt/rss/aktualu/orai'
     - 'https://www.cvmarket.lt/rss-listings.xml'
@@ -19996,11 +20670,13 @@ Lithuania:
     - 'https://www.sveikime.lt/feed/'
     - 'https://www.aparaturosnuomavilniuje.lt/feed/'
     - 'https://audiomedia.lt/feed/'
+    - 'https://www.agroteka.lt/feed/'
   'World / International':
     - 'https://www.15min.lt/rss'
     - 'https://kauno.diena.lt/rss.xml'
     - 'https://www.15min.lt/rss/aktualu/pasaulis'
     - 'https://kaunieciams.lt/feed/'
+    - 'https://vilniauszinios.lt/feed/'
 Luxembourg:
   'Business & Economy':
     - 'http://bcl.lu/fr/support/rss/00_rssfeed.rss'
@@ -20016,6 +20692,7 @@ Luxembourg:
     - 'https://www.adada.lu/feed/'
     - 'https://pwagner.lu/feed/'
     - 'https://developpeurs.lu/feed/'
+    - 'https://www.minusines.lu/feed/'
   'Lifestyle & Culture':
     - 'https://infos.rtl.lu/rss/culture'
     - 'https://www.pizzicato.lu/feed/'
@@ -20122,6 +20799,7 @@ Luxembourg:
     - 'https://douanes.public.lu/fr/actualites.rss?'
     - 'https://apis.lu/feed/'
     - 'https://www.klimabuendnis.lu/feed/'
+    - 'https://cosp.lu/feed/'
   'Science & Technology':
     - 'https://ilritrovo.lu/?feed=rss2'
     - 'https://www.tr-engineering.lu/feed/'
@@ -20312,6 +20990,7 @@ Malaysia:
     - 'https://asianwater.com.my/feed/'
     - 'https://mminori.com.my/feed/'
     - 'https://www.dsf.my/feed/'
+    - 'https://printz.my/feed/'
   'Lifestyle & Culture':
     - 'https://georgetowncity.my/feed/'
     - 'http://www.hmetro.com.my/rap.xml'
@@ -20348,6 +21027,7 @@ Malaysia:
     - 'https://bagasi.my/feed/'
     - 'https://robbreport.com.my/feed/'
     - 'https://suterasanctuarylodges.com.my/feed/'
+    - 'https://ohmedia.my/feed/'
   'Local News':
     - 'https://www.kosmo.com.my/feed/'
     - 'https://www.utusan.com.my/feed/'
@@ -20416,6 +21096,7 @@ Malaysia:
     - 'https://reddot.my/feed/'
     - 'https://istanapahang.my/feed/'
     - 'https://jomkenalislam.my/feed'
+    - 'https://sahih.com.my/feed/'
   Opinion:
     - 'https://malaysiakini.com/rss/en/columns.rss'
     - 'https://malaysiakini.com/rss/en/letters.rss'
@@ -20464,6 +21145,9 @@ Malaysia:
     - 'https://www.1media.my/feeds/posts/default'
     - 'https://prezcom.my/feed/'
     - 'https://www.bbcportal.my/feed/'
+    - 'https://majujohor.my/feed/'
+    - 'https://spr.gov.my/feed/'
+    - 'https://malaysiamadani.gov.my/feed/'
   'Science & Technology':
     - 'https://news.utm.my/feed/'
     - 'https://cms.mybis.gov.my/rss/article.php'
@@ -20485,6 +21169,8 @@ Malaysia:
     - 'https://qiu.edu.my/feed/'
     - 'http://digitalcollection.utem.edu.my/cgi/latest_tool?output=RSS2'
     - 'https://www.frim.gov.my/feed/'
+    - 'https://esti.my/feed/'
+    - 'https://fuzz.my/feed'
   Sports:
     - 'https://malaysiaaktif.my/feed/'
     - 'http://www.hmetro.com.my/arena.xml'
@@ -20689,11 +21375,13 @@ Mauritius:
     - 'https://liveria.mu/feed/'
     - 'https://www.ahrim.mu/feed/'
     - 'https://bankone.mu/en/feed/'
+    - 'https://www.mcia.mu/feed/'
   'Lifestyle & Culture':
     - 'https://frolic.mu/feed/'
     - 'https://bvhospitality.mu/feed/'
     - 'https://real-estate-mauritius.mu/ru/feed/'
     - 'https://smarttraveller.mu/feed/'
+    - 'https://gastronomic.mu/feed/'
   'Local News':
     - 'https://www.maurice-info.mu/feed'
     - 'https://r1.mu/feed/'
@@ -20783,6 +21471,7 @@ Mexico:
     - 'http://www.arqueologiamexicana.mx/rss.xml'
     - 'https://elporvenir.mx/feedgooglenews/cultural'
     - 'https://elporvenir.mx/feedgooglenews/enescena'
+    - 'https://radiocrystal.mx/feed/'
   'Local News':
     - 'https://feeds.feedburner.com/nmas/general'
     - 'http://mural.com.mx/rss/portada.xml'
@@ -20934,6 +21623,8 @@ Mexico:
     - 'https://www.bcsnoticias.mx/feed/'
     - 'https://elporvenir.mx/feedgooglenews/justicia'
     - 'https://smnoticias.com.mx/index.php/feed/'
+    - 'https://laresena.mx/feed/'
+    - 'https://www.acierta.mx/feed/'
   Other:
     - 'https://informador.mx/rss/ultimas-noticias.xml'
   'Politics & Society':
@@ -21008,6 +21699,11 @@ Mexico:
     - 'https://elporvenir.mx/feedgooglenews/nacional'
     - 'https://plazachimalhuacan.mx/feed/'
     - 'https://mgnoticias.mx/feed/'
+    - 'https://www.noticierosgrem.com.mx/feed/'
+    - 'https://www.alcontacto.com.mx/feed/'
+    - 'https://laparadoja.com.mx/feed'
+    - 'https://www.azulcristalfm.com.mx/feed/'
+    - 'https://codicesoaxaca.mx/feed/'
   'Science & Technology':
     - 'https://www.mural.com.mx/libre/estatico/rss/../../../rss/automotriz.xml'
     - 'https://www.mural.com.mx/libre/estatico/rss/../../../rss/ciencia.xml'
@@ -21079,6 +21775,7 @@ Micronesia:
     - 'http://acquired.libsyn.com/rss'
     - 'https://blog.feed.fm/news/rss.xml'
     - 'https://blog.feed.fm/rss.xml'
+    - 'https://cedric.fm/rss/'
   'Lifestyle & Culture':
     - 'https://www.tupi.fm/feed/'
     - 'https://wrfl.fm/feed'
@@ -21094,6 +21791,7 @@ Micronesia:
     - 'https://greendaylive.fm/setlists/feed'
     - 'https://feeds.fireside.fm/bvcpodden/rss'
     - 'https://classica.fm/feed/'
+    - 'https://broadcast-everywhere.net/category/calendar/feed'
   'Local News':
     - 'https://personnel.gov.fm/feed/'
     - 'https://broadcast-everywhere.net/category/calendar/feed'
@@ -21385,6 +22083,7 @@ Moldova:
     - 'https://gazetadechisinau.md/feed/'
     - 'https://promolex.md/feed/'
     - 'https://realitatea.md/feed/'
+    - 'https://info1.md/feed/'
   'Science & Technology':
     - 'https://ecopresa.md/feed/'
     - 'https://odoras.md/rss/category/bebelusi'
@@ -21458,6 +22157,7 @@ Mongolia:
     - 'https://nli.gov.mn/feed/'
     - 'https://www.etv.mn/?feed=rss2'
     - 'http://setguul.mn/engine/rss.php'
+    - 'https://niitlel.mn/feed/'
   'World / International':
     - 'https://www.journas.mn/blog-feed.xml'
     - 'https://www.caak.mn/rss'
@@ -21489,6 +22189,7 @@ Montenegro:
     - 'https://jasninaputovanja.me/feed/'
     - 'https://muzejiigalerijebd.me/feed/'
     - 'https://akademijaznanja.me/feed/'
+    - 'https://ikcpg.me/feed'
   'Local News':
     - 'https://mondo.rs/rss/643/Info/EX-YU'
     - 'https://barinfo.me/feed/'
@@ -21531,6 +22232,7 @@ Montenegro:
     - 'https://hercegnovi.me/sr/?format=feed&type=rss'
     - 'https://pfbar.me/feed/'
     - 'https://kbcberane.me/index.php?format=feed&type=rss'
+    - 'https://www.novaunovi.me/feed/'
   'Politics & Society':
     - 'https://www.cdm.me/feed/'
     - 'https://www.monitor.co.me/feed/'
@@ -21560,12 +22262,15 @@ Montenegro:
     - 'https://press.co.me/feed/'
     - 'https://dnevnicentarberane.me/feed/'
     - 'https://cginfo.me/feed/'
+    - 'https://uncg.me/feed/'
   'Science & Technology':
     - 'https://steipete.me/rss.xml'
     - 'https://blog.pkh.me/rss.xml'
     - 'https://themify.me/feed'
     - 'https://khbr.me/rss-17.xml'
     - 'https://www.xenon-forte.si/feed/'
+    - 'https://ipsw.me/timeline.rss'
+    - 'https://www.unknowncheats.me/forum/external.php?type=RSS2'
   Sports:
     - 'https://www.vijesti.me/rss'
     - 'https://primorski.me/feed/'
@@ -21664,6 +22369,8 @@ Morocco:
     - 'https://www.achamal.ma/feed/'
     - 'https://fr.365yawm.ma/index.php/feed/'
     - 'https://guelmimalhadath.ma/feed'
+    - 'https://aljarida24.ma/feed/'
+    - 'https://doukkalia.press.ma/feed/'
   'Politics & Society':
     - 'https://leseco.ma/feed'
     - 'https://elperiodicomarroqui.com/feed/'
@@ -21745,6 +22452,8 @@ Morocco:
     - 'https://fallahtv.ma/feed/'
     - 'https://fr.aldar.ma/feed'
     - 'https://syg.ma/rss.atom'
+    - 'https://aua.ma/feed/'
+    - 'https://albab360.ma/?feed=rss2'
   'Science & Technology':
     - 'https://www.btpnews.ma/feed/'
     - 'https://www.fsjeste.ma/site/feed/'
@@ -21806,6 +22515,7 @@ Mozambique:
   'Lifestyle & Culture':
     - 'https://mozentretenimento.co.mz/feed/'
     - 'https://catalogus.co.mz/feed/'
+    - 'https://turismo.mozentretenimento.co.mz/feed/'
   'Local News':
     - 'https://aracentroip.gov.mz/feed/'
     - 'https://www.ucm.ac.mz/feed/'
@@ -21842,10 +22552,13 @@ Mozambique:
     - 'https://idolo.co.mz/feed/'
     - 'https://mept.org.mz/feed/'
     - 'https://checka.co.mz/feed/'
+    - 'https://imbondeironews.co.mz/feed/'
+    - 'https://zebrando.co.mz/feed/'
   'Science & Technology':
     - 'https://www.mwa.co.mz/blog-feed.xml'
     - 'https://www.biofund.org.mz/feed/'
     - 'https://citt.gov.mz/feed/'
+    - 'https://sibmoz.gov.mz/feed/'
   Sports:
     - 'https://www.jornaldesafio.co.mz/index.php/feed/'
   'World / International':
@@ -21862,6 +22575,7 @@ Mozambique:
     - 'https://pct.com.mm/feed/'
     - 'https://ucsh.edu.mm/?feed=rss2'
     - 'https://mlmuni.edu.mm/feed/'
+    - 'https://pudawei.edu.mm/feed/'
   'Politics & Society':
     - 'https://myanmar-now.org/en/feed/'
     - 'https://karennews.org/feed/'
@@ -21890,6 +22604,7 @@ Namibia:
     - 'https://wis.edu.na/blog-feed.xml'
     - 'https://arandistc.com.na/feed/'
     - 'https://www.venture.com.na/feed/'
+    - 'https://rcchurch.na/feed/'
   'Politics & Society':
     - 'https://www.namibian.com.na/feed/'
     - 'https://informante.web.na/?feed=rss2'
@@ -21901,6 +22616,7 @@ Namibia:
     - 'https://99fm.com.na/feed/'
     - 'https://www.parliament.na/feed/'
     - 'https://illh.nust.na/rss.xml'
+    - 'https://omulunga.com.na/feed/'
   'Science & Technology':
     - 'https://forumonline.unam.edu.na/feed/'
   'World / International':
@@ -21945,6 +22661,8 @@ Nepal:
     - 'https://www.tamangindra.com.np/feeds/posts/default'
     - 'https://indreshworcampus.edu.np/feed/'
     - 'https://baraupdate.com.np/feed/'
+    - 'https://ebs.edu.np/feed/'
+    - 'https://www.thetriratna.com.np/?feed=rss2'
   Other:
     - 'https://english.himalayatimes.com.np/feed/'
     - 'https://www.skl.com.np/feeds/posts/default'
@@ -21968,6 +22686,8 @@ Nepal:
     - 'https://sundarbazarmun.gov.np/ne/rss.xml'
     - 'https://samriddhifn.org.np/feed/'
     - 'https://abhiyanweekly.com.np/feed/'
+    - 'https://www.nfdn.org.np/feed/'
+    - 'https://www.shivapaswan.com.np/feed'
   'Science & Technology':
     - 'https://aryaniraula.com.np/feed/'
     - 'https://anilpathak.com.np/feed'
@@ -22009,6 +22729,8 @@ Netherlands:
     - 'https://erocket.nl/feed/'
     - 'https://denijs.nl/feed/'
     - 'https://vastgoedjournaal.nl/news/rss'
+    - 'https://www.wittemakelaars.nl/feed/'
+    - 'https://www.bladendokter.nl/feed/'
   'Lifestyle & Culture':
     - 'https://www.allbutforgottenoldies.net/rss-feeds/allbutforgottenoldies.xml'
     - 'https://www.zaandamsdagblad.nl/newsfeed/camperspecial'
@@ -22070,6 +22792,10 @@ Netherlands:
     - 'https://www.erfgoedhuisveldhoven.nl/feed/'
     - 'https://www.gerritkorenberg.nl/feed/'
     - 'https://zierikzeekrant.nl/feed/'
+    - 'https://wijkbijduurstedenieuwsvandaag.nl/feed/'
+    - 'https://perspodium.nl/feed/'
+    - 'https://www.mediacourant.nl/feed/'
+    - 'https://shopndrop.nl/feed/'
   'Local News':
     - 'https://www.rijnmond.nl/rss/index.xml'
     - 'https://www.rtvnoord.nl/rss/index.xml'
@@ -22525,6 +23251,13 @@ Netherlands:
     - 'https://www.hetweeractueel.nl/feed/'
     - 'https://www.historischeverenigingwijhe.nl/feed/'
     - 'https://meerradio.nl/feed/'
+    - 'https://zeeland112.nl/feed/'
+    - 'https://112twente.nl/rss'
+    - 'https://titusbrandsmaparochie.nl/?format=feed&type=rss'
+    - 'https://www.nijmegenonline.nl/feed/'
+    - 'https://olst-wijhe.nieuws.nl/sitemap/news.xml'
+    - 'https://streekstadcentraal.nl/?format=feed&type=rss'
+    - 'https://www.jpmaastricht.nl/feed/'
   Other:
     - 'https://www.ou.nl/nl/nieuwspagina_rss/-/journal/rss/40554/1142346'
     - 'https://st-tkz.nl/index.php/feed/'
@@ -22564,6 +23297,8 @@ Netherlands:
     - 'https://rss.politie.nl/rss/uitgelicht/nb/alle-uitgelichte-nieuwsberichten.xml'
     - 'https://naastencentraal.nl/feed/'
     - 'https://www.dopdijkenwaard.nl/index.php/feed/'
+    - 'https://trendyvandaag.nl/feed'
+    - 'http://www.mr-online.nl/juridisch-nieuws/feed/'
   'Science & Technology':
     - 'http://jacquesmattheij.com/rss.xml'
     - 'https://kaidan.im/atom.xml'
@@ -22575,6 +23310,7 @@ Netherlands:
     - 'https://www.nieuweoogst.nu/sector/akker-en-tuinbouw/feed.xml'
     - 'https://bluepapers.nl/index.php/bp/gateway/plugin/WebFeedGatewayPlugin/rss'
     - 'https://peterderuyterlandschap.nl/feed/'
+    - 'https://tofmedia.nl/feed'
   Sports:
     - 'https://www.telegraaf.nl/rss'
     - 'https://www.rijnmond.nl/rss/sport.xml'
@@ -22602,6 +23338,7 @@ Netherlands:
     - 'https://www.zaandamsdagblad.nl/newsfeed/goededoelen'
     - 'https://www.nieuweoogst.nu/sector/veehouderij/pluimveehouderij/feed.xml'
     - 'https://vlagblog.nl/feed/'
+    - 'https://www.amnesty.nl/feed'
 'New Caledonia':
   'Business & Economy':
     - 'https://www.enercal.nc/feed/'
@@ -22747,6 +23484,8 @@ Netherlands:
     - 'https://www.raglan23.co.nz/feed/'
     - 'https://onemahurangi.co.nz/feed/'
     - 'https://www.sadeaalaradio.co.nz/feed/'
+    - 'https://waiatarua.org.nz/feed/'
+    - 'https://teatiawa.iwi.nz/feed/'
   'Politics & Society':
     - 'https://newsroom.co.nz/feed/'
     - 'https://www.kiwiblog.co.nz/feed'
@@ -22805,11 +23544,13 @@ Netherlands:
     - 'https://patumahoerugby.co.nz/feed/'
   'World / International':
     - 'https://asiapacificreport.nz/feed/'
+    - 'https://nzchinasociety.org.nz/feed/'
 Nicaragua:
   'Business & Economy':
     - 'https://aconic.com.ni/feed/'
   'Lifestyle & Culture':
     - 'https://www.tn8.ni/web-stories/feed/'
+    - 'https://ruinasleonviejo.com.ni/feed/'
   'Local News':
     - 'https://nuevaya.com.ni/feed/'
     - 'https://www.canal4.com.ni/feed/'
@@ -22828,6 +23569,7 @@ Nicaragua:
   'Science & Technology':
     - 'https://telcor.gob.ni/feed/'
     - 'http://repositorio.una.edu.ni/cgi/latest_tool?output=RSS2'
+    - 'https://ribuni.uni.edu.ni/cgi/latest_tool?output=RSS2'
   'World / International':
     - 'https://jpmas.com.ni/feed/'
     - 'https://radionicaragua.com.ni/feed/'
@@ -22905,6 +23647,7 @@ Nigeria:
     - 'https://inquirer.ng/feed/'
     - 'https://encomium.ng/feed/'
     - 'https://betajob.com.ng/feed'
+    - 'https://www.citytutors.com.ng/feed/'
   'Lifestyle & Culture':
     - 'https://www.bellanaija.com/feed/'
     - 'https://www.pulse.ng/rss-articles.xml'
@@ -22956,6 +23699,9 @@ Nigeria:
     - 'https://www.diamondsport.com.ng/feed/'
     - 'https://marriageinnigeria.ng/feed/'
     - 'https://fabwoman.ng/feed/'
+    - 'https://naijaonpoint.com.ng/feed/'
+    - 'https://mp3bullet.ng/feed/'
+    - 'https://ancestrals.com.ng/feed/'
   'Local News':
     - 'https://theeagleonline.com.ng/feed/'
     - 'https://edostate.gov.ng/feed/'
@@ -23029,6 +23775,7 @@ Nigeria:
     - 'https://sweetstories247.com.ng/feed/'
     - 'https://suresuccess.ng/feed/'
     - 'https://scholarsworld.ng/feed/'
+    - 'https://examquestions.ng/feed/'
   'Politics & Society':
     - 'https://www.premiumtimesng.com/feed'
     - 'https://www.channelstv.com/feed/'
@@ -23356,6 +24103,15 @@ Nigeria:
     - 'https://www.hausa.newshub24.com.ng/feed/'
     - 'https://themetro.com.ng/feed/'
     - 'https://www.tarabatruthandfact.com.ng/feeds/posts/default'
+    - 'https://newsecho.ng/feed/'
+    - 'https://thisday.com.ng/feed/'
+    - 'https://interior.gov.ng/feed/'
+    - 'https://peoplenpolitics.com.ng/feed/'
+    - 'https://nationalwire.com.ng/feed/'
+    - 'https://hausaforumnews.com.ng/feed/'
+    - 'https://nationaldailynews.com.ng/feed/'
+    - 'https://korrectnews.com.ng/feed/'
+    - 'https://naijanewshub.com.ng/feed/'
   'Science & Technology':
     - 'https://nou.edu.ng/feed/'
     - 'https://wordpress.org/support/forum/requests-and-feedback/feed/'
@@ -23399,6 +24155,7 @@ Nigeria:
     - 'https://isport.com.ng/feed/'
     - 'https://spheresports.com.ng/feed/'
     - 'https://asport.com.ng/?feed=rss2'
+    - 'https://www.pulsesports.ng/rss-articles.xml'
   'World / International':
     - 'https://www.africanexaminer.com/category/southern-africa/feed/'
     - 'https://www.africanexaminer.com/category/world-news/feed/'
@@ -23409,6 +24166,7 @@ Nigeria:
     - 'https://www.who.int/rss-feeds/news-english.xml'
     - 'https://arewacampus.com.ng/feed/'
     - 'https://afd.ng/feed/'
+    - 'https://niia.gov.ng/feed/'
 Niue:
   'Lifestyle & Culture':
     - 'https://niuerentals.nu/feed/'
@@ -23458,6 +24216,7 @@ Niue:
     - 'https://konekt.mk/feed/'
     - 'https://ap.mk/mk/rss.xml'
     - 'https://nomagas.com.mk/feed/'
+    - 'https://telekabel.com.mk/feed/'
   'Lifestyle & Culture':
     - 'https://deca.mk/feed/'
     - 'https://zhurnal.mk/feed/'
@@ -23524,6 +24283,10 @@ Niue:
     - 'https://zenskimagazin.faktor.mk/feed/zhivotna-uchilnica'
     - 'https://patokolusvetot.mk/feed/'
     - 'https://umno.mk/feed/'
+    - 'https://mexpress.mk/feed/'
+    - 'https://almak.mk/feed/'
+    - 'https://dkvinica.mk/feed/'
+    - 'https://www.kulart.mk/feed/'
   'Local News':
     - 'https://mia.mk/feed'
     - 'https://www.radiomof.mk/feed/'
@@ -23615,6 +24378,10 @@ Niue:
     - 'https://unite.edu.mk/feed/'
     - 'https://gladiator.mk/?feed=rss2'
     - 'https://roads.org.mk/feed/'
+    - 'https://www.ugd.edu.mk/feed/'
+    - 'https://gon.mk/feed/'
+    - 'https://komunalecprilep.com.mk/feed/'
+    - 'https://brakamiladinovci.mk/feed/'
   Opinion:
     - 'https://www.vladimirdimitrijevic.com/sr-rs/?format=feed&type=rss'
   Other:
@@ -23732,6 +24499,10 @@ Niue:
     - 'https://tocno.mk/feed/'
     - 'https://ima.mk/feed/'
     - 'https://azlp.mk/feed/'
+    - 'https://mmbrico.edu.mk/feed/'
+    - 'https://ontarget.mk/feed/'
+    - 'https://ipard.gov.mk/mk/feed/'
+    - 'https://makpress.mk/feed/'
   'Science & Technology':
     - 'https://mexpress.mk/feed/'
     - 'https://finki.ukim.mk/mk/rss.xml'
@@ -23794,6 +24565,7 @@ Niue:
     - 'https://maskimagazin.faktor.mk/feed/sport'
     - 'https://www.ffm.mk/feed/'
     - 'https://www.infosport.mk/feed/'
+    - 'https://shtip1.mk/feed/'
   'World / International':
     - 'https://bulevar.mk/feed/'
     - 'https://prv.mk/rss'
@@ -23861,6 +24633,10 @@ Norway:
     - 'https://www.hvakosterstrommen.no/rss/prices/NO3'
     - 'https://www.hvakosterstrommen.no/rss/prices/NO4'
     - 'https://www.hvakosterstrommen.no/rss/prices/NO5'
+    - 'https://skatteetaten.no/rss/bedrift/arbeidsgiver/a-meldingen/siste-fra-a-ordningen/'
+    - 'https://skatteetaten.no/rss/rettskilder/uttalelser/'
+    - 'https://skatteetaten.no/rss/rettskilder/vedtak/skatteklagenemnda/'
+    - 'https://www.lysekonsern.no/rss/nyheter/'
   'Lifestyle & Culture':
     - 'https://spillhistorie.no/feed/'
     - 'https://lokalhistoriewiki.no/index.php?title=Spesial:Siste_endringer&feed=atom'
@@ -23895,6 +24671,13 @@ Norway:
     - 'https://innpatunet.no/feed/'
     - 'https://finskekirken.no/o/news-portlet/feed/parishtags/?parishTags=&plid=9899318&instanceId=o4eQ2yWdnBWZ'
     - 'https://telemarkshistorier.no/feed/'
+    - 'https://lagadus.no/feed/'
+    - 'https://norla.no/nb/aktuelt/norla.rss'
+    - 'https://norla.no/nb/pages.rss'
+    - 'https://spurt.no/feed/'
+    - 'https://dahlsbegravelse.no/feed/'
+    - 'https://samiskbibliotektjeneste.tromsfylke.no/feed/'
+    - 'https://www.hjemstedsamleren.no/auksjon/feed/'
   'Local News':
     - 'https://www.bt.no/rss?characteristicsHotness=50..100'
     - 'https://www.adressa.no/rss'
@@ -23995,9 +24778,11 @@ Norway:
     - 'https://www.stord24.no/rss'
     - 'https://www.hvakosterstrommen.no/rss/prices/NO2'
     - 'https://norgesnett.no/feed/'
+    - 'https://ivennesla.no/feed/'
   Other:
     - 'https://www.mynewsdesk.com/no/rss/source/81551/contact_person'
     - 'https://www.novaturlag.no/w1/wp-content/plugins/nextgen-gallery/src/Legacy/xml/media-rss.php'
+    - 'https://www.hjemstedsamleren.no/feed/'
   'Politics & Society':
     - 'https://www.nrk.no/toppsaker.rss'
     - 'https://www.newsinenglish.no/feed/'
@@ -24120,6 +24905,12 @@ Norway:
     - 'https://www.tu.no/rss'
     - 'https://www.tv1.no/blog-feed.xml'
     - 'https://stavangerregion.no/feed/'
+    - 'https://skatteetaten.no/rss/presse/pressemeldinger/'
+    - 'https://skatteetaten.no/rss/rettskilder/rss-saravgifter/'
+    - 'https://skatteetaten.no/rss/sbs/a-meldingen/'
+    - 'https://skatteetaten.no/rss/sbs/alle/'
+    - 'https://skatteetaten.no/rss/sbs/mva-melding/'
+    - 'http://www.riksavisen.no/?feed=rss2'
   'Science & Technology':
     - 'https://www.hi.no/hi/rss/nyheter.rss'
     - 'https://nibio.no/utils/nibio-rss'
@@ -24144,6 +24935,13 @@ Norway:
     - 'https://sodir.no/aktuelt/nyheter/rss/faktasider-og-faktakart-teknisk-informasjon/'
     - 'https://afib.no/feed/'
     - 'https://bora.uib.no/bora-xmlui/feed/rss_2.0/site'
+    - 'https://skatteetaten.no/rss/sbs/krav-og-betalinger/'
+    - 'https://skatteetaten.no/rss/sbs/skattekort-til-arbeidsgiver/'
+    - 'https://skatteetaten.no/rss/sbs/skattemelding/'
+    - 'https://skatteetaten.no/rss/sbs/tredjepartsopplysninger/'
+    - 'https://skatteetaten.no/rss/sbs/utleggsbegjaring/'
+    - 'https://aibn.no/rss?lcid=1044&type=0'
+    - 'https://www.agropub.no/atom'
   Sports:
     - 'https://www.vg.no/rss/feed/?format=rss'
     - 'https://www.aftenposten.no/rss/'
@@ -24341,6 +25139,10 @@ Pakistan:
     - 'https://khita.com.pk/feed/'
     - 'https://inpk.pk/feed/'
     - 'https://customnews.pk/feed/'
+    - 'https://www.clayrooftiles.com.pk/feed/'
+    - 'https://hellosalam.pk/feed/'
+    - 'https://acco.com.pk/feed/'
+    - 'https://www.businessinsider.pk/feed/'
   'Lifestyle & Culture':
     - 'https://tribune.com.pk/feed/entertainment'
     - 'https://tribune.com.pk/feed/fashion'
@@ -24772,6 +25574,7 @@ Pakistan:
     - 'https://thedayspring.com.pk/feed/'
     - 'https://factfile.pk/feed/'
     - 'https://www.awaztoday.com.pk/feeds/posts/default'
+    - 'https://focusnews.com.pk/feed/'
   'Science & Technology':
     - 'https://tribune.com.pk/feed/health'
     - 'https://tribune.com.pk/feed/technology'
@@ -24815,6 +25618,7 @@ Pakistan:
     - 'https://vapestation.pk/feed/'
     - 'https://idc.net.pk/feed/'
     - 'https://nawaidir.com.pk/feed'
+    - 'https://nust.edu.pk/feed/'
   Sports:
     - 'https://pakobserver.net/feed/'
     - 'https://leadpakistan.com.pk/news/feed/'
@@ -25045,6 +25849,7 @@ Panama:
     - 'https://www.hub.com.pa/feed/'
     - 'https://mici.gob.pa/feed/'
     - 'https://gala.com.pa/feed/'
+    - 'https://supervalores.gob.pa/feed/'
   'Lifestyle & Culture':
     - 'https://www.liveandinvestoverseas.com/feed/'
     - 'https://colegiosanagustin.edu.pa/feed/'
@@ -25071,6 +25876,7 @@ Panama:
     - 'https://umecit.edu.pa/feed/'
     - 'https://boqueron.municipios.gob.pa/feed/'
     - 'https://www.meduca.gob.pa/feed/'
+    - 'https://www.isaeuniversidad.ac.pa/feed/'
   'Politics & Society':
     - 'https://www.panamaamerica.com.pa/rss/recent/index.xml'
     - 'https://www.defensoria.gob.pa/feed/'
@@ -25084,6 +25890,7 @@ Panama:
     - 'https://apa.gob.pa/feed/'
     - 'https://siec.minseg.gob.pa/feed/'
     - 'https://www.inadeh.edu.pa/feed/'
+    - 'https://www.miviot.gob.pa/feed/'
   'Science & Technology':
     - 'http://up-rid.up.ac.pa/cgi/latest_tool?output=RSS2'
     - 'https://indicatic.org.pa/feed/'
@@ -25136,6 +25943,8 @@ Paraguay:
     - 'https://imagoteca.com.py/feed/'
     - 'https://amigocamionero.com.py/feed/'
     - 'https://tierraalta.com.py/feed/'
+    - 'https://cambiostriplec.com.py/index.php/feed/'
+    - 'https://www.agrofertil.com.py/feed/'
   'Lifestyle & Culture':
     - 'https://www.cronica.com.py/feed/'
     - 'https://arzobispado.org.py/feed/'
@@ -25145,6 +25954,7 @@ Paraguay:
     - 'https://www.apa.org.py/feed/'
     - 'https://noticiascde.com.py/feed/'
     - 'https://www.pausa.com.py/feed/'
+    - 'https://blog.personal.com.py/feed/'
   'Local News':
     - 'https://www.telefuturo.com.py/index.atom'
     - 'https://1000noticias.com.py/feed/'
@@ -25184,6 +25994,7 @@ Paraguay:
     - 'https://uninter.edu.py/feed/'
     - 'https://guairanoticias.com.py/feed/'
     - 'https://serrana.edu.py/feed/'
+    - 'https://www.caazapaahora.com.py/rss.xml'
   'Politics & Society':
     - 'https://www.rdn.com.py/feed/'
     - 'https://1000noticias.com.py/feed/'
@@ -25203,6 +26014,7 @@ Paraguay:
     - 'https://www.codehupy.org.py/feed/'
     - 'https://www.unida.edu.py/feed/'
     - 'https://www.cuartopoder.com.py/feed/'
+    - 'https://anivid.org.py/feed/'
   'Science & Technology':
     - 'https://www.meteored.com.py/feed/'
     - 'https://www.meteorologia.gov.py/feed/'
@@ -25210,6 +26022,7 @@ Paraguay:
     - 'https://fenob.una.py/feed/'
     - 'https://unisal.edu.py/feed/'
     - 'https://www.posgradospi.edu.py/feeds/posts/default'
+    - 'https://facisa.edu.py/feed/'
   Sports:
     - 'https://www.vssports.com.py/feed/'
     - 'https://revistatouring.com.py/feed/'
@@ -25291,6 +26104,7 @@ Peru:
     - 'https://stomasdominicos.edu.pe/feed/'
     - 'https://noticias.iglesia.org.pe/feed/'
     - 'https://digital.diariosinfronteras.com.pe/feed/'
+    - 'https://uraniotv.pe/feed/'
   Other:
     - 'https://upeu.edu.pe/feed/'
   'Politics & Society':
@@ -25344,6 +26158,8 @@ Peru:
     - 'https://conflictosmineros.org.pe/feed/'
     - 'https://www.actualidadambiental.pe/feed/'
     - 'https://infopress.pe/feed/'
+    - 'https://www.twinkl.com.pe/rss/blog'
+    - 'https://vigilanteamazonico.pe/feed/'
   'Science & Technology':
     - 'https://repositorio.unjfsc.edu.pe/feed/atom_1.0/site'
     - 'https://medialab.unmsm.edu.pe/feed/'
@@ -25440,6 +26256,7 @@ Philippines:
     - 'https://tl.real-estate.ph/search/sOrder,dt_pub_date/sFeed,rss/country,PH'
     - 'https://rankthemag.ph/feed/'
     - 'https://www.gop.com.ph/feed/'
+    - 'https://www.villageconnect.com.ph/feed'
   'Local News':
     - 'https://www.sunstar.com.ph/api/v1/collections/home.rss'
     - 'https://mindanews.com/feed/'
@@ -25540,6 +26357,8 @@ Philippines:
     - 'https://adzu.edu.ph/feed/'
     - 'https://roxascity.gov.ph/feed/'
     - 'https://ucmed.ph/feed/'
+    - 'https://thermnnetworks.ph/feed/'
+    - 'https://neust.edu.ph/feed/'
   Other:
     - 'https://topnotcher.ph/feed/'
     - 'https://archive.ph/rss'
@@ -25606,6 +26425,7 @@ Philippines:
     - 'https://lokalnews.ph/feed/'
     - 'https://www.trending.ph/feed/'
     - 'https://ltoportal.ph/feed/'
+    - 'https://oslope.dfa.gov.ph/feed/'
   'Science & Technology':
     - 'https://interaksyon.philstar.com/rumor-cop/feed/'
     - 'https://gadgetsmagazine.com.ph/feed'
@@ -25702,6 +26522,20 @@ Poland:
     - 'https://www.bankier.pl/rss/wiadomosci.xml'
     - 'https://setugo.pl/feed/'
     - 'https://scharmach.pl/feed/'
+    - 'https://www.portalspozywczy.pl/rss/finanse.xml'
+    - 'https://www.portalspozywczy.pl/rss/handel.xml'
+    - 'https://www.portalspozywczy.pl/rss/kawa.xml'
+    - 'https://www.portalspozywczy.pl/rss/logistyka.xml'
+    - 'https://www.portalspozywczy.pl/rss/mleko.xml'
+    - 'https://www.portalspozywczy.pl/rss/napoje.xml'
+    - 'https://www.portalspozywczy.pl/rss/owoce-warzywa.xml'
+    - 'https://www.portalspozywczy.pl/rss/piwo.xml'
+    - 'https://www.portalspozywczy.pl/rss/portalspozywczy.xml'
+    - 'https://www.portalspozywczy.pl/rss/praca.xml'
+    - 'https://www.portalspozywczy.pl/rss/ryby.xml'
+    - 'https://www.portalspozywczy.pl/rss/slodycze-przekaski.xml'
+    - 'https://www.portalspozywczy.pl/rss/technologie.xml'
+    - 'https://www.portalspozywczy.pl/rss/zboza-oleiste.xml'
   'Lifestyle & Culture':
     - 'https://kobieta.onet.pl/.feed'
     - 'https://lubimyczytac.pl/rss'
@@ -25966,6 +26800,22 @@ Poland:
     - 'https://niedziela.pl/rss'
     - 'https://parafia-zalesie.pl/index.php?format=feed&type=rss'
     - 'https://glosseniora.pl/feed/'
+    - 'https://lubelskietravel.pl/?format=feed&type=rss'
+    - 'https://50ok.pl/feed/'
+    - 'https://stalowawola.naszemiasto.pl/rss/artykuly/1212.xml'
+    - 'https://stalowawola.naszemiasto.pl/rss/artykuly/1363.xml'
+    - 'https://stalowawola.naszemiasto.pl/rss/artykuly/1563.xml'
+    - 'https://stalowawola.naszemiasto.pl/rss/artykuly/1567.xml'
+    - 'https://stalowawola.naszemiasto.pl/rss/artykuly/17.xml'
+    - 'https://stalowawola.naszemiasto.pl/rss/artykuly/33.xml'
+    - 'https://stalowawola.naszemiasto.pl/rss/artykuly/7.xml'
+    - 'https://wyszkow.naszemiasto.pl/rss/artykuly/1212.xml'
+    - 'https://wyszkow.naszemiasto.pl/rss/artykuly/1363.xml'
+    - 'https://wyszkow.naszemiasto.pl/rss/artykuly/1563.xml'
+    - 'https://wyszkow.naszemiasto.pl/rss/artykuly/1567.xml'
+    - 'https://wyszkow.naszemiasto.pl/rss/artykuly/17.xml'
+    - 'https://wyszkow.naszemiasto.pl/rss/artykuly/33.xml'
+    - 'https://wyszkow.naszemiasto.pl/rss/artykuly/7.xml'
   'Local News':
     - 'https://warszawa.wyborcza.pl/pub/rss/warszawa.xml'
     - 'https://krakow.wyborcza.pl/pub/rss/krakow.xml'
@@ -26307,6 +27157,9 @@ Poland:
     - 'https://tvnisko.pl/feed/'
     - 'https://gzkzaklikow.pl/feed/'
     - 'http://zpp.pl/rss'
+    - 'https://kurierwschodni.pl/feed/'
+    - 'https://wyszkowinfo.pl/feed/'
+    - 'https://wyszkow.turystyka.pl/index.php?format=feed&type=atom'
   Other:
     - 'https://edukacja.dziennik.pl/.feed'
     - 'https://en.uw.edu.pl/feed/'
@@ -26405,6 +27258,11 @@ Poland:
     - 'https://www.wysokieobcasy.pl/pub/rss/wysokieobcasy.xml'
     - 'https://powiatnizanski.pl/?format=feed&type=rss'
     - 'https://parafie.org.pl/feed/'
+    - 'https://bip.zawichost.pl/fls/bip_pliki/rss.xml'
+    - 'https://businessinsider.com.pl/.feed'
+    - 'https://www.portalspozywczy.pl/rss/alkohole.xml'
+    - 'https://www.portalspozywczy.pl/rss/papierosy.xml'
+    - 'https://wyszkow.info.pl/feed'
   'Science & Technology':
     - 'http://polsatnews.pl/rss/technologie.xml'
     - 'https://geoforum.pl/rss'
@@ -26511,6 +27369,7 @@ Portugal:
     - 'https://meiosepublicidade.pt/rss/publicidade'
     - 'https://meiosepublicidade.pt/rss/ultimas-noticias'
     - 'https://www.sydra.pt/feed/'
+    - 'https://forum.vodafone.pt/vodafonept/rss/Community?interaction.style=forum'
   'Lifestyle & Culture':
     - 'http://tvi.iol.pt/rss.xml'
     - 'https://rss.impresa.pt/feed/latest/sic.rss?type=ARTICLE,VIDEO,GALLERY,STREAM,PLAYLIST,EVENT,NEWSLETTER&limit=20&pubsubhub=true'
@@ -26559,6 +27418,11 @@ Portugal:
     - 'https://www.mitologia.pt/data/rss'
     - 'https://ceteatro.pt/feed/'
     - 'https://museusaoroque.scml.pt/feed/'
+    - 'https://andamento.pt/feed/'
+    - 'https://blog.fixo.pt/rss.xml'
+    - 'https://rss.impresa.pt/feed/latest/famashow.rss?type=ARTICLE,VIDEO,GALLERY,STREAM,PLAYLIST,EVENT,NEWSLETTER&limit=20&pubsubhub=true'
+    - 'https://guiadasaude.pt/feed/'
+    - 'https://desenhosanimados-anos90.blogs.sapo.pt/data/rss'
   'Local News':
     - 'http://cnnportugal.iol.pt/rss.xml'
     - 'https://zap.aeiou.pt/feed'
@@ -26667,11 +27531,17 @@ Portugal:
     - 'https://albinoticias.pt/feed/'
     - 'https://cm-tabuaco.pt/pages/321.rss'
     - 'https://cm-tabuaco.pt/pages/322.rss'
+    - 'https://tomaronline.pt/feed/'
+    - 'https://freguesiasilveira.pt/feed/'
+    - 'https://cm-manteigas.pt/feed/'
+    - 'https://jfvimeiro.pt/feed/'
+    - 'https://odigital.sapo.pt/feed/'
   Opinion:
     - 'https://ciberduvidas.iscte-iul.pt/rss/artigos/controversias'
     - 'https://ciberduvidas.iscte-iul.pt/rss/artigos/ensino'
   Other:
     - 'http://rss.impresa.pt/feed/latest/impresa.rss'
+    - 'https://bemexplicado.pt/feed/'
   'Politics & Society':
     - 'https://feeds.feedburner.com/PublicoRSS'
     - 'https://observador.pt/feed/'
@@ -26738,6 +27608,7 @@ Portugal:
     - 'https://noticiasdeourem.pt/feed/'
     - 'https://www.jornalterraemar.pt/feed/'
     - 'https://jornal-desportivo.pt/feed/'
+    - 'https://blogvisaodemercado.pt/feed/'
   'World / International':
     - 'https://citopendia.pt/feed/'
     - 'https://zap.aeiou.pt/feed'
@@ -26751,6 +27622,7 @@ Portugal:
     - 'https://eldiario.pr/./rss.xml'
     - 'https://canovanas.pr/feed/'
     - 'https://ucb.edu.pr/feed/'
+    - 'https://vegabaja.gov.pr/vb/feed/'
   'Politics & Society':
     - 'https://wipr.pr/feed/'
     - 'https://www.ocpr.gov.pr/feed/'
@@ -26808,6 +27680,7 @@ Qatar:
     - 'https://almarkhiyasc.qa/feed/'
     - 'https://marsalqatar.qa/rss/category/37'
     - 'https://marsalqatar.qa/rss/category/38'
+    - 'https://www.duhailsc.qa/feed/'
   'World / International':
     - 'https://alarab.qa/category/الأخبار-الرسمية/feed'
     - 'https://alarab.qa/category/تقارير/feed'
@@ -26854,6 +27727,23 @@ Romania:
     - 'https://www.agriculturaecologica.ro/feed/'
     - 'https://www.leier.ro/feed/'
     - 'https://spatiulconstruit.ro/rss.php'
+    - 'https://iqads.ro/feed/adnews.rss'
+    - 'https://iqads.ro/feed/ads.rss'
+    - 'https://iqads.ro/feed/alte-creatii.rss'
+    - 'https://iqads.ro/feed/articole.rss'
+    - 'https://iqads.ro/feed/branding.rss'
+    - 'https://iqads.ro/feed/case-studies.rss'
+    - 'https://iqads.ro/feed/clipuri-tv.rss'
+    - 'https://iqads.ro/feed/direct-marketing.rss'
+    - 'https://iqads.ro/feed/english.rss'
+    - 'https://iqads.ro/feed/evenimente.rss'
+    - 'https://iqads.ro/feed/insider.rss'
+    - 'https://iqads.ro/feed/mobile.rss'
+    - 'https://iqads.ro/feed/neconventional.rss'
+    - 'https://iqads.ro/feed/online.rss'
+    - 'https://iqads.ro/feed/ooh.rss'
+    - 'https://iqads.ro/feed/spoturi-radio.rss'
+    - 'https://iqads.ro/feed/update.rss'
   'Lifestyle & Culture':
     - 'https://www.viva.ro/feed'
     - 'https://astrafilm.ro/feed/'
@@ -26931,6 +27821,16 @@ Romania:
     - 'https://bookhub.ro/feed/'
     - 'https://fabricatinro.ro/feed/'
     - 'https://fotografi-cameramani.ro/index/rss'
+    - 'https://iqads.ro/feed/cinema.rss'
+    - 'https://iqads.ro/feed/collective.rss'
+    - 'https://iqads.ro/feed/printuri.rss'
+    - 'https://iqads.ro/feed/spotlight.rss'
+    - 'https://www.iqads.ro/feed/home.rss'
+    - 'https://www.iqads.ro/feeds.rss'
+    - 'https://www.stiridezi.ro/feed/'
+    - 'https://descoperiri.ro/feed/'
+    - 'https://turismistoric.ro/feed/'
+    - 'https://jurnalfm.ro/feed/'
   'Local News':
     - 'https://rss.stirileprotv.ro/'
     - 'https://www.libertatea.ro/feed'
@@ -27180,11 +28080,31 @@ Romania:
     - 'https://www.monitorulbt.ro/feed/'
     - 'https://news-iasi.ro/feed/'
     - 'https://ziarulstirea.ro/feed/'
+    - 'https://ziarulargesul.ro/feed/'
+    - 'https://infoargesnews.ro/feed/'
+    - 'https://stiriarges.ro/feed/'
+    - 'https://focuspitesti.ro/feed/'
+    - 'https://www.mmhm.ro/feed/'
+    - 'https://nordestnews.ro/feed/'
+    - 'https://www.newsallert.ro/feed/'
+    - 'https://www.napocanews.ro/feed'
+    - 'https://arges-vedea.rowater.ro/feed/'
+    - 'https://evenimentvalcean.ro/feed/'
+    - 'https://marosvasarhelyiek.ro/feed/'
+    - 'https://valahiamedia.ro/feed/'
+    - 'https://chindiamedia.ro/feed/'
+    - 'https://observatoruldesibiu.ro/feed/'
+    - 'https://mesageruldesibiu.ro/feed/'
+    - 'https://radioas.ro/feed/'
+    - 'https://www.alesdonline.ro/feed/'
+    - 'https://raportulzilei.ro/feed/'
   Other:
     - 'https://www.model-de.ro/rss-anunturi/'
     - 'https://stiri-de-ultima-ora.ro/feed/'
     - 'https://echopress.ro/feed/'
     - 'https://jurnalulnational.ro/feed/'
+    - 'https://studentiada.ro/feed/'
+    - 'https://ziarplus.ro/feed/'
   'Politics & Society':
     - 'https://adevarul.ro/rss/index'
     - 'https://www.antena3.ro/rss'
@@ -27288,6 +28208,10 @@ Romania:
     - 'https://www.observator360.ro/feed/'
     - 'https://gazetapublica.ro/feed/'
     - 'https://www.turnucustiri.ro/rss'
+    - 'https://iqads.ro/feed/emm.rss'
+    - 'https://editiadedimineata.ro/feed/'
+    - 'https://infohuedin.ro/feed/'
+    - 'https://oradenii.ro/feed/'
   'Science & Technology':
     - 'https://mediawise.ro/feed/'
     - 'https://www.independentaromana.ro/articole/stiinta/feed'
@@ -27299,6 +28223,7 @@ Romania:
     - 'https://publicatia.ro/feed/'
     - 'https://www.360medical.ro/rss'
     - 'https://24wood.ro/feed/'
+    - 'https://iqads.ro/feed/expo.rss'
   Sports:
     - 'https://www.digisport.ro/rss'
     - 'https://www.gsp.ro/rss.xml'
@@ -27313,6 +28238,7 @@ Romania:
     - 'https://www.f5xmedia.ro/feed/'
     - 'https://www.sportulsalajean.ro/feed'
     - 'https://www.bihon.ro/feed'
+    - 'https://jurnaluldearges.ro/feed/'
   'World / International':
     - 'https://www.bursa.ro/titluri-bursa.xml'
     - 'https://www.mediafax.ro/feed'
@@ -27324,6 +28250,7 @@ Romania:
     - 'https://www.contributors.ro/asa-numitul-plan-de-pace-nu-ii-va-aduce-lui-donald-trump-premiul-nobel/feed/'
     - 'https://lovitura.ro/feed/'
     - 'https://mae.ro/rss.xml'
+    - 'https://www.ziuanews.ro/rss'
 'Russian Federation':
   'Business & Economy':
     - 'https://www.cnews.ru/inc/rss/news.xml'
@@ -27420,6 +28347,12 @@ Romania:
     - 'https://usedcars.ru/rss/'
     - 'https://mfc-gosuslugi.ru/feed/'
     - 'https://kaermorhen.ru/rss.php'
+    - 'https://newsta.ru/rss/category/avto'
+    - 'https://newsta.ru/rss/category/biznes-i-karera'
+    - 'https://newsta.ru/rss/category/ekonomika'
+    - 'https://newsta.ru/rss/category/marketing-i-reklama'
+    - 'https://newsta.ru/rss/category/nedvizhimost'
+    - 'https://rucont.ru/Rss.aspx?rss=News'
   'Lifestyle & Culture':
     - 'https://www.pravda.ru/culture/export.xml'
     - 'https://prokazan.ru/rss.xml'
@@ -27555,6 +28488,12 @@ Romania:
     - 'https://minecraftch.ru/rss.xml'
     - 'https://zhirnovsk-cdt.ucoz.ru/news/rss/'
     - 'https://elementy.ru/rss/events/biology'
+    - 'https://newsta.ru/rss/category/shou-biznes'
+    - 'https://photopole.ru/feed'
+    - 'https://risk.ru/rss'
+    - 'https://programmyfree.ru/feed/'
+    - 'https://vfokuse.mail.ru/rss/vfokusemailru/'
+    - 'https://youkarta.ru/feed/'
   'Local News':
     - 'http://moslenta.ru/exports/rss.xml'
     - 'https://fontanka.ru/rss-feeds/rss.xml'
@@ -27722,6 +28661,18 @@ Romania:
     - 'https://perenka.ru/rss/'
     - 'https://prizyvr64.ru/rss.php'
     - 'https://ryazpressa.ru/feed/'
+    - 'https://newsta.ru/rss/latest-posts'
+    - 'https://arskmedia.ru/rss'
+    - 'https://arskmedia.ru/rss/news.rss'
+    - 'https://tan-barda.ru/feed/'
+    - 'https://tukai-rt.ru/rss'
+    - 'https://tukai-rt.ru/rss/news.rss'
+    - 'https://zhukovskiy.ru/feed/'
+    - 'https://gd-n.ru/feed/'
+    - 'https://rsloboda-rt.ru/rss'
+    - 'https://rsloboda-rt.ru/rss/news.rss'
+    - 'https://newslab.ru/article/rss'
+    - 'https://newslab.ru/news/all/rss'
   Opinion:
     - 'https://english.pravda.ru/opinion/export.xml'
   Other:
@@ -27828,6 +28779,15 @@ Romania:
     - 'https://admzilair.ru/feed/'
     - 'https://www.apn.ru/engine/rss.php'
     - 'https://sorokanews.ru/feed/'
+    - 'https://newsta.ru/rss/category/rossiya'
+    - 'https://newsta.ru/rss/category/v-mire'
+    - 'https://vatantat.ru/rss'
+    - 'https://vatantat.ru/rss/news.rss'
+    - 'https://mmdc.ru/feed/'
+    - 'https://lv.sputniknews.ru/export/rss2/archive/index.xml'
+    - 'https://mirros.hse.ru/gateway/plugin/WebFeedGatewayPlugin/atom'
+    - 'https://vfokuse.mail.ru/rss/partners/'
+    - 'https://nyc-brooklyn.ru/feed/'
   'Science & Technology':
     - 'https://www.pravda.ru/health/export.xml'
     - 'https://english.pravda.ru/animal/export.xml'
@@ -27919,6 +28879,9 @@ Romania:
     - 'https://elementy.ru/rss/news/paleontology'
     - 'https://elementy.ru/rss/news/russia'
     - 'https://elementy.ru/rss/pub'
+    - 'https://newsta.ru/rss/category/obrazovanie'
+    - 'https://newsta.ru/rss/category/tekhnologii'
+    - 'https://newsta.ru/rss/category/zdorove'
   Sports:
     - 'https://news.mail.ru/rss/sport/'
     - 'http://news.sportbox.ru/taxonomy/term/7212/0/feed'
@@ -27928,6 +28891,7 @@ Romania:
     - 'http://news.rufox.ru/sport.rss'
     - 'https://sakhalinmedia.ru/export/new/newsByRubric_64_42.rss'
     - 'https://news.sportbox.ru/taxonomy/term/7212/0/feed'
+    - 'https://newsta.ru/rss/category/sport'
   'World / International':
     - 'http://globalaffairs.ru/feed/'
     - 'https://english.pravda.ru/hotspots/export.xml'
@@ -27994,6 +28958,9 @@ Romania:
     - 'https://mt-smi.mirtesen.ru/blog/atom'
     - 'https://eng.elci.ru/feed/'
     - 'https://afrinz.ru/feed/'
+    - 'https://newsta.ru/rss/category/politika'
+    - 'https://newsta.ru/rss/category/turizm'
+    - 'https://gazetarf.ru/feed/'
 Rwanda:
   'Business & Economy':
     - 'https://rdb.rw/feed/'
@@ -28012,6 +28979,7 @@ Rwanda:
     - 'https://kigalidailynews.rw/rss/category/entertainment'
     - 'https://rubanda.rw/rss/category/imyidagaduro'
     - 'https://globalupdates.rw/rss/category/iyobokamana'
+    - 'https://www.spruik.rw/index.php/feed/'
   'Local News':
     - 'https://www.newtimes.co.rw/rssFeed/17'
     - 'https://www.newtimes.co.rw/rssFeed/18'
@@ -28035,6 +29003,7 @@ Rwanda:
     - 'https://izubaradiotv.rw/rss/latest-posts'
     - 'https://arj.org.rw/feed/'
     - 'https://globalupdates.rw/rss/category/Ubuzima'
+    - 'https://laverite.rw/feed/'
   'Politics & Society':
     - 'https://www.rnanews.com/feed/'
     - 'https://www.newtimes.co.rw/rssFeed/14'
@@ -28087,6 +29056,7 @@ Rwanda:
     - 'https://thinkbig.rw/feed/'
     - 'https://www.rica.rw/feed/'
     - 'https://dr.ur.ac.rw/feed/atom_1.0/site'
+    - 'https://site.unilak.ac.rw/feed/'
   Sports:
     - 'https://www.newtimes.co.rw/rssFeed/16'
     - 'https://www.newtimes.co.rw/rssFeed/21'
@@ -28246,6 +29216,7 @@ Samoa:
     - 'https://rmse.sa/feed'
     - 'https://sanews.sa/feed/'
     - 'https://shahdnow.sa/feed/'
+    - 'https://kidana.com.sa/feed/'
   'Politics & Society':
     - 'http://prh.gov.sa/?format=feed&type=rss'
     - 'https://www.makkahnews.sa/feed'
@@ -28303,6 +29274,8 @@ Senegal:
     - 'https://edcsenegal.sn/feed/'
     - 'https://isepmatam.sn/feed/'
     - 'https://isep-bignona.edu.sn/feed/'
+    - 'https://nguidile.sn/feed'
+    - 'https://fsjp.ucad.sn/rss.xml'
   'Politics & Society':
     - 'https://lequotidien.sn/feed/'
     - 'https://agriculture.gouv.sn/feed/'
@@ -28410,6 +29383,8 @@ Serbia:
     - 'https://poslovne-strane.rs/feed/'
     - 'https://usluge.oglasionline.rs/rss-feed/'
     - 'https://rtvbujanovac.rs/feed/'
+    - 'https://sensa.mondo.rs/rss/40/lepota-dobre-navike/sensa-vesti'
+    - 'https://pressia.rs/feed/'
   'Lifestyle & Culture':
     - 'https://www.kurir.rs/rss/zabava'
     - 'https://svet-scandal.rs/feed/'
@@ -28539,6 +29514,34 @@ Serbia:
     - 'https://ris.org.rs/feed/'
     - 'https://digitalna.resavskabiblioteka.rs/items/browse?output=rss2'
     - 'https://beogradskonasledje.rs/feed'
+    - 'https://sensa.mondo.rs/rss/1/Naslovna'
+    - 'https://sensa.mondo.rs/rss/20/licni-razvoj'
+    - 'https://sensa.mondo.rs/rss/21/budjenje-duse'
+    - 'https://sensa.mondo.rs/rss/22/zdravo-telo'
+    - 'https://sensa.mondo.rs/rss/24/lepota-dobre-navike'
+    - 'https://sensa.mondo.rs/rss/25/licni-razvoj/popularna-psihologija'
+    - 'https://sensa.mondo.rs/rss/27/budjenje-duse/meditacija-i-antistres'
+    - 'https://sensa.mondo.rs/rss/28/budjenje-duse/duhovni-razvoj'
+    - 'https://sensa.mondo.rs/rss/29/budjenje-duse/srecan-zivot'
+    - 'https://sensa.mondo.rs/rss/31/budjenje-duse/ljubav-i-seksualnost'
+    - 'https://sensa.mondo.rs/rss/32/zdravo-telo/zdravlje-i-holisticka-medicina'
+    - 'https://sensa.mondo.rs/rss/33/zdravo-telo/recepti-zdrava-hrana'
+    - 'https://sensa.mondo.rs/rss/34/zdravo-telo/joga-i-pilates'
+    - 'https://sensa.mondo.rs/rss/35/lepota-dobre-navike/prirodna-nega-i-lepota'
+    - 'https://sensa.mondo.rs/rss/36/lepota-dobre-navike/pro-age'
+    - 'https://sensa.mondo.rs/rss/38/moj-dom'
+    - 'https://sensa.mondo.rs/rss/39/astrologija'
+    - 'https://sensa.mondo.rs/rss/61/najnovije'
+    - 'https://www.stil.kurir.rs/rss'
+    - 'https://www.stil.kurir.rs/rss/celebrities'
+    - 'https://www.stil.kurir.rs/rss/lepi-zdravi'
+    - 'https://www.stil.kurir.rs/rss/lifestyle'
+    - 'https://www.stil.kurir.rs/rss/ljubav'
+    - 'https://www.stil.kurir.rs/rss/moda'
+    - 'https://www.stil.kurir.rs/rss/najnovije-vesti'
+    - 'https://www.stil.kurir.rs/rss/porodica'
+    - 'https://www.stil.kurir.rs/rss/recepti'
+    - 'https://sandzaklive.rs/feed/'
   'Local News':
     - 'https://www.blic.rs/rss/?categoryUuid=1dba3536-73fa-4576-b343-b19d0f8d24ef'
     - 'https://www.kurir.rs/rss'
@@ -28724,6 +29727,9 @@ Serbia:
     - 'https://zagubica.ls.gov.rs/rss-feed/'
     - 'https://mapamag.rs/feed/'
     - 'https://www.025.rs/feed/'
+    - 'https://www.epancevo.rs/feed/'
+    - 'https://objektiv24.rs/feed/'
+    - 'https://portalramonda.rs/feed/'
   Opinion:
     - 'https://informer.rs/rss/politika/kolumne'
     - 'https://www.milic.rs/feed/'
@@ -28845,6 +29851,10 @@ Serbia:
     - 'https://nsuzivo.rs/feed/'
     - 'https://www.slavkocuruvijafondacija.rs/feed/'
     - 'https://plovput.gov.rs/rss/index.php'
+    - 'https://www.storyteller.rs/feed/'
+    - 'https://reri.org.rs/feed/'
+    - 'https://medijskazajednica.rs/feed/'
+    - 'https://www.srbija.gov.rs/rss/?change_lang=cr'
   'Science & Technology':
     - 'https://www.kurir.rs/rss/zdravlje'
     - 'https://mondo.rs/rss/685/Magazin/Zdravlje'
@@ -29010,6 +30020,7 @@ Seychelles:
     - 'https://nib.gov.sl/feed/'
     - 'https://mommr.gov.sl/feed/'
     - 'https://eltree.sl/feed/'
+    - 'https://oarg.gov.sl/feed/'
   'Lifestyle & Culture':
     - 'https://www.slefes.org.sl/feed/'
   'Local News':
@@ -29044,6 +30055,7 @@ Seychelles:
     - 'https://statehouse.gov.sl/feed/'
     - 'https://slmissionun.gov.sl/feed/'
     - 'https://www.natca.gov.sl/feed/'
+    - 'https://ma.slembassy.gov.sl/feed/'
 Singapore:
   'Business & Economy':
     - 'https://fintechnews.sg/feed/'
@@ -29142,6 +30154,7 @@ Singapore:
     - 'https://visitkamponggelam.com.sg/feed/'
     - 'https://www.biblechurch.sg/blog-feed.xml'
     - 'https://muhammadiyah.org.sg/feed/'
+    - 'https://hawkerpedia.com.sg/feed/'
   'Local News':
     - 'https://www.mypaper.sg/feed/'
     - 'https://feeds.singaporestar.com/rss/a677a0718b69db72'
@@ -29207,6 +30220,7 @@ Singapore:
     - 'http://f1technical.net/rss/news.xml'
     - 'https://channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml'
     - 'https://straitstimes.com/news/sport/rss.xml'
+    - 'https://www.sportplus.sg/blog-feed.xml'
   'World / International':
     - 'https://www.wwf.sg/feed/'
     - 'https://straitstimes.com/news/asia/rss.xml'
@@ -29251,6 +30265,7 @@ Slovakia:
     - 'https://www.podnikajte.sk/rss'
     - 'http://rss.radia.sk/'
     - 'https://www.euroekonom.sk/feed/'
+    - 'https://masam.sk/feed/'
   'Lifestyle & Culture':
     - 'https://www.startitup.sk/kategoria/architektura/feed/'
     - 'https://www.startitup.sk/kategoria/zaujimavosti/feed/'
@@ -29336,6 +30351,7 @@ Slovakia:
     - 'https://www.magyar-iskola.sk/feed/'
     - 'https://www.tsk.sk/rss-1/rss-export.html?page_id=2705&pid=125&days=30'
     - 'https://www.podvihorlatskenoviny.sk/index.php/feed/'
+    - 'https://mskszm.sk/feed/'
   'Local News':
     - 'https://bratislava.sme.sk/rss'
     - 'https://kosice.korzar.sme.sk/rss'
@@ -29534,6 +30550,13 @@ Slovakia:
     - 'https://www.vkapusany.sk/get_rss.php?id=1_atom_7364'
     - 'https://vkport.sk/feed/'
     - 'https://www.bratislavskyvecernik.sk/feed/'
+    - 'https://lnc.sk/feed/'
+    - 'https://jarok.sk/?rss=200'
+    - 'https://zmonitra.sk/?rss=200'
+    - 'https://my.sme.sk/nove-zamky/rss'
+    - 'https://my.sme.sk/nove-zamky/rss-title'
+    - 'https://soutt.sk/feed/'
+    - 'https://soutt.sk/oznamy/feed'
   Opinion:
     - 'https://www.jpost.com//rss/rssfeedsopinion.aspx'
     - 'https://www.jpost.com//rss/rssfeedstorahportion'
@@ -29773,6 +30796,8 @@ Slovenia:
     - 'https://zupnija-smarje-sap.rkc.si/index.php/content/rss/5'
     - 'https://zupnija-smarje-sap.rkc.si/index.php/content/rss/53'
     - 'https://www.knjiznica-ravne.si/feed/'
+    - 'https://svetagora.si/feed/'
+    - 'https://visitravnopolje.si/feed/'
   'Local News':
     - 'https://www.posavskiobzornik.si/rss.php'
     - 'https://www.lokalec.si/feed/'
@@ -29878,6 +30903,7 @@ Slovenia:
     - 'https://obcina.smartno.si/feed/'
     - 'https://nase-zasavje.si/feed/'
     - 'https://savus.si/feed/'
+    - 'https://www.pb-vojnik.si/feed/'
   Other:
     - 'https://sta.si/rss-15'
     - 'https://english.sta.si/rss-10'
@@ -29924,6 +30950,7 @@ Slovenia:
     - 'https://mil.casoris.si/feed/'
     - 'https://pokukaj24.si/feed/'
     - 'https://www.plusportal.si/feed/'
+    - 'https://megafon.si/feed/'
   'Science & Technology':
     - 'https://nijz.si/feed/'
     - 'https://rtvslo.si/feeds/09.xml'
@@ -30036,6 +31063,7 @@ Somalia:
     - 'https://events.somaliren.org.so/category/0/events.atom'
     - 'https://nca.gov.so/feed/'
     - 'https://moct.gov.so/feed/'
+    - 'https://dei.so/feed/'
   Sports:
     - 'https://radiosanguuni.so/feed/'
     - 'https://radiohimilo.so/feed/'
@@ -30272,6 +31300,7 @@ Somalia:
     - 'https://www.lutherancape.org.za/feed/'
     - 'https://xh.homes.net.za/search/sOrder,dt_pub_date/sFeed,rss/country,ZA'
     - 'https://www.zkhiphani.co.za/feed/'
+    - 'https://wilddog.net.za/forums/-/index.rss'
   'Local News':
     - 'https://www.capetownetc.com/feed/'
     - 'https://kormorant.co.za/feed/'
@@ -30412,6 +31441,9 @@ Somalia:
     - 'https://weskusnuus.co.za/feed/'
     - 'https://radionfm.co.za/feed/'
     - 'https://www.weskusontheline.co.za/feed/'
+    - 'https://www.roadsafety.co.za/feed/'
+    - 'https://ngkerkplett.co.za/feed/'
+    - 'https://guardianreport.co.za/feed/'
   Opinion:
     - 'https://www.timeslive.co.za/arc/outboundfeeds/rss/category/ideas/'
   Other:
@@ -30528,6 +31560,8 @@ Somalia:
     - 'https://thecasualobserver.co.za/feed/'
     - 'https://www.tlu.co.za/feed/'
     - 'https://www.intsikayethu.gov.za/feed/'
+    - 'https://karibu.org.za/feed/'
+    - 'https://www.conservationaction.co.za/feed/'
   'Science & Technology':
     - 'http://johnhawks.net/feed'
     - 'https://mycourses.co.za/feed/'
@@ -30609,6 +31643,8 @@ Somalia:
     - 'https://pegasuspublishing.co.za/feed/'
     - 'https://selectafricatv.co.za/feed/'
     - 'https://www.soccerladuma.co.za/rss'
+    - 'https://www.upingtoncityfc.co.za/feed/'
+    - 'https://sealine.co.za/forums/-/index.rss'
   'World / International':
     - 'https://www.timeslive.co.za/arc/outboundfeeds/rss/category/news/'
     - 'http://www.sabcnews.com/sabcnews/category/africa/feed/'
@@ -30618,6 +31654,9 @@ Somalia:
     - 'https://pensouthafrica.co.za/feed/'
     - 'https://www.financialmail.businessday.co.za/arc/outboundfeeds/rss/category/life/'
     - 'https://defenceweb.co.za/feed/'
+'South Georgia & South Sandwich Islands':
+  'Lifestyle & Culture':
+    - 'https://cems.sgmuseum.gs/feed/'
 'South Korea':
   'Business & Economy':
     - 'https://www.hankyung.com/feed/all-news'
@@ -30686,6 +31725,14 @@ Somalia:
     - 'https://cdn.news.ajd.co.kr/rss/gns_allArticle.xml'
     - 'https://cdn.wolyo.co.kr/rss/gn_rss_allArticle.xml'
     - 'https://mydatalab.co.kr/feed/'
+    - 'https://oceanpress.co.kr/data/rss/news.xml'
+    - 'https://cdn.shippingvoice.kr/rss/gns_allArticle.xml'
+    - 'https://cdn.sisaseoul.co.kr/rss/gns_S1N25.xml'
+    - 'https://cdn.sisaseoul.co.kr/rss/gns_S1N26.xml'
+    - 'https://cdn.sisaseoul.co.kr/rss/gns_S1N27.xml'
+    - 'https://cdn.sisaseoul.co.kr/rss/gns_S1N28.xml'
+    - 'https://cdn.sisaseoul.co.kr/rss/gns_S1N30.xml'
+    - 'https://cdn.sisaseoul.co.kr/rss/gns_allArticle.xml'
   'Lifestyle & Culture':
     - 'https://hiphople.com/rss'
     - 'https://www.hankyung.com/feed/entertainment'
@@ -30721,6 +31768,7 @@ Somalia:
     - 'https://aptdamoa.co.kr/feed/'
     - 'https://ideabridge.kr/feed/'
     - 'https://richbig.kr/feed/'
+    - 'https://losermarxdr.tistory.com/rss'
   'Local News':
     - 'https://news.sbs.co.kr/news/sitemapRSS.do'
     - 'https://www.hankyung.com/feed/society'
@@ -30771,6 +31819,8 @@ Somalia:
     - 'https://snvision.seongnam.go.kr/rss/rss_news.php'
     - 'https://www.gimponews.kr/rss/gns_allArticle.xml'
     - 'https://kgnews.co.kr/data/rss/news.xml'
+    - 'https://sondh.tistory.com/rss'
+    - 'https://sisakoreanews.kr/rss/rss_news.php'
   Opinion:
     - 'https://www.hankyung.com/feed/opinion'
     - 'https://cdn.edit.or.kr/rss/gn_rss_allArticle.xml'
@@ -31879,6 +32929,7 @@ Spain:
     - 'https://www.vintag.es/feeds/posts/default'
     - 'https://rinconalia.es/feed/'
     - 'https://vinaros.es/es/agenda/rss.xml'
+    - 'https://olcades.es/feed/'
   'Local News':
     - 'http://www.lavozdigital.es/rss/2.0/portada/'
     - 'https://www.diariodeleon.es/rss/home.xml'
@@ -33513,6 +34564,8 @@ Spain:
     - 'https://estudiossolana.es/feed/'
     - 'https://vinaros.es/es/acuerdos-municipales/rss.xml'
     - 'https://vinaros.es/es/oferta-de-ocupacion-publica/rss.xml'
+    - 'https://guadalajaradiario.es/?format=feed&type=rss'
+    - 'https://planvex.es/web/feed/'
   Opinion:
     - 'https://andaluciainformacion.es/rss/opinion/'
     - 'https://andaluciainformacion.es/rss/tropico-de-letras/'
@@ -34000,6 +35053,7 @@ Spain:
     - 'https://ifomo.es/rss/cantabria/'
     - 'https://ifomo.es/rss/espana/'
     - 'https://barbate.es/component/k2/itemlist?format=feed&moduleID=181'
+    - 'https://amorfm.es/feed/'
   'Science & Technology':
     - 'http://www.upo.es/upotec/feeds/'
     - 'https://www.labrujulaverde.com/feed'
@@ -34706,6 +35760,7 @@ Spain:
     - 'https://fbs.vau.ac.lk/?feed=rss2'
     - 'https://parttime.lk/feed'
     - 'https://businesstoday.lk/feed/'
+    - 'https://english.cnl.lk/feed/'
   'Lifestyle & Culture':
     - 'http://www.yamu.lk/feed/'
     - 'https://www.sundaytimes.lk/251019/magazine/feed/magazine.xml'
@@ -34760,6 +35815,8 @@ Spain:
     - 'https://vnews.lk/feed/'
     - 'https://colomboreport.lk/rss/category/Business'
     - 'https://rahulacollege.lk/feed/'
+    - 'https://sinhala.ceylonnewsfactory.lk/feed/'
+    - 'https://jetmedia.lk/feed'
   'Politics & Society':
     - 'https://www.adaderana.lk/rss.php'
     - 'https://groundviews.org/feed/'
@@ -34826,6 +35883,7 @@ Spain:
     - 'https://colomboreport.lk/rss/latest-posts'
     - 'https://slpi.lk/feed/'
     - 'https://theleader.lk/?format=feed&type=rss'
+    - 'https://tamil.newsnow.lk/feed/'
   'Science & Technology':
     - 'https://ir.lib.pdn.ac.lk/server/opensearch/search?format=atom&query=*'
     - 'https://www.news21.lk/rss/category/technology'
@@ -34873,6 +35931,7 @@ Spain:
     - 'https://thevoiceslu.com/feed/'
     - 'https://pmd.govt.lc/feed/'
     - 'https://wdc.education.gov.lc/feed'
+    - 'https://met.gov.lc/feed/'
   'Politics & Society':
     - 'https://govt.lc/news/rss'
   'World / International':
@@ -34897,6 +35956,9 @@ Spain:
     - 'https://nemo.gov.vc/nemo/index.php?format=feed&type=rss'
     - 'https://education.gov.vc/education/index.php?format=feed&type=rss'
     - 'https://ederluiz.com.vc/feed/'
+    - 'https://adzboard.vc/feed/'
+  Other:
+    - 'https://adzboard.vc/web-stories/feed/'
   'Politics & Society':
     - 'https://mobilization.gov.vc/mobilization/index.php?format=feed&type=rss'
   'World / International':
@@ -34928,12 +35990,14 @@ Sudan:
     - 'https://hcenr.gov.sd/?feed=rss2'
     - 'https://nhif.gov.sd/feed/'
     - 'https://nileeducation.gov.sd/feed/'
+    - 'https://sudarecboard.gov.sd/feed/'
   'Science & Technology':
     - 'https://mycetoma.edu.sd/?feed=rss2'
     - 'https://journals.karary.edu.sd/index.php/JKUES/gateway/plugin/AnnouncementFeedGatewayPlugin/atom'
     - 'https://journals.karary.edu.sd/index.php/JKUES/gateway/plugin/WebFeedGatewayPlugin/rss2'
     - 'https://arc-library.gov.sd/feed/'
     - 'https://ut.edu.sd/feed/'
+    - 'https://solarmarket.sd/shop/feed/'
 Suriname:
   'Business & Economy':
     - 'https://unitednews.sr/category/news/feed/'
@@ -34956,6 +36020,7 @@ Suriname:
     - 'https://radiosrs.sr/feed/'
     - 'https://mas.sr/feed/'
     - 'https://www.rosebelgoldmines.sr/feed/'
+    - 'https://dedolfijn.sr/feed/'
   Other:
     - 'https://ves.sr/feed/'
   'Politics & Society':
@@ -35017,6 +36082,8 @@ Sweden:
     - 'https://byggnadsarbetaren.se/feed'
     - 'https://forvaltarforum.se/feed/'
     - 'https://www.sweco.se/feed/'
+    - 'https://bilfrakt.se/feed/'
+    - 'https://ideon.se/feed/'
   'Lifestyle & Culture':
     - 'http://fz.se/feeds/nyheter'
     - 'https://botaniskatradgardspodden.libsyn.com/rss'
@@ -35064,6 +36131,7 @@ Sweden:
     - 'https://sfblogg.zaramis.se/feed/'
     - 'https://oskg.se/feed/'
     - 'https://shop.bargi.se/rss/catalog/new/store_id/4/'
+    - 'https://svmm.se/feed/'
   'Local News':
     - 'https://www.svtplay.se/rss.xml'
     - 'http://tv4.se/rss'
@@ -35192,6 +36260,8 @@ Sweden:
     - 'https://www.orebro.se/rss/nyheter'
     - 'https://www.orebro.se/rss/pressmeddelanden'
     - 'https://www.orebro.se/rss/snodagboken'
+    - 'https://xnytt.se/feed/'
+    - 'https://hjotidning.se/feed/'
   Opinion:
     - 'http://fz.se/feeds/forum'
   Other:
@@ -35279,6 +36349,7 @@ Sweden:
     - 'https://vansbrosimningen.se/feed/'
     - 'https://www.vasterasschack.se/?feed=rss2'
     - 'https://www.gd.se/feeds/feed.xml'
+    - 'https://www.lannasport.se/sv/articles.rss'
   'World / International':
     - 'https://www.dn.se/rss/'
     - 'https://unesco.se/feed/'
@@ -35427,6 +36498,7 @@ Switzerland:
     - 'https://obwaldnerzeitung.ch/kultur.rss'
     - 'https://obwaldnerzeitung.ch/leben/ratgeber.rss'
     - 'https://www.lindeweiningen.ch/feed/'
+    - 'https://www.farmaciaviganello.ch/feed/rss2'
   'Local News':
     - 'https://www.blick.ch/rss.xml'
     - 'https://www.watson.ch/api/2.0/rss/index.xml?tag=Front'
@@ -35618,6 +36690,8 @@ Switzerland:
     - 'https://spworb.ch/feed/'
     - 'https://slowuplavallee.ch/feed/'
     - 'https://www.telez.ch/feed/'
+    - 'https://gantrisch-zeitung.ch/feed/'
+    - 'https://www.migrosticino.ch/feed/'
   Other:
     - 'https://snb.ch/public/en/rss/repos'
     - 'https://www.rvvordemwald.ch/rss/blog'
@@ -35783,6 +36857,7 @@ Switzerland:
     - 'https://www.ethz.ch/en/news-und-veranstaltungen/eth-news/news/_jcr_content.feed'
     - 'https://www.ethz.ch/en/news-und-veranstaltungen/eth-news/news/_jcr_content.feed.html?tag=news:dossiers/zukunftsblog'
     - 'https://www.unige.ch/feed/presse/rss'
+    - 'https://stadtbranche.ch/feed'
   Sports:
     - 'http://fcb.ch/api/feed/news/rss_feed'
     - 'https://www.catsailingnews.com/feed/'
@@ -35862,6 +36937,7 @@ Syria:
     - 'https://jamahir.alwehda.gov.sy/?feed=rss2'
     - 'https://sarc.sy/feed/'
     - 'https://furat.alwehda.gov.sy/?feed=rss2'
+    - 'https://archive.thawra.sy/?feed=rss2'
   'Science & Technology':
     - 'https://homs-univ.edu.sy/feed/'
     - 'https://wpu.edu.sy/feed/'
@@ -36068,6 +37144,8 @@ Tajikistan:
     - 'https://kmt.tj/feed/'
     - 'https://your.tj/feed/'
     - 'https://ddstdt.tj/feed/'
+    - 'https://osorkhonaimilliidip.tj/feed/'
+    - 'https://hit.tj/rss.xml'
   'Local News':
     - 'https://avesta.tj/feed/'
     - 'https://narodnaya.tj/feed/'
@@ -36105,6 +37183,8 @@ Tajikistan:
     - 'https://transcontrol.tj/feed/'
     - 'https://mihd-murghob.tj/feed/'
     - 'https://dsc.tj/ru/feed/'
+    - 'https://mo.tnu.tj/ru/feed/'
+    - 'https://adbmch.tj/feed/'
   'Science & Technology':
     - 'https://jumhuriyat.tj/rssdzen.xml'
     - 'https://jumhuriyat.tj/rssturbo.xml'
@@ -36117,6 +37197,7 @@ Tajikistan:
     - 'https://factcheck.tj/feed/'
     - 'https://phti.tj/ru/feed/'
     - 'https://cryosphere.tj/feed/'
+    - 'https://www.greeneconomy.tj/feed/'
   Sports:
     - 'https://varzishtv.tj/tj/rss.php'
   'World / International':
@@ -36146,6 +37227,8 @@ Tanzania:
     - 'https://www.dyampaye.co.tz/feeds/posts/default'
     - 'https://arusha-archdiocese.or.tz/feed/'
     - 'https://www.pmstec.or.tz/feed/'
+  Other:
+    - 'https://www.mwalimumakoba.co.tz/feeds/posts/default'
   'Politics & Society':
     - 'https://habarileo.co.tz/feed/'
     - 'https://www.tanzanianewsreports.com/feed/'
@@ -36211,6 +37294,7 @@ Thailand:
     - 'https://miwgroup.co.th/feed/'
     - 'https://aprint.co.th/feed/'
     - 'https://www.infoquest.co.th/feed'
+    - 'https://soontornfilm.co.th/feed/'
   'Lifestyle & Culture':
     - 'https://praew.com/feed'
     - 'https://www.oas.psu.ac.th/feed/'
@@ -36221,6 +37305,7 @@ Thailand:
     - 'https://thailandfoundation.or.th/feed/'
     - 'https://pubat.or.th/feed/'
     - 'https://www.poolspa.co.th/feed/'
+    - 'https://sure.su.ac.th/xmlui/feed/atom_1.0/site'
   'Local News':
     - 'https://www.pattayamail.com/feed'
     - 'https://www.infoquest.co.th/feed'
@@ -36237,6 +37322,7 @@ Thailand:
     - 'https://cm.trang.psu.ac.th/feed'
     - 'https://trang2.go.th/feed/'
     - 'https://www.saberbeam.co.th/th/feed/'
+    - 'https://sukhothai.doae.go.th/feed/'
   'Politics & Society':
     - 'https://tja.or.th/feed'
     - 'https://www.globe.co.th/feed/'
@@ -36262,6 +37348,9 @@ Thailand:
     - 'https://presssystems.co.th/feed/'
     - 'https://siamtechno.ac.th/feed/'
     - 'https://thaimooc.ac.th/feed/'
+    - 'https://www.tangerine.co.th/feed/'
+  Sports:
+    - 'https://www.chiangmainews.co.th/feed/'
   'World / International':
     - 'https://scandasia.com/feed/'
     - 'https://tmd.go.th/api/xml/storm-tracking'
@@ -36286,6 +37375,7 @@ Timor-leste:
     - 'https://www.redcross.tl/feed/'
     - 'https://estv2lospalos.sch.tl/feed/'
     - 'https://lat-lospalos.sch.tl/feed/'
+    - 'https://rotuto.suku.tl/feed/'
   'Politics & Society':
     - 'https://tatoli.tl/feed/'
     - 'https://id.tatoli.tl/feed/'
@@ -36343,6 +37433,7 @@ Togo:
     - 'https://dankpen1.mairie.tg/feed/'
     - 'https://lacs1.mairie.tg/feed/'
     - 'https://leclik.tg/feed/'
+    - 'https://vitrinenews.tg/feed/'
   'Politics & Society':
     - 'https://icilome.com/feed/'
     - 'https://togoscoop.tg/feed/'
@@ -36480,6 +37571,7 @@ Tonga:
     - 'https://www.tgu.co.tt/feed/'
   'Lifestyle & Culture':
     - 'https://visittrinidad.tt/feed/'
+    - 'https://www.foba.fatima.edu.tt/feed/'
   'Local News':
     - 'https://newsday.co.tt/feed/'
     - 'https://www.ema.co.tt/feed/'
@@ -36496,6 +37588,7 @@ Tonga:
     - 'https://www.guardian.co.tt/rss-6.21.0.0.ae52d23427'
   'Science & Technology':
     - 'https://www.ima.gov.tt/feed/'
+    - 'https://ma.tt/feed/'
   Sports:
     - 'https://wired868.com/feed/'
   'World / International':
@@ -36642,6 +37735,7 @@ Tuvalu:
     - 'https://rastafari.tv/feed/'
     - 'https://marytv.tv/feed/'
     - 'https://www.camhub.tv/rss/'
+    - 'https://times.abema.tv/list/feed/rss'
   'Local News':
     - 'https://24newshd.tv/rss/topics'
     - 'https://24newshd.tv/rss/travel'
@@ -36690,6 +37784,7 @@ Tuvalu:
     - 'https://www.lbcgroup.tv/Rss/News/ar/24/صحة-وتغذية'
     - 'https://www.lbcgroup.tv/Rss/News/ar/49/علوم-وتكنولوجيا'
     - 'https://live-production.tv/rss'
+    - 'https://www.idx.tv/feed/'
   Sports:
     - 'https://24newshd.tv/rss/athletics'
     - 'https://24newshd.tv/rss/cricket'
@@ -36827,6 +37922,10 @@ Türkiye:
     - 'https://www.emlakpencerem.com.tr/rss_mobilya-ve-dekorasyon_44230.xml'
     - 'https://www.emlakpencerem.com.tr/rss_yapi-sektoru_57039.xml'
     - 'https://uzmanpara.milliyet.com.tr/haber_rss/'
+    - 'https://feeds.feedburner.com/habergazetesi/CPhjiwHGvH4'
+    - 'https://feeds.feedburner.com/habergazetesi/ynqb712fytv'
+    - 'https://basarihikayeleri.com.tr/rss.xml'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/ekonomi'
   'Lifestyle & Culture':
     - 'https://pierrecardinyatak.com.tr/feed/'
     - 'https://ntv.com.tr/n-life.rss'
@@ -36963,6 +38062,10 @@ Türkiye:
     - 'https://makarna.com.tr/feed/'
     - 'https://www.gunlukkiralik.com.tr/feed/'
     - 'https://www.imgelem.com.tr/feed/'
+    - 'https://www.pembeblog.com.tr/feed/'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/kultur-sanat'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/magazin'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/televizyon'
   'Local News':
     - 'https://www.sabah.com.tr/rss/son24saat.xml'
     - 'https://www.turkiyegazetesi.com.tr/rss/manset'
@@ -37415,6 +38518,36 @@ Türkiye:
     - 'https://www.emlakpencerem.com.tr/rss_istanbul_57071.xml'
     - 'https://www.emlakpencerem.com.tr/rss_toki_44232.xml'
     - 'https://www.ilgazetesi.com.tr/service/rss.php'
+    - 'https://yozgatmedya.com.tr/rss'
+    - 'https://www.tontv.com.tr/rss'
+    - 'https://objektifa.com.tr/rss/category/haberler'
+    - 'https://objektifa.com.tr/rss/latest-posts'
+    - 'https://diyanethaber.com.tr/rss'
+    - 'https://www.tunceliemek.com.tr/rss'
+    - 'https://www.medyagazetesi.com.tr/rss.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_bolgesel_6.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_buyuksehir-belediyesi_162.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_egitim_7.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_guncel_5.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_ilce_2.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_saglik_9.xml'
+    - 'https://kahramanmarasgazetesi.com.tr/service/rss.php'
+    - 'https://yayladere.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml'
+    - 'https://www.balikesirmedya.com.tr/rss.xml'
+    - 'https://www.balikesirmedya.com.tr/rss_genel_7.xml'
+    - 'https://www.balikesirmedya.com.tr/rss_yerel_14.xml'
+    - 'https://yenifakili.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/aksaray-haberleri'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/genel'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/karaman-haber'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/konya-haberleri'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/polis-ve-adliye'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/resmi-ilan'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/vefat-haberleri'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/yasam'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/yerel-haber'
+    - 'https://anadoludabugun.com.tr/rss/post/anadoludabuguntv'
+    - 'https://yazihan.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml'
   Opinion:
     - 'https://www.sozcu.com.tr/feeds-rss-category-yazar'
     - 'https://www.takvim.com.tr/rss/yazarlar'
@@ -37423,6 +38556,7 @@ Türkiye:
     - 'https://rss.haberler.com/rss.asp'
     - 'https://ilkses.com.tr/rss/'
     - 'https://trendgazete.com.tr/feed/'
+    - 'https://habergazetesi.com.tr/rss'
   'Politics & Society':
     - 'https://www.sabah.com.tr/rss/anasayfa.xml'
     - 'https://www.mynet.com/rss/publisher-anasayfa.rss'
@@ -37645,6 +38779,13 @@ Türkiye:
     - 'https://www.anadoluhaber.gen.tr/rss_gundem_14.xml'
     - 'https://halkweb.com.tr/feed/'
     - 'https://basinmus.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml'
+    - 'https://www.medyagazetesi.com.tr/makaleler.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_medya_3.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_siyasi_1.xml'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/guncel'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/gundem'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/politika'
+    - 'https://anadoludabugun.com.tr/rss/post/anadoludabuguntv-gundem'
   'Science & Technology':
     - 'https://ntv.com.tr/teknoloji.rss'
     - 'https://ntv.com.tr/yasam.rss'
@@ -37712,6 +38853,10 @@ Türkiye:
     - 'https://www.aydinyeniufuk.com.tr/rss/bilim.xml'
     - 'https://kesap.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml'
     - 'https://www.samsunkenthaber.com.tr/rss_saglik_37.xml'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/bilim-ve-teknoloji'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/egitim'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/saglik'
+    - 'https://icerikciftligi.com.tr/feed/'
   Sports:
     - 'https://www.fotomac.com.tr/rss/anasayfa.xml'
     - 'http://izmirdesondakika.com.tr/rss'
@@ -37874,6 +39019,12 @@ Türkiye:
     - 'https://www.aydinyeniufuk.com.tr/rss/spor.xml'
     - 'https://www.samsunkenthaber.com.tr/rss_spor_36.xml'
     - 'https://www.anadoluhaber.gen.tr/rss_spor_13.xml'
+    - 'https://www.medyagazetesi.com.tr/rss_spor_157.xml'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/konya-bbsk'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/konyada-spor'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/konyaspor'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/spor'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/turkiye'
   'World / International':
     - 'http://www.ab.gov.tr/rssall.php'
     - 'https://ntv.com.tr/dunya.rss'
@@ -37930,6 +39081,7 @@ Türkiye:
     - 'https://www.haberextra.com.tr/rss_dunya_4.xml'
     - 'https://www.ajansexpres.com.tr/rss/category/dunya'
     - 'https://www.mynet.com/rss/publisher-dunya.rss'
+    - 'https://anadoludabugun.com.tr/rss/categorynews/dunya'
 Uganda:
   'Business & Economy':
     - 'https://pctechmag.com/feed/'
@@ -38033,6 +39185,8 @@ Uganda:
     - 'https://irbackend.bsu.ac.ug/server/opensearch/search?format=atom&query=*'
     - 'https://ictclubs.ug/feed/'
     - 'https://eabs.ug/feed/'
+    - 'https://naro.go.ug/feed/'
+    - 'https://www.cavendish.ac.ug/feed/'
   Sports:
     - 'https://www.independent.co.ug/feed/'
     - 'https://kawowo.com/feed/'
@@ -38057,6 +39211,7 @@ Ukraine:
     - 'https://inpress.ua/rss/news_auto_ru.xml'
     - 'https://inpress.ua/rss/news_market_ru.xml'
     - 'https://monomakh.com.ua/feed/rss/'
+    - 'https://biscuit.com.ua/feed/'
   'Lifestyle & Culture':
     - 'https://ekmair.ukma.edu.ua/server/opensearch/search?format=atom&query=*'
     - 'https://esu.com.ua/rss'
@@ -38096,6 +39251,8 @@ Ukraine:
     - 'https://myslenedrevo.com.ua/uk/xml/rss.xml'
     - 'https://songs.in.ua/feed/'
     - 'https://dnabb.kyiv.ua/feed/'
+    - 'https://alley.constellation.org.ua/feed/'
+    - 'https://school.org.ua/rss/19576/'
   'Local News':
     - 'http://vn.20minut.ua/rss'
     - 'https://vezha.ua/feed/'
@@ -38207,6 +39364,9 @@ Ukraine:
     - 'https://mykyivregion.com.ua/rss-news'
     - 'https://03352.com.ua/feed/'
     - 'https://kowel.rayon.in.ua/storage/rss/kowel/all-rss.xml'
+    - 'https://sobitie.com.ua/feed/'
+    - 'https://zhmerinkalg.com.ua/feed/'
+    - 'https://village.com.ua/feeds/posts.atom?topic=city'
   Other:
     - 'https://zdolbyniv.rv.ua/feed/'
     - 'https://pressa.net.ua/feed/'
@@ -38313,6 +39473,7 @@ Ukraine:
     - 'https://www.ukrainainfo.com.ua/feed/'
     - 'https://ls.org.ua/feed/'
     - 'https://polinst.kyiv.ua/feed/'
+    - 'https://old.imi.org.ua/site/rss'
   'Science & Technology':
     - 'https://clockss.org/feed/'
     - 'https://arheologia.com.ua/index.php/arheologia/gateway/plugin/WebFeedGatewayPlugin/atom'
@@ -38325,6 +39486,7 @@ Ukraine:
     - 'https://chnpp.gov.ua/ua/?format=feed&type=rss'
     - 'https://ela.kpi.ua/server/opensearch/search?format=atom&query=*'
     - 'https://pogliad.ua/feed/'
+    - 'https://esu.com.ua/rss'
   Sports:
     - 'https://ukrfootball.ua/rss.xml'
     - 'http://basket.com.ua/feed/'
@@ -38483,6 +39645,7 @@ Ukraine:
     - 'https://tixs.ae/feed/'
     - 'https://royaldesertadventures.ae/feed/'
     - 'https://seekdubai.ae/feed/'
+    - 'https://dubaidunebuggytour.ae/feed/'
   'Local News':
     - 'https://www.khaleejtimes.com/api/v1/collections/uae.rss'
     - 'https://www.khaleejtimes.com/api/v1/collections/top-section.rss'
@@ -38540,6 +39703,7 @@ Ukraine:
     - 'https://alkhaleej.ae/section/1027/rss.xml'
     - 'https://www.alkhaleej.ae/section/6569/rss.xml'
     - 'https://webthree.ae/feed/'
+    - 'https://www.ku.ac.ae/feed/'
   Sports:
     - 'https://www.khaleejtimes.com/api/v1/collections/sports.rss'
     - 'http://emirates247.com/cmlink/mobile-sports-1.499780'
@@ -39212,6 +40376,7 @@ Ukraine:
     - 'https://geniustravels.co.uk/feed/'
     - 'https://www.welshmum.co.uk/feed/'
     - 'https://www.feast-magazine.co.uk/feed'
+    - 'https://walkmidlands.co.uk/feed/'
   'Local News':
     - 'http://mirror.co.uk/rss.xml'
     - 'https://www.standard.co.uk/rss'
@@ -39472,6 +40637,10 @@ Ukraine:
     - 'https://mywokingham.co.uk/feed/'
     - 'https://www.islandecho.co.uk/feed/'
     - 'https://www.ipswich24.co.uk/feed/'
+    - 'https://www.livpost.co.uk/rss/'
+    - 'https://www.theblackmorevale.co.uk/feed/'
+    - 'https://oxfordshireguardian.co.uk/feed/'
+    - 'https://holderness-gazette.co.uk/feed/'
   Opinion:
     - 'https://www.dailymail.co.uk/mailonsunday/columnist-1074669/Liz-Jones-Column-The-Mail-Sunday.rss'
     - 'https://www.dailymail.co.uk/mailonsunday/columnist-1074769/Peter-Hitchens-The-Daily-Mail.rss'
@@ -42212,6 +43381,7 @@ Ukraine:
     - 'https://www.bahai.us/feed/'
     - 'https://www.islandlifehawaii.us/feed/'
     - 'https://www.mainstay.us/feed/'
+    - 'https://www.thethinkingspot.us/blog-feed.xml'
   'Local News':
     - 'https://www.boston.com/feed/'
     - 'https://www.denverpost.com/feed/'
@@ -43952,6 +45122,7 @@ Ukraine:
     - 'https://www.childrenshome.us/feed/'
     - 'https://www.brightontownshipohio.us/blog-feed.xml'
     - 'https://www.clarkcountycourts.us/feed/'
+    - 'https://www.trumba.com/calendars/smith-communications-inc-events.rss'
   Opinion:
     - 'http://frankchimero.com/feed.xml'
     - 'https://idiallo.com/feed.rss'
@@ -44852,6 +46023,7 @@ Ukraine:
     - 'https://www.thedream.us/feed/'
     - 'https://sic-group.us/feed/'
     - 'https://www.theresearchers.us/feed/'
+    - 'https://vnco.us/?feed=rss2'
   'Science & Technology':
     - 'https://www.theverge.com/rss/index.xml'
     - 'https://www.nasa.gov/feed/'
@@ -45247,6 +46419,7 @@ Ukraine:
     - 'https://loud.us/feed/'
     - 'https://gestlifesurrogacy.us/feed/'
     - 'https://www.sparxsystems.us/feed/'
+    - 'https://ccst.us/feed/'
   Sports:
     - 'https://www.si.com/feed'
     - 'https://www.nytimes.com/athletic/rss/news/'
@@ -46163,6 +47336,7 @@ Uzbekistan:
     - 'https://milliycha.uz/feed/'
     - 'https://scientists.uz/rss_journal.php'
     - 'https://nishon-seovajs.uz/feed/'
+    - 'https://tsuos.uz/feed/'
   Sports:
     - 'https://ufa.uz/feed/'
     - 'http://m.stadion.uz/news/rss'
@@ -46277,6 +47451,7 @@ Venezuela:
     - 'https://meridadigital.com.ve/feed'
     - 'https://ciudadcaparo.com.ve/feed/'
     - 'https://www.uladdhh.org.ve/feed/'
+    - 'https://eldiariodeguayana.com.ve/feed/'
   'Science & Technology':
     - 'https://mincyt.gob.ve/feed/'
     - 'http://saber.ucv.ve/feed/atom_1.0/site'
@@ -46602,6 +47777,10 @@ Vietnam:
     - 'https://chogia.vn/feed/'
     - 'https://giadinhonline.vn/tai-chinh.rss'
     - 'https://giadinhonline.vn/tieu-dung.rss'
+    - 'https://nhadatbacvanphong.vn/feed/'
+    - 'https://thuonggiaonline.vn/rss/home.rss'
+    - 'https://thuthua.com.vn/feed/'
+    - 'https://vir.com.vn/rss_feed/'
   'Lifestyle & Culture':
     - 'https://vietgiaitri.com/feed/'
     - 'http://feeds.feedburner.com/co/SrKN'
@@ -46891,6 +48070,30 @@ Vietnam:
     - 'https://giadinhonline.vn/phong-the.rss'
     - 'https://giadinhonline.vn/sao.rss'
     - 'https://giadinhonline.vn/thi-tham-ben-goi.rss'
+    - 'https://tendep.vn/feed/'
+    - 'https://kyluc.vn/rss/cong-dong-ky-luc-gia'
+    - 'https://kimdanh.vn/feed/'
+    - 'https://elib.thuviennguyenvanhuong.vn/feed/atom_1.0/site'
+    - 'https://cadn.com.vn/rss/van-hoa-15.rss'
+    - 'https://gpbanmethuot.vn/rss/'
+    - 'https://gpbanmethuot.vn/rss/am-nhac/'
+    - 'https://gpbanmethuot.vn/rss/chau-thanh-the/'
+    - 'https://gpbanmethuot.vn/rss/chuyen-ke/'
+    - 'https://gpbanmethuot.vn/rss/doan-the-cg-1/'
+    - 'https://gpbanmethuot.vn/rss/giao-duc-kito-giao/'
+    - 'https://gpbanmethuot.vn/rss/giao-ly/'
+    - 'https://gpbanmethuot.vn/rss/giao-xu-1/'
+    - 'https://gpbanmethuot.vn/rss/goc-thieu-nhi/'
+    - 'https://gpbanmethuot.vn/rss/kien-thuc-giao-ly/'
+    - 'https://gpbanmethuot.vn/rss/kien-thuc-phung-vu/'
+    - 'https://gpbanmethuot.vn/rss/loi-chua-moi-ngay/'
+    - 'https://gpbanmethuot.vn/rss/song-dao/'
+    - 'https://gpbanmethuot.vn/rss/suy-niem-tin-mung/'
+    - 'https://gpbanmethuot.vn/rss/tho/'
+    - 'https://gpbanmethuot.vn/rss/trang-ban-doc/'
+    - 'https://gpbanmethuot.vn/rss/tro-choi/'
+    - 'https://gpbanmethuot.vn/rss/van-hoc-nghe-thuat/'
+    - 'https://gpbanmethuot.vn/rss/van/'
   'Local News':
     - 'https://dantri.com.vn/rss/home.rss'
     - 'https://tuoitre.vn/rss/tin-moi-nhat.rss'
@@ -47201,6 +48404,19 @@ Vietnam:
     - 'https://fr.laodong.vn/rss/tam-long-vang.rss'
     - 'https://fr.laodong.vn/rss/xa-hoi.rss'
     - 'https://giadinhonline.vn/suc-khoe.rss'
+    - 'https://dulichquangngai.vn/rss/'
+    - 'https://dulichquangngai.vn/rss/tin-tuc/'
+    - 'https://cadn.com.vn/rss/an-ninh-trat-tu-78.rss'
+    - 'https://cadn.com.vn/rss/cong-an-nhan-dan-5.rss'
+    - 'https://cadn.com.vn/rss/giao-duc-27.rss'
+    - 'https://cadn.com.vn/rss/kinh-te-12.rss'
+    - 'https://cadn.com.vn/rss/phong-su-anh-69.rss'
+    - 'https://cadn.com.vn/rss/xa-hoi-13.rss'
+    - 'https://gpbanmethuot.vn/rss/ban-muc-vu-1/'
+    - 'https://gpbanmethuot.vn/rss/dong-tu-1/'
+    - 'https://gpbanmethuot.vn/rss/giao-phan-bmt-14/'
+    - 'https://gpbanmethuot.vn/rss/giao-phan-bmt/'
+    - 'https://gpbanmethuot.vn/rss/sinh-hoat/'
   'Politics & Society':
     - 'https://thuvienphapluat.vn/rss.xml'
     - 'https://dotchuoinon.com/feed/'
@@ -47568,6 +48784,12 @@ Vietnam:
     - 'https://giadinhonline.vn/thong-tin-su-kien.rss'
     - 'https://giadinhonline.vn/tin-tuc.rss'
     - 'https://giadinhonline.vn/tinh-yeu-hon-nhan.rss'
+    - 'https://special.vietnamplus.vn/feed/'
+    - 'https://cadn.com.vn/rss/phap-luat-6.rss'
+    - 'https://cadn.com.vn/rss/phong-su-ky-su-79.rss'
+    - 'https://cadn.com.vn/rss/thoi-su-1.rss'
+    - 'https://cadn.com.vn/rss/y-te-68.rss'
+    - 'https://cadn.com.vn/tin-moi-nhat.rss'
   'Science & Technology':
     - 'https://thanhnien.vn/rss/cong-nghe.rss'
     - 'https://thanhnien.vn/rss/cong-nghe/san-pham.rss'
@@ -47721,6 +48943,9 @@ Vietnam:
     - 'https://tapchiyhocvietnam.vn/index.php/vmj/gateway/plugin/WebFeedGatewayPlugin/atom'
     - 'https://giadinhonline.vn/xe-va-so.rss'
     - 'https://giadinhonline.vn/y-te-360.rss'
+    - 'https://viettelnet.vn/feed/'
+    - 'https://tinhte.vn/rss/'
+    - 'https://cadn.com.vn/rss/cong-nghe-so-116.rss'
   Sports:
     - 'https://thanhnien.vn/rss/cong-nghe/game.rss'
     - 'https://thanhnien.vn/rss/the-thao.rss'
@@ -47859,6 +49084,7 @@ Vietnam:
     - 'https://dantocphattrien.vietnamnet.vn/the-thao-giai-tri.rss'
     - 'https://dantocphattrien.vietnamnet.vn/the-thao.rss'
     - 'https://fr.laodong.vn/rss/the-thao.rss'
+    - 'https://cadn.com.vn/rss/the-thao-25.rss'
   'World / International':
     - 'https://thanhnien.vn/rss/giao-duc/du-hoc.rss'
     - 'https://thanhnien.vn/rss/the-gioi.rss'
@@ -47943,6 +49169,10 @@ Vietnam:
     - 'https://kevesko.vn/export/rss2/archive/index.xml'
     - 'https://fr.laodong.vn/rss/the-gioi.rss'
     - 'https://huunghivietnamcampuchia.thoidai.com.vn/rss_feed/'
+    - 'https://kyluc.vn/rss/ky-luc'
+    - 'https://cadn.com.vn/rss/quoc-te-19.rss'
+    - 'https://gpbanmethuot.vn/rss/Tin-tuc/'
+    - 'https://gpbanmethuot.vn/rss/giao-hoi-toan-cau/'
 'Wallis & Futuna':
   'Lifestyle & Culture':
     - 'https://psa.wf/feed/'
@@ -47991,6 +49221,7 @@ Yemen:
     - 'https://saba.ye/ar/rsscatfeed59.htm'
     - 'https://saba.ye/ar/rsscatfeed73.htm'
     - 'https://hu.edu.ye/feed/'
+    - 'https://english.masirahtv.net/rss.php'
 Zambia:
   'Business & Economy':
     - 'https://www.zamsugar.co.zm/feed/'
@@ -48035,6 +49266,7 @@ Zambia:
     - 'https://www.npa.gov.zm/index.php/feed/'
     - 'https://fra.org.zm/index.php/feed/'
     - 'https://www.mwsc.com.zm/feed/'
+    - 'https://www.zanis.gov.zm/?feed=rss2'
   'Science & Technology':
     - 'https://copperstoneuniversity.ac.zm/feed/'
     - 'https://tau.edu.zm/feed/'
@@ -48098,6 +49330,7 @@ Zimbabwe:
     - 'https://thewasupost.co.zw/index.php/feed/'
     - 'https://peterhousegroup.co.zw/feed/'
     - 'https://hevoifm.co.zw/feed/'
+    - 'https://thepubliceye.co.zw/feed/'
   'Politics & Society':
     - 'https://www.zimeye.net/feed/'
     - 'http://voazimbabwe.com/api/'
@@ -48129,6 +49362,7 @@ Zimbabwe:
     - 'https://developzim.co.zw/feed/'
     - 'https://postonsunday.co.zw/feed/'
     - 'https://theblast.co.zw/feed/'
+    - 'https://www.mmmlawfirm.co.zw/feed/'
   'Science & Technology':
     - 'https://www.techzim.co.zw/feed/'
     - 'https://libraries.msu.ac.zw/feed/'
