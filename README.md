@@ -3,7 +3,7 @@
 ![Edit default model settings](Howto/Main/main-screen.png)
 
 That is partially free app for MacOS what allows you to filter news from feed news by AI. 
-In demo version it has limitations - 10 sources, 3 criterias, 2 workspaces.
+In demo version it has limitations - 100 sources, 3 criterias, 2 workspaces.
 Full version is one time pay in-app, with allowed family sharing.
 
 The app's workflow is built on three simple elements:
