@@ -1,3 +1,30 @@
+# =============================================================================
+# InfoBubble World RSS Database
+# =============================================================================
+#
+# Structure: Country -> Category -> [RSS/Atom feed URLs]
+# Categories are assigned loosely by AI and may be imprecise.
+#
+# Sorting
+# -------
+# Within each category, feeds are ordered by the authority of their root
+# domain, descending (most authoritative first). Authority is taken from the
+# Majestic Million ranking of the top 1,000,000 websites by the number of
+# referring subnets (a proxy for backlink-based domain trust). Feeds whose
+# domain is not present in the Majestic Million are placed after the ranked
+# ones, in arbitrary order.
+#
+# Source of the ranking: https://majestic.com/reports/majestic-million
+#
+# Attribution
+# -----------
+# The Majestic Million dataset is provided by Majestic-12 Ltd. and is
+# licensed under the Creative Commons Attribution 3.0 Unported License
+# (CC BY 3.0): https://creativecommons.org/licenses/by/3.0/
+# Only the ranking order is reused here; no Majestic data is redistributed.
+#
+# =============================================================================
+
 Afghanistan:
   'Business & Economy':
     - 'https://www.ndc.gov.af/feed'
