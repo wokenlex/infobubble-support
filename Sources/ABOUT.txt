@@ -1,0 +1,47 @@
+# =============================================================================
+# InfoBubble World RSS Database
+# =============================================================================
+#
+# Structure: Country -> Category -> [RSS/Atom feed URLs]
+# Categories are assigned loosely by AI and may be imprecise.
+#
+# Hostname databases used to discover the pages with news:
+# the GDELT Project (https://www.gdeltproject.org) and the Tranco list
+# (https://tranco-list.eu). See the Attribution section below.
+#
+# Sorting
+# -------
+# Within each category, feeds are ordered by the authority of their root
+# domain, descending (most authoritative first). Authority is taken from the
+# Majestic Million ranking of the top 1,000,000 websites by the number of
+# referring subnets (a proxy for backlink-based domain trust). Feeds whose
+# domain is not present in the Majestic Million are placed after the ranked
+# ones, in arbitrary order.
+#
+# Source of the ranking: https://majestic.com/reports/majestic-million
+#
+# Attribution
+# -----------
+# Majestic Million
+#   The Majestic Million dataset is provided by Majestic-12 Ltd. and is
+#   licensed under the Creative Commons Attribution 3.0 Unported License
+#   (CC BY 3.0): https://creativecommons.org/licenses/by/3.0/
+#   Only the ranking order is reused here; no Majestic data is redistributed.
+#
+# The GDELT Project
+#   Hostnames were discovered using data from the GDELT Project
+#   (https://www.gdeltproject.org/). The GDELT data is made available for
+#   unlimited and unrestricted use, with the requirement that any use or
+#   redistribution include a citation to the GDELT Project and a link to
+#   https://www.gdeltproject.org/.
+#
+# Tranco
+#   Hostnames were also discovered using the Tranco list
+#   (https://tranco-list.eu/), as described in:
+#   V. Le Pochat, T. Van Goethem, S. Tajalizadehkhoob, M. Korczynski, and
+#   W. Joosen, "Tranco: A Research-Oriented Top Sites Ranking Hardened
+#   Against Manipulation," in Proceedings of the 26th Annual Network and
+#   Distributed System Security Symposium (NDSS 2019), February 2019.
+#   https://doi.org/10.14722/ndss.2019.23386
+#
+# =============================================================================
