@@ -1,21 +1,24 @@
-# InfoBubble app for MacOS | https://apps.apple.com/app/id6752404003
+# InfoBubble
+## AI / Tag filter, embedded database with news and podcasts, news geocoding
+#### https://apps.apple.com/app/id6752404003  | MacOS 26.0+
+##### 
 
-![Edit default model settings](Howto/Main/main-screen.png)
+![Main screen of the app](Howto/Main/main-screen.png)
 
-That is partially free app for MacOS what allows you to filter news from feed news by AI. 
+That is the support page of the partially free app for MacOS what allows you to filter news from feed news by AI. 
 In demo version it has limitations - 100 sources, 3 criterias, 2 workspaces.
 Full version is one time pay in-app, with allowed family sharing.
 
 The app's workflow is built on three simple elements:
 
-1.  **Sources:** These are the news sites, blogs, or RSS feeds you want to monitor.
+1.  **Database:** These are the news sites, blogs, or RSS feeds you want to monitor.
 
-We are collecting an RSS channel list that is hidden under File → Import Sources. It’s not a global database, and it’s only loosely categorized by AI, but it’s a good starting point to test the app and later use your own sources.
+We are collecting an RSS channel list that availible in the sidebar - use Import Sources link for it. It’s not a "everything" database, and it’s only loosely categorized by AI, but it’s a good starting point to test the app and later use your own sources. It's divided by the Channels (text) and Podcasts. Podcasts in this list are only that ones what related to the news websites.
+
+![Sources](Howto/Main/sources.png)
 
 If you are here to only get the sources list for your own purposes - its here:
 [Download InfoBubble World RSS Database](Sources/all.sources.rss.yaml)
-
-it will be periodically updated.
 
 2.  **Criteria:** These are your instructions for the AI, written in natural language. Instead of just keywords, you describe the *idea* of what you're looking for (e.g., _"News about major scientific breakthroughs in AI"_).
 
