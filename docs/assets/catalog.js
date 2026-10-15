@@ -51,6 +51,7 @@ function feedsOf(d, mode = state.mode) {
 function prepare(raw) {
   const domains = raw.domains.map(([host, country, rank, avgLen, langs, groups, summary]) => {
     const d = { host, hostLC: host.toLowerCase(), country, rank, avgLen, langs, groups, summary };
+    d.searchText = d.hostLC + '\n' + (summary || '').toLowerCase();
     d.channelCats = [...new Set(groups.filter((g) => !g[1]).map((g) => g[0]))];
     d.podcastCats = [...new Set(groups.filter((g) => g[1]).map((g) => g[0]))];
     d.channelCount = groups.reduce((n, g) => n + (g[1] ? 0 : g[2].length), 0);
@@ -68,7 +69,7 @@ function matches(d, ignoreCountry) {
   if (state.categories.size && !(pod ? d.podcastCats : d.channelCats).some((c) => state.categories.has(c))) return false;
   if (state.lengths.size && !state.lengths.has(d.lengthId)) return false;
   if (state.languages.size && !d.langs.some((l) => state.languages.has(l))) return false;
-  if (state.query && !d.hostLC.includes(state.query)) return false;
+  if (state.query && !d.searchText.includes(state.query)) return false;
   return true;
 }
 
@@ -372,7 +373,7 @@ $('exportBtn').addEventListener('click', () => {
   const feeds = exportList.reduce((n, e) => n + e.feeds.length, 0);
   const what = state.mode === 'podcasts' ? 'podcast' : 'channel';
   $('exportTitle').textContent = picked().size ? `Export ${exportList.length.toLocaleString('en')} Selected` : `Export ${exportList.length.toLocaleString('en')} Shown`;
-  $('exportInfo').textContent = `${exportList.length.toLocaleString('en')} source${exportList.length === 1 ? '' : 's'} · ${feeds.toLocaleString('en')} ${what} feed${feeds === 1 ? '' : 's'}`;
+  $('exportInfo').textContent = `${feeds.toLocaleString('en')} ${what} feed${feeds === 1 ? '' : 's'}`;
   closeMenu();
   exportDialog.showModal();
   morph(false);

@@ -13,6 +13,7 @@
     <a class="brand" href="./">InfoBubble App</a>
     <a href="how-to.html">Handbook</a>
     <a class="active" href="catalog.html">News Websites Catalog</a>
+    <a href="https://github.com/infobubble/infobubble-support/issues">Contacts &amp; Issues</a>
   </nav>
 
   <div class="window">
@@ -47,7 +48,7 @@
 
       <section class="main">
         <div class="search">
-          <input id="domainFilter" type="search" placeholder="Filter domains…" autocomplete="off">
+          <input id="domainFilter" type="search" placeholder="Search domains and summaries…" autocomplete="off">
           <span id="shown" class="shown"></span>
         </div>
         <div id="list" class="list" tabindex="0">
@@ -73,13 +74,15 @@
   <div id="menu" class="menu" hidden></div>
 
   <dialog id="exportDialog" class="export-dialog" aria-labelledby="exportTitle">
-    <h2 id="exportTitle">Export</h2>
-    <p id="exportInfo" class="export-info"></p>
+    <header>
+      <button class="close" data-format="" aria-label="Close"></button>
+      <h2 id="exportTitle">Export</h2>
+      <span id="exportInfo" class="export-info"></span>
+    </header>
     <div class="formats">
-      <button class="format" data-format="opml"><b>OPML</b><span>Subscribe in InfoBubble or any feed reader</span></button>
-      <button class="format" data-format="csv"><b>CSV</b><span>One row per feed, with summaries, for spreadsheets</span></button>
+      <button class="format" data-format="opml"><i>⇣</i><b>OPML</b><span>Subscribe in InfoBubble or any feed reader</span></button>
+      <button class="format" data-format="csv"><i>▦</i><b>CSV</b><span>One row per feed, with summaries, for spreadsheets</span></button>
     </div>
-    <button class="btn cancel" data-format="">Cancel</button>
   </dialog>
 
   <section id="preview" class="panel preview" hidden>

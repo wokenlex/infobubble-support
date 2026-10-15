@@ -57,7 +57,7 @@ button { font: inherit; color: inherit; }
 .home .shot {
   width: min(1100px, 100%); height: auto; display: block;
 }
-.home .policy { color: var(--text-2); font-size: 14px; }
+.home .policy { color: var(--text-2); font-size: 14px; margin-top: max(-56px, -5vw); }
 .home .policy:hover { color: var(--text); }
 .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 .btn {

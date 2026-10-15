@@ -91,15 +91,20 @@ body.catalog-page { height: 100vh; overflow: hidden; display: flex; flex-directi
 .empty { padding: 40px; text-align: center; color: var(--text-3); }
 
 /* Pick toggle: "+" on hover at the left, a check at the right once picked (as in the app). */
+/* The button is the whole left gutter (full row height) so a near miss still hits it. */
 .row .pick {
-  position: absolute; left: 6px; top: 50%; transform: translateY(-50%);
-  width: 24px; height: 24px; padding: 0; border: 0; border-radius: 6px;
-  background: none; color: var(--accent); font-size: 20px; line-height: 1; cursor: pointer;
+  position: absolute; left: 0; top: 0; bottom: 0; width: 34px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 0; border: 0; background: none; color: var(--accent); cursor: pointer;
   opacity: 0;
 }
 .row:hover .pick, .row .pick:focus-visible { opacity: 1; }
-.row .pick:hover { background: var(--accent-soft); }
-.row .pick::before { content: "+"; }
+.row .pick::before {
+  content: "+"; width: 28px; height: 28px; border-radius: 7px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 26px; font-weight: 300; line-height: 1;
+}
+.row .pick:hover::before { background: var(--accent-soft); }
 .row.picked .pick::before { content: "−"; }
 .row .check {
   display: none; position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
@@ -129,25 +134,36 @@ body.catalog-page { height: 100vh; overflow: hidden; display: flex; flex-directi
 
 /* ---------- export dialog ---------- */
 .export-dialog {
-  width: min(420px, calc(100vw - 32px)); padding: 20px; margin: auto;
-  background: var(--raised); color: var(--text);
+  width: min(440px, calc(100vw - 32px)); padding: 0; margin: auto;
+  background: rgba(36, 36, 38, 0.92); color: var(--text);
+  backdrop-filter: blur(24px) saturate(150%);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
   border: 1px solid var(--border-strong); border-radius: 16px;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.65); overflow: hidden;
 }
-.export-dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
-.export-dialog h2 { font-size: 18px; margin: 0 0 4px; }
-.export-info { margin: 0 0 16px; font-size: 13px; color: var(--text-2); }
-.formats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.format {
-  display: flex; flex-direction: column; align-items: flex-start; gap: 4px; text-align: left;
-  padding: 14px; border-radius: 12px; cursor: pointer;
-  background: var(--panel); border: 1px solid var(--border-strong); color: var(--text); font: inherit;
+.export-dialog::backdrop { background: rgba(0, 0, 0, 0.35); }
+.export-dialog > header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 16px; border-bottom: 1px solid var(--border);
 }
-.format:hover, .format:focus-visible { border-color: var(--accent); background: var(--accent-soft); outline: none; }
-.format b { font-size: 16px; }
-.format span { font-size: 12.5px; color: var(--text-2); line-height: 1.35; }
-.export-dialog .cancel { display: flex; margin: 16px 0 0 auto; padding: 7px 16px; font-size: 14px; }
-@media (max-width: 420px) { .formats { grid-template-columns: 1fr; } }
+.export-dialog .close {
+  width: 14px; height: 14px; flex: none; border-radius: 50%; border: 0; padding: 0;
+  background: var(--red); cursor: pointer;
+}
+.export-dialog .close:hover { filter: brightness(1.2); }
+.export-dialog h2 { font-size: 18px; margin: 0; white-space: nowrap; }
+.export-info { margin-left: auto; font-size: 12px; color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.formats { padding: 6px 8px; }
+.format {
+  display: grid; grid-template-columns: 22px 1fr; column-gap: 12px; align-items: center;
+  width: 100%; padding: 8px 10px; border: 0; border-radius: 8px; cursor: pointer;
+  background: none; color: var(--text); font: inherit; text-align: left;
+}
+.format:hover, .format:focus-visible { background: rgba(255, 255, 255, 0.06); outline: none; }
+.format i { grid-row: span 2; font-style: normal; font-size: 16px; color: var(--text-2); text-align: center; }
+.format b { font-size: 14.5px; font-weight: 650; }
+.format span { font-size: 12.5px; color: var(--text-2); }
+@media (max-width: 420px) { .export-info { display: none; } }
 
 /* ---------- dropdown menus ---------- */
 .menu {
