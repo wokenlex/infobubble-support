@@ -12,7 +12,7 @@ const FETCH_TIMEOUT = 12000;
 
 // Most feeds don't send CORS headers, so after a direct attempt we go through public services.
 // Optional own proxy (e.g. a Cloudflare Worker) that returns the feed body for `?url=`; tried first when set.
-const OWN_PROXY = '';
+const OWN_PROXY = 'https://little-star-19a1.khj579g5dn.workers.dev/?url=';
 const RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
 const RAW_PROXIES = [
   (u) => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
