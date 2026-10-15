@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choosing an AI · InfoBubble Handbook</title>
+  <meta name="description" content="Apple Intelligence, a local model in LM Studio or a cloud service: what to pick and how to connect it.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href=".././">InfoBubble App</a>
+    <a class="active" href="../how-to.html">Handbook</a>
+    <a href="../catalog.html">News Websites Catalog</a>
+  </nav>
+
+  <div class="handbook">
+    <aside class="toc">
+      <a class="toc-home" href="../how-to.html">Handbook</a>
+      <h4>Start here</h4><ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a href="projects-workspaces.html">Projects, workspaces and tabs</a></li>
+</ul>
+<h4>Sources</h4><ul>
+<li><a href="sources-catalog.html">Using the Sources Catalog</a></li>
+<li><a href="adding-sources.html">Adding your own sources</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="criteria.html">AI Search criteria</a></li>
+<li><a href="reading.html">Reading and filtering news</a></li>
+</ul>
+<h4>AI and processing</h4><ul>
+<li><a class="here" href="choosing-ai.html">Choosing an AI</a></li>
+<li><a href="lm-studio.html">Local AI with LM Studio</a></li>
+<li><a href="processing-modes.html">Processing modes</a></li>
+<li><a href="summaries-chat.html">Summaries and the news chat</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="analysis-globe.html">Analysis, Fear Meter and the Globe</a></li>
+</ul>
+<h4>More</h4><ul>
+<li><a href="export.html">Exporting news</a></li>
+<li><a href="free-and-full.html">Free and full version, privacy</a></li>
+</ul>
+    </aside>
+    <article class="doc">
+      <p class="crumbs"><a href="../how-to.html">Handbook</a> · AI and processing</p>
+      <h1>Choosing an AI</h1>
+      <p class="lead">Apple Intelligence, a local model in LM Studio or a cloud service: what to pick and how to connect it.</p>
+
+<p>Much of InfoBubble runs without any AI: fetching, the Reader feed, tags, sentiment and places
+(an on-device model), search, the map, keyword tabs, translation and export. An AI is needed for
+<b>AI Search prompts</b>, <b>Summaries</b>, <b>Chat</b> and filling in word forms.</p>
+
+<h2>The options</h2>
+<table>
+  <tr><th>Apple Intelligence</th><td>Built in, private, free, nothing to set up. Works on Apple Silicon Macs where
+    Apple Intelligence is turned on. The model is small: fine for summaries in its supported languages,
+    weaker at judging subtle criteria. Assigned to both jobs automatically if available.</td></tr>
+  <tr><th>Local model (LM Studio, Ollama)</th><td>Free and private, runs on your Mac; needs 16 GB of RAM or more.
+    A good mid-size model reads the news much better than Apple's.
+    Step-by-step: <a href="lm-studio.html">Local AI with LM Studio</a>.</td></tr>
+  <tr><th>Cloud service</th><td>Any OpenAI-compatible API. The strongest models, paid per use; article text is sent to
+    that service.</td></tr>
+</table>
+
+<h2>Add a provider</h2>
+<ol class="steps">
+  <li>Open <b>InfoBubble → Settings → AI</b> and click <i>Manage…</i> under <i>AI Providers</i>.</li>
+  <li><i>Add Provider</i>, give it a <i>Name</i> and choose a <i>Type</i>: <i>OpenAI Compatible</i> or
+    <i>Apple Intelligence</i>.</li>
+  <li>For OpenAI Compatible fill in <i>API URL</i>, <i>API Key</i> (leave empty for a local server),
+    <i>Model Name</i> and <i>Context Window (tokens)</i>, then press <i>Test Connection</i>.</li>
+</ol>
+<figure><img src="../assets/handbook/settings-ai.png" alt="Settings → AI: providers, which provider does which job, and how many requests run at once." loading="lazy"><figcaption>Settings → AI: providers, which provider does which job, and how many requests run at once.</figcaption></figure>
+<figure><img src="../assets/handbook/provider-editor.png" alt="A provider for a model served by LM Studio on the same Mac." loading="lazy"><figcaption>A provider for a model served by LM Studio on the same Mac.</figcaption></figure>
+
+<h2>Assign providers to jobs</h2>
+<p>Under <i>Provider Assignment</i> there are two pickers, so you can mix:</p>
+<ul>
+  <li><b>Criteria &amp; Tags</b>: checks every article against your AI Search prompts. Called very often, so pick a
+    <b>fast model without reasoning</b>.</li>
+  <li><b>Summaries &amp; Chat</b>: called rarely, reads a lot. A <b>stronger model pays off</b> here.</li>
+</ul>
+<p>Choosing <i>— Not Selected —</i> turns AI fully off for that job. <i>Test Both Connections</i> checks both.</p>
+
+<h2>Other AI settings</h2>
+<ul>
+  <li><i>Skip off-topic news without AI</i>: see <a href="criteria.html">AI Search criteria</a>.</li>
+  <li><i>Parallel AI Requests</i>: how many articles are sent at once. Lower it if a local server struggles.</li>
+  <li><i>Clear Cache</i>: forget stored AI answers, e.g. after switching to a better model.</li>
+</ul>
+
+      <nav class="pager"><a class="prev" href="reading.html"><small>Previous</small>Reading and filtering news</a><a class="next" href="lm-studio.html"><small>Next</small>Local AI with LM Studio</a></nav>
+
+    <div class="note">
+      Questions or problems? Open an issue in the
+      <a href="https://github.com/infobubble/infobubble-support/issues">GitHub repository</a>.
+    </div>
+    </article>
+  </div>
+</body>
+</html>

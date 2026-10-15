@@ -3,19 +3,26 @@
 
 ### 1. Your Data is Stored Locally
 
-All of your data, including your workspaces, sources, criteria, and fetched news results, is stored in a single `.json` project file **on your computer**. You choose where to save this file, and it is never transmitted to us or any third party. We do not have access to your content.
+All of your data, including your workspaces, sources, criteria, and fetched news results, is stored in a single `.infobubbl` project file **on your computer**. You choose where to save this file, and it is never transmitted to us or any third party. We do not have access to your content.
 
 ### 2. News Fetching
 
-To function, the app must connect to the internet to download content from the **Sources (RSS feeds and websites) that you specify**. This is limited to fetching data from the URLs you provide in your workspaces.
+To function, the app must connect to the internet to download content from the **Sources (RSS feeds and websites) that you specify**: feeds, pages, site icons and, when a feed carries too little text for a summary, the article page itself. Publishers' opt-outs from AI input are respected.
+
+The app also connects to:
+
+*   the AI service you configure (see below);
+*   the destinations you set up for export (your RSS/CSV file, your API URL, or the Telegram API);
+*   Apple services for map tiles and translation language packs.
 
 ### 3. AI Data Processing
 
-Newsmaker uses Artificial Intelligence to analyze, filter, and summarize news. You have full control over how this is done:
+InfoBubble uses Artificial Intelligence to analyze, filter, and summarize news. You have full control over how this is done:
 
 #### a) Apple Intelligence
 
-*   If you enable the "Use Apple Intelligence" option, all AI-related processing (analysis, summarization, translation) happens **on your device**.
+*   If you choose Apple Intelligence as an AI provider, all AI-related processing (analysis, summarization, translation) happens **on your device**.
+*   The built-in news analysis ("Machine Learning" mode) and news translation also run **on your device**.
 *   Your news content and criteria are processed by the macOS private AI framework and are **never sent to an external server**. This is the most private option.
 
 #### b) External AI Services (OpenAI-Compatible)
@@ -23,7 +30,7 @@ Newsmaker uses Artificial Intelligence to analyze, filter, and summarize news. Y
 *   If you choose to configure an external AI service, the app will send the following data to the server URL **you provide**:
     *   The text content of news articles.
     *   Your criteria prompts.
-*   This data is sent to perform analysis, generate summaries, and provide translations.
+*   This data is sent to perform analysis and generate summaries and chat answers.
 *   **You are responsible for the privacy policy of the third-party AI service you configure.** This could be a commercial service like OpenAI or your own private, locally-hosted model.
 
 ### 4. Text-to-Speech (TTS)

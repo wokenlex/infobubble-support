@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News Websites Catalog</title>
+  <meta name="description" content="Interactive catalog of news websites and podcasts with RSS feeds, used by the InfoBubble app.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/catalog.css">
+</head>
+<body class="catalog-page">
+  <nav class="topbar">
+    <a class="brand" href="./">InfoBubble App</a>
+    <a href="how-to.html">Handbook</a>
+    <a class="active" href="catalog.html">News Websites Catalog</a>
+  </nav>
+
+  <div class="window">
+    <header class="toolbar">
+      <h1>Sources Catalog</h1>
+      <div class="segmented" role="tablist">
+        <button data-mode="channels" class="on">Channels</button>
+        <button data-mode="podcasts">Podcasts</button>
+      </div>
+      <div class="filters">
+        <button class="pill" data-menu="categories">Categories</button>
+        <button class="pill" data-menu="length">Length</button>
+        <button class="pill" data-menu="languages">Language</button>
+        <label class="pill select">
+          <select id="sort" aria-label="Sort">
+            <option value="top">Top</option>
+            <option value="az">A–Z</option>
+            <option value="feeds">Most feeds</option>
+          </select>
+        </label>
+        <label class="pill select country-select">
+          <select id="countrySelect" aria-label="Country"></select>
+        </label>
+      </div>
+    </header>
+
+    <div class="body">
+      <aside class="sidebar">
+        <div class="search"><input id="countryFilter" type="search" placeholder="Filter countries…" autocomplete="off"></div>
+        <ul id="countries" class="countries"></ul>
+      </aside>
+
+      <section class="main">
+        <div class="search">
+          <input id="domainFilter" type="search" placeholder="Filter domains…" autocomplete="off">
+          <span id="shown" class="shown"></span>
+        </div>
+        <div id="list" class="list" tabindex="0">
+          <div id="spacer" class="spacer"></div>
+          <div id="loading" class="empty">Loading catalog…</div>
+        </div>
+        <div class="float-actions">
+          <button id="clearPicked" class="btn" title="Clear the selection" hidden>Clear</button>
+          <button id="exportBtn" class="btn">Export OPML</button>
+        </div>
+      </section>
+    </div>
+
+    <footer class="statusbar">
+      Domain ranking: <a href="https://majestic.com/reports/majestic-million">Majestic Million</a> ·
+      <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+      Hostnames: <a href="https://www.gdeltproject.org/">GDELT Project</a>, <a href="https://tranco-list.eu/">Tranco</a>.
+      Categories assigned automatically; errors possible.
+      <a href="https://github.com/infobubble/infobubble-support/tree/main/Sources">Download YAML</a>
+    </footer>
+  </div>
+
+  <div id="menu" class="menu" hidden></div>
+
+  <section id="preview" class="panel preview" hidden>
+    <header>
+      <button class="close" aria-label="Close"></button>
+      <h2 id="previewTitle"></h2>
+      <button id="feedsToggle" class="feeds-toggle"></button>
+      <button id="reload" class="icon-btn" aria-label="Reload" title="Reload">↻</button>
+    </header>
+    <ul id="feedList" class="feed-list" hidden></ul>
+    <div id="items" class="items"></div>
+    <footer id="previewStatus" class="panel-status"></footer>
+  </section>
+
+  <section id="article" class="panel article" hidden>
+    <header>
+      <button class="close" aria-label="Close"></button>
+      <span id="articleMeta" class="meta"></span>
+    </header>
+    <div class="article-scroll">
+      <h2 id="articleTitle"></h2>
+      <div id="articleBody" class="article-body"></div>
+    </div>
+    <nav class="article-nav">
+      <button id="prevItem" aria-label="Previous">‹</button>
+      <button id="nextItem" aria-label="Next">›</button>
+      <a id="openOriginal" class="btn" target="_blank" rel="noopener">Open original ↗</a>
+    </nav>
+  </section>
+
+  <script src="assets/catalog.js"></script>
+</body>
+</html>

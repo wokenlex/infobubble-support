@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local AI with LM Studio · InfoBubble Handbook</title>
+  <meta name="description" content="Run a free, private model on your Mac and connect InfoBubble to it.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href=".././">InfoBubble App</a>
+    <a class="active" href="../how-to.html">Handbook</a>
+    <a href="../catalog.html">News Websites Catalog</a>
+  </nav>
+
+  <div class="handbook">
+    <aside class="toc">
+      <a class="toc-home" href="../how-to.html">Handbook</a>
+      <h4>Start here</h4><ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a href="projects-workspaces.html">Projects, workspaces and tabs</a></li>
+</ul>
+<h4>Sources</h4><ul>
+<li><a href="sources-catalog.html">Using the Sources Catalog</a></li>
+<li><a href="adding-sources.html">Adding your own sources</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="criteria.html">AI Search criteria</a></li>
+<li><a href="reading.html">Reading and filtering news</a></li>
+</ul>
+<h4>AI and processing</h4><ul>
+<li><a href="choosing-ai.html">Choosing an AI</a></li>
+<li><a class="here" href="lm-studio.html">Local AI with LM Studio</a></li>
+<li><a href="processing-modes.html">Processing modes</a></li>
+<li><a href="summaries-chat.html">Summaries and the news chat</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="analysis-globe.html">Analysis, Fear Meter and the Globe</a></li>
+</ul>
+<h4>More</h4><ul>
+<li><a href="export.html">Exporting news</a></li>
+<li><a href="free-and-full.html">Free and full version, privacy</a></li>
+</ul>
+    </aside>
+    <article class="doc">
+      <p class="crumbs"><a href="../how-to.html">Handbook</a> · AI and processing</p>
+      <h1>Local AI with LM Studio</h1>
+      <p class="lead">Run a free, private model on your Mac and connect InfoBubble to it.</p>
+
+<p><a href="https://lmstudio.ai/">LM Studio</a> is a free app that downloads and runs language models and exposes
+them as an OpenAI-compatible server. You need an Apple Silicon Mac; 16 GB of RAM is the minimum, 32 GB is better.</p>
+
+<h2>1. Download a model</h2>
+<ol class="steps">
+  <li>In LM Studio switch to <b>Developer</b> mode at the bottom of the window.
+    <figure><img src="../assets/handbook/lmstudio/1-developer-mode.png" alt="LM Studio: switch to Developer mode" loading="lazy"><figcaption>LM Studio: switch to Developer mode</figcaption></figure></li>
+  <li>Open <b>Discover</b> and search for a model. On a Mac prefer <b>MLX</b> builds. For criteria checks pick a
+    fast instruction model without reasoning; for summaries a larger one is worth it.
+    <figure><img src="../assets/handbook/lmstudio/3-find-model.png" alt="LM Studio: find a model by name, MLX type" loading="lazy"><figcaption>LM Studio: find a model by name, MLX type</figcaption></figure></li>
+  <li>Pick a size that fits your RAM (4-bit quantization is a good balance) and press <b>Download</b>.
+    <figure><img src="../assets/handbook/lmstudio/4-select-variant.png" alt="LM Studio: choose a variant that fits your Mac" loading="lazy"><figcaption>LM Studio: choose a variant that fits your Mac</figcaption></figure></li>
+</ol>
+
+<h2>2. Load it with a large context</h2>
+<p>Load the model and raise <b>Context Length</b> as far as your Mac allows, e.g. <code>32768</code>.
+InfoBubble uses up to 30,000 tokens per request.</p>
+<figure><img src="../assets/handbook/lmstudio/7-context-length.png" alt="LM Studio: increase the context length" loading="lazy"><figcaption>LM Studio: increase the context length</figcaption></figure>
+
+<h2>3. Start the server</h2>
+<p>Open the server tab, make sure the model is loaded and press <b>Start Server</b>. Copy the server address
+(usually <code>http://127.0.0.1:1234</code>) and the model identifier.</p>
+<figure><img src="../assets/handbook/lmstudio/8-start-server.png" alt="LM Studio: start the local server" loading="lazy"><figcaption>LM Studio: start the local server</figcaption></figure>
+<figure><img src="../assets/handbook/lmstudio/11-model-name.png" alt="LM Studio: copy the model identifier" loading="lazy"><figcaption>LM Studio: copy the model identifier</figcaption></figure>
+
+<h2>4. Connect InfoBubble</h2>
+<ol class="steps">
+  <li><b>Settings → AI → Manage… → Add Provider</b>, type <i>OpenAI Compatible</i>.</li>
+  <li><i>API URL</i>: the server address as LM Studio shows it, e.g. <code>http://127.0.0.1:1234</code>
+    (with or without <code>/v1</code>, both work). <i>API Key</i>: leave empty. <i>Model Name</i>: the identifier. <i>Context Window</i>: the same length you set
+    in LM Studio.</li>
+  <li>Press <i>Test Connection</i>, then <i>Save</i>.</li>
+  <li>Back in the AI tab, choose the new provider for <i>Criteria &amp; Tags</i> and/or <i>Summaries &amp; Chat</i>.</li>
+</ol>
+<figure><img src="../assets/handbook/provider-editor.png" alt="A provider for a model served by LM Studio on the same Mac." loading="lazy"><figcaption>A provider for a model served by LM Studio on the same Mac.</figcaption></figure>
+<div class="note">LM Studio must keep running while InfoBubble works. If requests time out, lower <i>Parallel AI Requests</i> in Settings → AI.</div>
+
+      <nav class="pager"><a class="prev" href="choosing-ai.html"><small>Previous</small>Choosing an AI</a><a class="next" href="processing-modes.html"><small>Next</small>Processing modes</a></nav>
+
+    <div class="note">
+      Questions or problems? Open an issue in the
+      <a href="https://github.com/infobubble/infobubble-support/issues">GitHub repository</a>.
+    </div>
+    </article>
+  </div>
+</body>
+</html>

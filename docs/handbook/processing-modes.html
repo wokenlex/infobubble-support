@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Processing modes · InfoBubble Handbook</title>
+  <meta name="description" content="What the AI, Machine Learning and Heuristics options do, and which to choose.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href=".././">InfoBubble App</a>
+    <a class="active" href="../how-to.html">Handbook</a>
+    <a href="../catalog.html">News Websites Catalog</a>
+  </nav>
+
+  <div class="handbook">
+    <aside class="toc">
+      <a class="toc-home" href="../how-to.html">Handbook</a>
+      <h4>Start here</h4><ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a href="projects-workspaces.html">Projects, workspaces and tabs</a></li>
+</ul>
+<h4>Sources</h4><ul>
+<li><a href="sources-catalog.html">Using the Sources Catalog</a></li>
+<li><a href="adding-sources.html">Adding your own sources</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="criteria.html">AI Search criteria</a></li>
+<li><a href="reading.html">Reading and filtering news</a></li>
+</ul>
+<h4>AI and processing</h4><ul>
+<li><a href="choosing-ai.html">Choosing an AI</a></li>
+<li><a href="lm-studio.html">Local AI with LM Studio</a></li>
+<li><a class="here" href="processing-modes.html">Processing modes</a></li>
+<li><a href="summaries-chat.html">Summaries and the news chat</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="analysis-globe.html">Analysis, Fear Meter and the Globe</a></li>
+</ul>
+<h4>More</h4><ul>
+<li><a href="export.html">Exporting news</a></li>
+<li><a href="free-and-full.html">Free and full version, privacy</a></li>
+</ul>
+    </aside>
+    <article class="doc">
+      <p class="crumbs"><a href="../how-to.html">Handbook</a> · AI and processing</p>
+      <h1>Processing modes</h1>
+      <p class="lead">What the AI, Machine Learning and Heuristics options do, and which to choose.</p>
+
+<p>Every article is analysed after it is fetched, and Website sources need their page read. Both can be done by
+your AI or by models built into the app. Choose in <b>Settings → Analysis &amp; Parsing</b>.</p>
+<figure><img src="../assets/handbook/settings-analysis.png" alt="Settings → Analysis &amp; Parsing." loading="lazy"><figcaption>Settings → Analysis &amp; Parsing.</figcaption></figure>
+
+<h2 id="news-analysis">News Analysis</h2>
+<p>Gives each article its tone (sentiment), topic tags, people and organizations, country and city. This feeds the
+filters, story folders, the Fear Meter and the map.</p>
+<table>
+  <tr><th>Machine Learning<br><small>default</small></th><td>A model built into the app, running on your Mac.
+    Offline, free and fast enough for thousands of articles. Recommended for most people.</td></tr>
+  <tr><th>AI</th><td>Each article is sent to your <i>Criteria &amp; Tags</i> AI. Richer and better with
+    context, but one AI request per article, which is slow on a local model or costly on a paid one.</td></tr>
+</table>
+<p>If no analysis AI is selected, <i>AI</i> quietly falls back to <i>Machine Learning</i>.</p>
+
+<h2 id="web-pages">Web Pages</h2>
+<p>Only for sources added as <b>Website</b>: how the news links are picked out of the page.</p>
+<table>
+  <tr><th>Heuristics<br><small>default</small></th><td>No AI. An on-device model recognises news links by their
+    look and place on the page. Offline and instant, a little coarser.</td></tr>
+  <tr><th>AI + heuristics</th><td>The on-device model first strips menus, footers and ads, then the AI picks the
+    news from what is left. Fewer tokens than <i>AI only</i>.</td></tr>
+  <tr><th>AI only</th><td>The whole page goes to the AI. Most thorough, most expensive.</td></tr>
+</table>
+<p>Without an analysis AI, both AI modes fall back to <i>Heuristics</i>.</p>
+
+<h2>Reading the article's own page</h2>
+<p>When a feed carries only a headline, Summaries and Chat may open the article page itself to read the text.
+The app honours publishers' opt-outs for AI input and skips paywalled pages.</p>
+
+<h2>Languages and translation</h2>
+<p><b>Settings → Languages &amp; Translation</b>:</p>
+<ul>
+  <li><i>Interface Language</i> and <i>Summary Language</i> (the language summaries are written in).</li>
+  <li><i>Automatically translate news</i> into a <i>Target language</i>. Off by default; you can always press
+    <i>Translate</i> in an article.</li>
+  <li><i>Translation model</i>: <i>Fast</i> uses Apple's downloadable language packs; <i>High quality</i> uses the
+    Apple Intelligence model, slower but with nothing to download. Everything is translated on your Mac.</li>
+  <li><i>Manage Translation Languages…</i> opens System Settings to download packs.</li>
+</ul>
+
+      <nav class="pager"><a class="prev" href="lm-studio.html"><small>Previous</small>Local AI with LM Studio</a><a class="next" href="summaries-chat.html"><small>Next</small>Summaries and the news chat</a></nav>
+
+    <div class="note">
+      Questions or problems? Open an issue in the
+      <a href="https://github.com/infobubble/infobubble-support/issues">GitHub repository</a>.
+    </div>
+    </article>
+  </div>
+</body>
+</html>

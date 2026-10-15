@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading and filtering news · InfoBubble Handbook</title>
+  <meta name="description" content="The filter bar, search syntax, story folders, the article window, translation and shortcuts.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href=".././">InfoBubble App</a>
+    <a class="active" href="../how-to.html">Handbook</a>
+    <a href="../catalog.html">News Websites Catalog</a>
+  </nav>
+
+  <div class="handbook">
+    <aside class="toc">
+      <a class="toc-home" href="../how-to.html">Handbook</a>
+      <h4>Start here</h4><ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a href="projects-workspaces.html">Projects, workspaces and tabs</a></li>
+</ul>
+<h4>Sources</h4><ul>
+<li><a href="sources-catalog.html">Using the Sources Catalog</a></li>
+<li><a href="adding-sources.html">Adding your own sources</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="criteria.html">AI Search criteria</a></li>
+<li><a class="here" href="reading.html">Reading and filtering news</a></li>
+</ul>
+<h4>AI and processing</h4><ul>
+<li><a href="choosing-ai.html">Choosing an AI</a></li>
+<li><a href="lm-studio.html">Local AI with LM Studio</a></li>
+<li><a href="processing-modes.html">Processing modes</a></li>
+<li><a href="summaries-chat.html">Summaries and the news chat</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="analysis-globe.html">Analysis, Fear Meter and the Globe</a></li>
+</ul>
+<h4>More</h4><ul>
+<li><a href="export.html">Exporting news</a></li>
+<li><a href="free-and-full.html">Free and full version, privacy</a></li>
+</ul>
+    </aside>
+    <article class="doc">
+      <p class="crumbs"><a href="../how-to.html">Handbook</a> · Reading</p>
+      <h1>Reading and filtering news</h1>
+      <p class="lead">The filter bar, search syntax, story folders, the article window, translation and shortcuts.</p>
+
+<h2>The filter bar</h2>
+<figure><img src="../assets/handbook/filter-bar.png" alt="The date filter open in the filter bar." loading="lazy"><figcaption>The date filter open in the filter bar.</figcaption></figure>
+<ul>
+  <li><b>Calendar</b>: only the last <i>Hour</i>, <i>3 Hours</i>, <i>6 Hours</i>, <i>Today</i>, <i>Yesterday</i>,
+    <i>Week</i>; or <i>Upcoming / Events</i>.</li>
+  <li><b>Folders</b>: show only stories covered by several outlets.</li>
+  <li><b>Source chips</b>: appear when you choose <i>Show Only This Source</i> or click a publisher in Analysis.</li>
+  <li><b>Search</b> (<kbd>⌘F</kbd>): see the syntax below.</li>
+  <li><b>Star</b>: only your favorites.</li>
+  <li><b>Sentiment</b>: from <i>Delightful</i> to <i>Catastrophic</i>.</li>
+  <li><b>✕</b> clears every filter.</li>
+</ul>
+
+<h2>Search syntax</h2>
+<p>Search looks at titles and tags, ignores case and accents and matches inside words.</p>
+<table class="syntax">
+  <tr><td><code>ukraine grain</code></td><td>both words (a space works like <code>AND</code>)</td></tr>
+  <tr><td><code>ukraine, poland</code></td><td>either one (a comma works like <code>OR</code>)</td></tr>
+  <tr><td><code>election -poll</code></td><td>without the word <i>poll</i></td></tr>
+  <tr><td><code>"interest rate"</code></td><td>the exact phrase</td></tr>
+</table>
+
+<h2>Story folders</h2>
+<p>The same event reported by several outlets is grouped into one row with <i>(+N)</i>. Tags are always in English
+even for foreign-language news, which is what lets stories from different countries meet in one folder.
+Right-click a folder and choose <i>Summarize this Topic</i> to see how outlets cover it.
+Settings → App Settings → <i>News Folders</i> chooses where folders are used.</p>
+
+<h2>The article window</h2>
+<figure><img src="../assets/handbook/article.png" alt="An open article. The toolbar at the bottom switches between feed text, web page and Reader view." loading="lazy"><figcaption>An open article. The toolbar at the bottom switches between feed text, web page and Reader view.</figcaption></figure>
+<ul>
+  <li><i>Previous article</i> / <i>Next article</i> step through the list.</li>
+  <li>The middle buttons switch between the live web page and the feed text, and show a clean
+    <i>Reader</i> view when the page allows it.</li>
+  <li>The <b>…</b> menu sets <i>Render by default</i> for this source: <i>Auto</i>, <i>Feed text</i>,
+    <i>Webpage</i> or <i>Reader view</i>.</li>
+  <li><i>Translate</i> translates the text or the live page in place on your Mac; <i>Show original</i> undoes it.</li>
+  <li>The star adds a favorite. Favorites survive every cleanup.</li>
+  <li>Minimize an article to keep it in the toolbar while you read on.</li>
+</ul>
+
+<h2>Drag news out</h2>
+<p>Drag a row to a browser (link), Finder (a <code>.webloc</code>), a messenger (title, opening lines and link),
+a text editor (full text) or Maps (a pin at the story's place). Dropping it on the <i>Summary</i>, <i>Chat</i>
+or <i>Export</i> tab works too.</p>
+
+<h2>Keyboard</h2>
+<table class="syntax">
+  <tr><td><kbd>↑</kbd> <kbd>↓</kbd></td><td>move through the list</td></tr>
+  <tr><td><kbd>→</kbd> <kbd>←</kbd></td><td>open / close a story folder</td></tr>
+  <tr><td><kbd>Space</kbd></td><td>open or close the article</td></tr>
+  <tr><td><kbd>⌘R</kbd></td><td>fetch news</td></tr>
+  <tr><td><kbd>⌘F</kbd></td><td>search</td></tr>
+  <tr><td><kbd>⌘0</kbd></td><td>bring back the main window</td></tr>
+</table>
+
+      <nav class="pager"><a class="prev" href="criteria.html"><small>Previous</small>AI Search criteria</a><a class="next" href="choosing-ai.html"><small>Next</small>Choosing an AI</a></nav>
+
+    <div class="note">
+      Questions or problems? Open an issue in the
+      <a href="https://github.com/infobubble/infobubble-support/issues">GitHub repository</a>.
+    </div>
+    </article>
+  </div>
+</body>
+</html>

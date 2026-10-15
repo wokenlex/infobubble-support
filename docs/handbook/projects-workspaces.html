@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects, workspaces and tabs · InfoBubble Handbook</title>
+  <meta name="description" content="What a project file holds, how workspaces separate topics, and Reader Mode vs. AI Search tabs.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href=".././">InfoBubble App</a>
+    <a class="active" href="../how-to.html">Handbook</a>
+    <a href="../catalog.html">News Websites Catalog</a>
+  </nav>
+
+  <div class="handbook">
+    <aside class="toc">
+      <a class="toc-home" href="../how-to.html">Handbook</a>
+      <h4>Start here</h4><ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a class="here" href="projects-workspaces.html">Projects, workspaces and tabs</a></li>
+</ul>
+<h4>Sources</h4><ul>
+<li><a href="sources-catalog.html">Using the Sources Catalog</a></li>
+<li><a href="adding-sources.html">Adding your own sources</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="criteria.html">AI Search criteria</a></li>
+<li><a href="reading.html">Reading and filtering news</a></li>
+</ul>
+<h4>AI and processing</h4><ul>
+<li><a href="choosing-ai.html">Choosing an AI</a></li>
+<li><a href="lm-studio.html">Local AI with LM Studio</a></li>
+<li><a href="processing-modes.html">Processing modes</a></li>
+<li><a href="summaries-chat.html">Summaries and the news chat</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="analysis-globe.html">Analysis, Fear Meter and the Globe</a></li>
+</ul>
+<h4>More</h4><ul>
+<li><a href="export.html">Exporting news</a></li>
+<li><a href="free-and-full.html">Free and full version, privacy</a></li>
+</ul>
+    </aside>
+    <article class="doc">
+      <p class="crumbs"><a href="../how-to.html">Handbook</a> · Start here</p>
+      <h1>Projects, workspaces and tabs</h1>
+      <p class="lead">What a project file holds, how workspaces separate topics, and Reader Mode vs. AI Search tabs.</p>
+
+<h2>The project file</h2>
+<p>A project is one <code>.infobubbl</code> file. It holds all workspaces, sources, news, favorites, site icons
+and downloaded podcast episodes. Changes are saved as you go.</p>
+<ul>
+  <li><b>File → New</b> (<kbd>⌘N</kbd>) creates a project; you choose where to save it first.</li>
+  <li><b>File → Open…</b> (<kbd>⌘O</kbd>) opens another one. The app relaunches with that project.</li>
+  <li>The last project reopens on the next launch. Right-click the project name in the toolbar and
+    choose <i>Show in Finder</i> to find the file.</li>
+  <li><b>File → Optimize Database</b> compacts a project that has grown large.</li>
+  <li>Files from older versions (<code>.infobubble</code> or JSON) are converted: the app offers
+    <i>Save as New File…</i>.</li>
+</ul>
+
+<h2>Workspaces</h2>
+<p>A workspace is a separate set of sources with its own tabs, news, auto-refresh interval, summaries,
+chat and export. Use one per topic: say, <i>World</i>, <i>Local</i> and <i>Tech</i>.</p>
+<figure><img src="../assets/handbook/workspace-menu.png" alt="The workspace actions menu next to the Workspace picker." loading="lazy"><figcaption>The workspace actions menu next to the Workspace picker.</figcaption></figure>
+<ul>
+  <li>Switch with the <i>Workspace</i> picker in the toolbar.</li>
+  <li>The <b>…</b> menu next to it has <i>Create a new workspace</i>, <i>Rename</i> and <i>Delete</i>.</li>
+  <li><i>Refresh All</i> fetches every workspace; while running it turns into <i>Stop All</i>.</li>
+</ul>
+
+<h2>Tabs: Reader Mode and AI Search</h2>
+<p>Tabs sit above the news list. Each workspace has two kinds:</p>
+<table>
+  <tr><th>Reader Mode</th><td>Everything from your sources, newest first, analysed and grouped by story.
+    Every workspace has exactly one. You can limit how old news may be when loaded
+    (<i>Don't load news older than</i>) and when it is cleaned up (<i>Delete news older than</i>).</td></tr>
+  <tr><th>AI Search</th><td>A filter you describe in words, optionally with keywords. Only matching
+    articles land in the tab. Create as many as you like with <b>+</b>.
+    See <a href="criteria.html">AI Search criteria</a>.</td></tr>
+</table>
+<p>The number on a tab counts its news. The trash icon (<i>Clear results for this tab</i>) deletes news older
+than a day, 3 days, a week or a month, or all of it. Favorites are always kept.</p>
+
+      <nav class="pager"><a class="prev" href="getting-started.html"><small>Previous</small>Getting started</a><a class="next" href="sources-catalog.html"><small>Next</small>Using the Sources Catalog</a></nav>
+
+    <div class="note">
+      Questions or problems? Open an issue in the
+      <a href="https://github.com/infobubble/infobubble-support/issues">GitHub repository</a>.
+    </div>
+    </article>
+  </div>
+</body>
+</html>

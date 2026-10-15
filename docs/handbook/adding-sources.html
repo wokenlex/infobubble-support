@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adding your own sources · InfoBubble Handbook</title>
+  <meta name="description" content="Add any site or feed by address, paste many links at once, organise folders and fix failing sources.">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href=".././">InfoBubble App</a>
+    <a class="active" href="../how-to.html">Handbook</a>
+    <a href="../catalog.html">News Websites Catalog</a>
+  </nav>
+
+  <div class="handbook">
+    <aside class="toc">
+      <a class="toc-home" href="../how-to.html">Handbook</a>
+      <h4>Start here</h4><ul>
+<li><a href="getting-started.html">Getting started</a></li>
+<li><a href="projects-workspaces.html">Projects, workspaces and tabs</a></li>
+</ul>
+<h4>Sources</h4><ul>
+<li><a href="sources-catalog.html">Using the Sources Catalog</a></li>
+<li><a class="here" href="adding-sources.html">Adding your own sources</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="criteria.html">AI Search criteria</a></li>
+<li><a href="reading.html">Reading and filtering news</a></li>
+</ul>
+<h4>AI and processing</h4><ul>
+<li><a href="choosing-ai.html">Choosing an AI</a></li>
+<li><a href="lm-studio.html">Local AI with LM Studio</a></li>
+<li><a href="processing-modes.html">Processing modes</a></li>
+<li><a href="summaries-chat.html">Summaries and the news chat</a></li>
+</ul>
+<h4>Reading</h4><ul>
+<li><a href="analysis-globe.html">Analysis, Fear Meter and the Globe</a></li>
+</ul>
+<h4>More</h4><ul>
+<li><a href="export.html">Exporting news</a></li>
+<li><a href="free-and-full.html">Free and full version, privacy</a></li>
+</ul>
+    </aside>
+    <article class="doc">
+      <p class="crumbs"><a href="../how-to.html">Handbook</a> · Sources</p>
+      <h1>Adding your own sources</h1>
+      <p class="lead">Add any site or feed by address, paste many links at once, organise folders and fix failing sources.</p>
+
+<h2>One source</h2>
+<ol class="steps">
+  <li>Type a site or feed address into <i>Page link or RSS</i> at the bottom of the sidebar and press
+    <kbd>Return</kbd>. Suggestions from the catalog appear while you type.</li>
+  <li>A direct feed address is added right away.</li>
+  <li>For a site, the <i>Add Source</i> panel lists the RSS feeds it found. Click one to preview it, <b>+</b> to add
+    it, or <i>Add All</i>.</li>
+  <li>The row <i>Read the page directly</i> adds the page itself as a <b>Website</b> source. It is offered even
+    when feeds exist, because feeds often carry only part of the front page.</li>
+</ol>
+<figure><img src="../assets/handbook/add-source.png" alt="Adding nytimes.com: the feeds found on the site, and &#x27;Read the page directly&#x27; at the bottom." loading="lazy"><figcaption>Adding nytimes.com: the feeds found on the site, and &#x27;Read the page directly&#x27; at the bottom.</figcaption></figure>
+
+<h3>RSS or Website?</h3>
+<table>
+  <tr><th>RSS</th><td>The site's own feed. Fast and exact: titles, dates and text come straight from the publisher.
+    Marked <span class="badge">RSS</span> in the sidebar.</td></tr>
+  <tr><th>Website</th><td>The app opens the page and picks the news links out of it. Use it for sites without
+    feeds or when the feed is thin. Marked <span class="badge">WEB</span>. How the page is read is set in
+    <a href="processing-modes.html#web-pages">Processing modes</a>.</td></tr>
+</table>
+
+<h2>Many sources at once</h2>
+<p>Click <i>Add multiple</i>, choose <i>RSS</i> or <i>Website</i>, and paste text in any format: a list, an
+email, a web page. The links are pulled out and listed under <i>Found URLs</i>; press <i>Add</i>.</p>
+<p>Clicking a <code>feed:</code> link in Safari also offers to add it, and asks which workspace to use.</p>
+
+<h2>Organise the sidebar</h2>
+<ul>
+  <li>Several feeds of one site fold into a single site group automatically.</li>
+  <li>Drag a source onto another to make a folder. Folders are one level deep.</li>
+  <li>Right-click a source for <i>Show News</i> (only this source in the list), <i>Collect News</i>
+    (fetch just it), <i>Rename…</i>, <i>Configure…</i>, <i>Copy</i> and <i>Delete</i>.</li>
+  <li>The magnifier on top of the sidebar filters the list by name.</li>
+</ul>
+
+<h2>Sources that need a login or a tweak</h2>
+<p>Right-click → <i>Configure…</i>:</p>
+<ul>
+  <li><b>Custom Headers</b>: presets for <i>Basic Auth</i>, <i>Bearer Token</i> or a <i>Cookie</i>, or any header.</li>
+  <li><b>Browser Auth</b>: <i>Authorize on Website</i> opens a built-in browser; log in once and turn on
+    <i>Use browser cookies for this source</i>.</li>
+  <li><b>Content</b> (Website sources): describe what to pick from the page, e.g. <i>news articles</i>,
+    or give a CSS selector like <code>.article-list</code>.</li>
+</ul>
+
+<h2>When a source fails</h2>
+<p>A warning triangle marks a source that failed. Click it, or open <b>Window → Error Log</b>, to see why, for
+example <i>HTTP 404 · Not Found</i> (the feed moved), <i>HTTP 403 · Forbidden</i> (the site blocks readers) or a
+<i>Temporary failure</i>. <i>Check again</i> retries right away, <i>Configure…</i> adds headers or a login, and the
+copy button at the top copies all errors for a bug report.</p>
+<figure><img src="../assets/handbook/error-log.png" alt="The Error Log lists failed sources with the reason and buttons to fix them." loading="lazy"><figcaption>The Error Log lists failed sources with the reason and buttons to fix them.</figcaption></figure>
+
+<h2>Podcasts</h2>
+<p>Add podcasts from the catalog's <i>Podcasts</i> list. Opening an episode shows a player (15-second skips,
+media keys work). The download button saves the episode into the project for offline listening and
+marks it as a favorite.</p>
+
+      <nav class="pager"><a class="prev" href="sources-catalog.html"><small>Previous</small>Using the Sources Catalog</a><a class="next" href="criteria.html"><small>Next</small>AI Search criteria</a></nav>
+
+    <div class="note">
+      Questions or problems? Open an issue in the
+      <a href="https://github.com/infobubble/infobubble-support/issues">GitHub repository</a>.
+    </div>
+    </article>
+  </div>
+</body>
+</html>
