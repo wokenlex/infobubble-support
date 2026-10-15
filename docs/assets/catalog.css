@@ -72,7 +72,7 @@ body.catalog-page { height: 100vh; overflow: hidden; display: flex; flex-directi
 .list { flex: 1; overflow-y: auto; position: relative; outline: none; }
 .spacer { width: 1px; }
 .row {
-  position: absolute; left: 0; right: 0; height: 56px;
+  position: absolute; left: 0; right: 0; height: 72px;
   padding: 7px 24px 7px 34px; cursor: pointer; overflow: hidden;
   border-bottom: 1px solid var(--border);
 }
@@ -86,6 +86,7 @@ body.catalog-page { height: 100vh; overflow: hidden; display: flex; flex-directi
 }
 .feeds { font-size: 11.5px; color: var(--text-2); }
 .feeds::before { content: "◉ "; font-size: 9px; color: var(--text-3); }
+.row .sum { font-size: 13px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .row .l2 { font-size: 12.5px; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .empty { padding: 40px; text-align: center; color: var(--text-3); }
 
@@ -125,6 +126,28 @@ body.catalog-page { height: 100vh; overflow: hidden; display: flex; flex-directi
   padding: 8px 14px; font-size: 12px; color: var(--text-2);
   border-top: 1px solid var(--border); background: var(--panel-2);
 }
+
+/* ---------- export dialog ---------- */
+.export-dialog {
+  width: min(420px, calc(100vw - 32px)); padding: 20px; margin: auto;
+  background: var(--raised); color: var(--text);
+  border: 1px solid var(--border-strong); border-radius: 16px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.65); overflow: hidden;
+}
+.export-dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
+.export-dialog h2 { font-size: 18px; margin: 0 0 4px; }
+.export-info { margin: 0 0 16px; font-size: 13px; color: var(--text-2); }
+.formats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.format {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 4px; text-align: left;
+  padding: 14px; border-radius: 12px; cursor: pointer;
+  background: var(--panel); border: 1px solid var(--border-strong); color: var(--text); font: inherit;
+}
+.format:hover, .format:focus-visible { border-color: var(--accent); background: var(--accent-soft); outline: none; }
+.format b { font-size: 16px; }
+.format span { font-size: 12.5px; color: var(--text-2); line-height: 1.35; }
+.export-dialog .cancel { display: flex; margin: 16px 0 0 auto; padding: 7px 16px; font-size: 14px; }
+@media (max-width: 420px) { .formats { grid-template-columns: 1fr; } }
 
 /* ---------- dropdown menus ---------- */
 .menu {

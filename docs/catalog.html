@@ -56,7 +56,7 @@
         </div>
         <div class="float-actions">
           <button id="clearPicked" class="btn" title="Clear the selection" hidden>Clear</button>
-          <button id="exportBtn" class="btn">Export OPML</button>
+          <button id="exportBtn" class="btn">Export…</button>
         </div>
       </section>
     </div>
@@ -65,12 +65,22 @@
       Domain ranking: <a href="https://majestic.com/reports/majestic-million">Majestic Million</a> ·
       <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
       Hostnames: <a href="https://www.gdeltproject.org/">GDELT Project</a>, <a href="https://tranco-list.eu/">Tranco</a>.
-      Categories assigned automatically; errors possible.
+      Sites are matched to countries, categorized and described automatically; errors possible.
       <a href="https://github.com/infobubble/infobubble-support/tree/main/Sources">Download YAML</a>
     </footer>
   </div>
 
   <div id="menu" class="menu" hidden></div>
+
+  <dialog id="exportDialog" class="export-dialog" aria-labelledby="exportTitle">
+    <h2 id="exportTitle">Export</h2>
+    <p id="exportInfo" class="export-info"></p>
+    <div class="formats">
+      <button class="format" data-format="opml"><b>OPML</b><span>Subscribe in InfoBubble or any feed reader</span></button>
+      <button class="format" data-format="csv"><b>CSV</b><span>One row per feed, with summaries, for spreadsheets</span></button>
+    </div>
+    <button class="btn cancel" data-format="">Cancel</button>
+  </dialog>
 
   <section id="preview" class="panel preview" hidden>
     <header>

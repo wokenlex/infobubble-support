@@ -6,17 +6,13 @@ const LENGTHS = [
   { id: 'summaries', label: 'Summaries', test: (n) => n != null && n >= 500 && n < 2500 },
   { id: 'long', label: 'Long reads', test: (n) => n != null && n >= 2500 },
 ];
-const ROW_HEIGHT = 56;
+const ROW_HEIGHT = 72;
 const MAX_PREVIEW_FEEDS = 8;
 const FETCH_TIMEOUT = 12000;
 
-// Most feeds don't send CORS headers, so after a direct attempt we go through public services.
-// Optional own proxy (e.g. a Cloudflare Worker) that returns the feed body for `?url=`; tried first when set.
+// Most feeds don't send CORS headers, so they're fetched through our Cloudflare Worker (tools/feed-proxy-worker.js),
+// which returns the feed body for `?url=`. A direct request is only a fallback for when the Worker is down.
 const OWN_PROXY = 'https://little-star-19a1.khj579g5dn.workers.dev/?url=';
-const RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
-const RAW_PROXIES = [
-  (u) => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
-];
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -53,8 +49,8 @@ function feedsOf(d, mode = state.mode) {
 }
 
 function prepare(raw) {
-  const domains = raw.domains.map(([host, country, rank, avgLen, langs, groups]) => {
-    const d = { host, hostLC: host.toLowerCase(), country, rank, avgLen, langs, groups };
+  const domains = raw.domains.map(([host, country, rank, avgLen, langs, groups, summary]) => {
+    const d = { host, hostLC: host.toLowerCase(), country, rank, avgLen, langs, groups, summary };
     d.channelCats = [...new Set(groups.filter((g) => !g[1]).map((g) => g[0]))];
     d.podcastCats = [...new Set(groups.filter((g) => g[1]).map((g) => g[0]))];
     d.channelCount = groups.reduce((n, g) => n + (g[1] ? 0 : g[2].length), 0);
@@ -133,7 +129,9 @@ function rowHTML(d) {
   const sub = [DB.countries[d.country], len && len.label, ...cats].filter(Boolean).join(' · ');
   const langs = d.langs.slice(0, 3).map((l) => `<span class="badge">${esc(DB.languages[l].toUpperCase())}</span>`).join('');
   return `<button class="pick" title="Select for export" aria-label="Select ${esc(d.host)} for export"></button>` +
-    `<div class="l1"><span class="host">${esc(d.host)}</span>${langs}<span class="feeds">${count(d)}</span></div><div class="l2">${esc(sub)}</div>` +
+    `<div class="l1"><span class="host">${esc(d.host)}</span>${langs}<span class="feeds">${count(d)}</span></div>` +
+    (d.summary ? `<div class="sum" title="${esc(d.summary)}">${esc(d.summary)}</div>` : '') +
+    `<div class="l2">${esc(sub)}</div>` +
     `<span class="check" title="Selected for export"></span>`;
 }
 
@@ -279,15 +277,15 @@ $('countryFilter').addEventListener('input', (e) => {
   renderCountries(countryCounts, countryCounts.reduce((a, b) => a + b, 0));
 });
 
-// ---------------------------------------------------------------- OPML export
+// ---------------------------------------------------------------- export (OPML / CSV)
 
 // With a selection the button exports exactly the picked domains (all their feeds, whatever the
 // filters); without one it exports everything shown, narrowed to the chosen categories.
 function renderExport() {
   const n = picked().size;
   const btn = $('exportBtn');
-  btn.textContent = n ? `Export ${n.toLocaleString('en')} Selected` : `Export All (${rows.length.toLocaleString('en')})`;
-  btn.title = n ? 'Download the selected sources as an OPML file' : 'Download the shown sources as an OPML file';
+  btn.textContent = n ? `Export ${n.toLocaleString('en')} Selected…` : `Export All (${rows.length.toLocaleString('en')})…`;
+  btn.title = n ? 'Download the selected sources as OPML or CSV' : 'Download the shown sources as OPML or CSV';
   btn.classList.toggle('primary', n > 0);
   btn.disabled = !n && !rows.length;
   $('clearPicked').hidden = !n;
@@ -299,29 +297,102 @@ $('clearPicked').addEventListener('click', () => {
   renderExport();
 });
 
-$('exportBtn').addEventListener('click', () => {
-  const xa = (s) => esc(s);
+function exportEntries() {
   const set = picked();
   const domains = set.size ? [...set].sort(sorters[state.sort]) : rows;
-  const out = ['<?xml version="1.0" encoding="UTF-8"?>', '<opml version="2.0">',
-    `<head><title>InfoBubble catalog export</title><dateCreated>${new Date().toUTCString()}</dateCreated></head>`, '<body>'];
+  const out = [];
   for (const d of domains) {
     const feeds = feedsOf(d).filter((f) => set.size || !state.categories.size || state.categories.has(f.cat));
-    if (!feeds.length) continue;
-    out.push(`<outline text="${xa(d.host)}" title="${xa(d.host)}">`);
+    if (feeds.length) out.push({ d, feeds });
+  }
+  return out;
+}
+
+function buildOPML(entries) {
+  const xa = (s) => esc(s);
+  const out = ['<?xml version="1.0" encoding="UTF-8"?>', '<opml version="2.0">',
+    `<head><title>InfoBubble catalog export</title><dateCreated>${new Date().toUTCString()}</dateCreated></head>`, '<body>'];
+  for (const { d, feeds } of entries) {
+    const desc = d.summary ? ` description="${xa(d.summary)}"` : '';
+    out.push(`<outline text="${xa(d.host)}" title="${xa(d.host)}"${desc}>`);
     for (const f of feeds) {
-      out.push(`  <outline type="rss" text="${xa(d.host + ' — ' + DB.categories[f.cat])}" xmlUrl="${xa(f.url)}" htmlUrl="https://${xa(d.host)}" category="${xa(DB.categories[f.cat])}"/>`);
+      out.push(`  <outline type="rss" text="${xa(d.host + ' — ' + DB.categories[f.cat])}" xmlUrl="${xa(f.url)}" htmlUrl="https://${xa(d.host)}" category="${xa(DB.categories[f.cat])}"${desc}/>`);
     }
     out.push('</outline>');
   }
   out.push('</body>', '</opml>');
+  return out.join('\n');
+}
+
+// One row per feed. Cells that a spreadsheet would run as a formula get a leading apostrophe.
+function buildCSV(entries) {
+  const cell = (v) => {
+    let s = v == null ? '' : String(v);
+    if (/^[=+\-@\t\r]/.test(s)) s = "'" + s;
+    return /[",\r\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const type = state.mode === 'podcasts' ? 'podcast' : 'channel';
+  const out = [['country', 'domain', 'summary', 'type', 'category', 'languages', 'rank', 'feed_url'].join(',')];
+  for (const { d, feeds } of entries) {
+    const langs = d.langs.map((l) => DB.languages[l]).join(' ');
+    for (const f of feeds) {
+      out.push([DB.countries[d.country], d.host, d.summary, type, DB.categories[f.cat], langs, d.rank, f.url].map(cell).join(','));
+    }
+  }
+  return '﻿' + out.join('\r\n') + '\r\n'; // BOM so Excel reads UTF-8
+}
+
+function download(text, type, ext) {
   const a = document.createElement('a');
-  a.href = URL.createObjectURL(new Blob([out.join('\n')], { type: 'text/x-opml' }));
-  const where = set.size ? 'selected' : state.country >= 0 ? DB.countries[state.country].replace(/\W+/g, '-') : 'all';
-  a.download = `infobubble-${state.mode}-${where}.opml`;
+  a.href = URL.createObjectURL(new Blob([text], { type }));
+  const where = picked().size ? 'selected' : state.country >= 0 ? DB.countries[state.country].replace(/\W+/g, '-') : 'all';
+  a.download = `infobubble-${state.mode}-${where}.${ext}`;
   a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+// The button grows into the dialog and shrinks back into it on close.
+const exportDialog = $('exportDialog');
+let exportList = [];
+
+function morph(reverse) {
+  const from = $('exportBtn').getBoundingClientRect();
+  const to = exportDialog.getBoundingClientRect();
+  if (!to.width || matchMedia('(prefers-reduced-motion: reduce)').matches) return Promise.resolve();
+  const dx = from.left + from.width / 2 - (to.left + to.width / 2);
+  const dy = from.top + from.height / 2 - (to.top + to.height / 2);
+  const small = { transform: `translate(${dx}px, ${dy}px) scale(${from.width / to.width}, ${from.height / to.height})`, opacity: 0, borderRadius: '999px' };
+  const big = { transform: 'none', opacity: 1, borderRadius: '16px' };
+  const anim = exportDialog.animate(reverse ? [big, small] : [small, big], { duration: reverse ? 180 : 260, easing: 'cubic-bezier(.2,.8,.2,1)' });
+  return anim.finished.catch(() => {});
+}
+
+$('exportBtn').addEventListener('click', () => {
+  exportList = exportEntries();
+  const feeds = exportList.reduce((n, e) => n + e.feeds.length, 0);
+  const what = state.mode === 'podcasts' ? 'podcast' : 'channel';
+  $('exportTitle').textContent = picked().size ? `Export ${exportList.length.toLocaleString('en')} Selected` : `Export ${exportList.length.toLocaleString('en')} Shown`;
+  $('exportInfo').textContent = `${exportList.length.toLocaleString('en')} source${exportList.length === 1 ? '' : 's'} · ${feeds.toLocaleString('en')} ${what} feed${feeds === 1 ? '' : 's'}`;
+  closeMenu();
+  exportDialog.showModal();
+  morph(false);
 });
+
+async function closeExport(format) {
+  if (!exportDialog.open) return;
+  if (format === 'opml') download(buildOPML(exportList), 'text/x-opml', 'opml');
+  if (format === 'csv') download(buildCSV(exportList), 'text/csv', 'csv');
+  await morph(true);
+  exportDialog.close();
+  exportList = [];
+}
+
+exportDialog.addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-format]');
+  if (b) closeExport(b.dataset.format);
+  else if (e.target === exportDialog) closeExport(); // backdrop
+});
+exportDialog.addEventListener('cancel', (e) => { e.preventDefault(); closeExport(); });
 
 // ---------------------------------------------------------------- feed fetching & parsing
 
@@ -347,39 +418,21 @@ async function fetchXML(url) {
   return text;
 }
 
-async function fetchRss2json(url) {
-  const res = await withTimeout(RSS2JSON + encodeURIComponent(url));
-  const json = await res.json();
-  if (json.status !== 'ok') throw new Error(json.message || 'rss2json error');
-  return json.items.map((it) => {
-    const date = it.pubDate ? new Date(it.pubDate.replace(' ', 'T') + 'Z') : null;
-    const media = it.enclosure?.link || '';
-    const mediaType = it.enclosure?.type || '';
-    return {
-      title: htmlToText(it.title) || '(untitled)',
-      link: it.link || '',
-      html: it.content || it.description || '',
-      snippet: htmlToText(it.description || it.content).slice(0, 400),
-      date: date && !isNaN(date) ? date : null,
-      media: /^audio|^video/.test(mediaType) ? media : '',
-      mediaType,
-      feed: url,
-    };
-  });
-}
-
 async function fetchFeed(url) {
-  const attempts = [];
-  if (OWN_PROXY) attempts.push(() => fetchXML(OWN_PROXY + encodeURIComponent(url)).then((t) => parseFeed(t, url)));
-  // Direct request only makes sense over https (http would be blocked as mixed content).
-  if (location.protocol !== 'https:' || url.startsWith('https:')) attempts.push(() => fetchXML(url).then((t) => parseFeed(t, url)));
-  attempts.push(() => fetchRss2json(url));
-  for (const p of RAW_PROXIES) attempts.push(() => fetchXML(p(url)).then((t) => parseFeed(t, url)));
-  let lastErr;
-  for (const attempt of attempts) {
-    try { return await attempt(); } catch (e) { lastErr = e; }
+  let text;
+  try {
+    text = await fetchXML(OWN_PROXY + encodeURIComponent(url));
+  } catch (e) {
+    // The Worker answers feed problems itself (with CORS headers); a network/CORS failure, timeout or 429
+    // means the Worker is down or over its quota.
+    if (!(e instanceof TypeError || e.name === 'AbortError' || e.message === 'HTTP 429')) throw e;
+    // Direct request only makes sense over https (http would be blocked as mixed content).
+    if (location.protocol !== 'https:' || url.startsWith('https:')) {
+      try { text = await fetchXML(url); } catch { /* reported as proxy down below */ }
+    }
+    if (!text) throw Object.assign(new Error('Preview service unavailable'), { proxyDown: true });
   }
-  throw lastErr || new Error('Failed');
+  return parseFeed(text, url);
 }
 
 const kid = (el, ...names) => {
@@ -495,7 +548,7 @@ function openPreview(d, force = false) {
   $('items').innerHTML = '';
   previewItems = [];
   const token = ++previewToken;
-  let done = 0, failed = 0;
+  let done = 0, failed = 0, proxyDown = 0;
   const status = () => {
     const loading = done < feeds.length;
     $('reload').classList.toggle('spin', loading);
@@ -503,7 +556,9 @@ function openPreview(d, force = false) {
       (failed ? ` · ${failed} failed` : '') + (total > feeds.length ? ` (first ${feeds.length} of ${total})` : '') +
       (loading ? ' · loading…' : '');
     if (!loading && !previewItems.length) {
-      $('items').innerHTML = `<div class="empty">Couldn't load any news.<br>The feed may be offline or not reachable through the public CORS services.</div>`;
+      $('items').innerHTML = proxyDown
+        ? `<div class="empty">Preview is temporarily unavailable due to high load on the project.<br>You can still use the catalog to find feeds and export them to your reader.</div>`
+        : `<div class="empty">Couldn't load any news.<br>The feed may be offline or not a valid RSS/Atom feed.</div>`;
     }
   };
   status();
@@ -523,6 +578,7 @@ function openPreview(d, force = false) {
       feedCache.delete(key);
       if (token !== previewToken) return;
       failed++;
+      if (err.proxyDown) proxyDown++;
       setFeedStatus(i, false, err.message);
     }).finally(() => {
       if (token !== previewToken) return;
@@ -607,7 +663,7 @@ $('nextItem').addEventListener('click', () => openArticle(currentItem + 1));
 articlePanel.querySelector('.close').addEventListener('click', closeArticle);
 
 document.addEventListener('keydown', (e) => {
-  if (e.target.matches('input, select')) return;
+  if (e.target.matches('input, select') || exportDialog.open) return;
   if (e.key === 'Escape') {
     if (!menu.hidden) closeMenu();
     else if (!articlePanel.hidden) closeArticle();
